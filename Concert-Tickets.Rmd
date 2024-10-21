@@ -1,0 +1,14 @@
+---
+title: "Concert-Tickets"
+author: "Zach"
+date: "10/21/2024"
+output: html_document
+---
+
+Adding a month column
+
+```{r}
+Ticket_Data_1$month <- substring (Ticket_Data_1$date, 6, 7)
+```
+
+
