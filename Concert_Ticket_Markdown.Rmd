@@ -37,11 +37,21 @@ Clean_Ticket_Data_1$total_postings <- NULL
 
 ```
 
+Create new month column and get rid of date column in Clean_Ticket_Data_1
 
 ```{r}
 Clean_Ticket_Data_1$Month <- substring(Clean_Ticket_Data_1$date, 6, 7)
 
 Clean_Ticket_Data_1$date <- NULL
+
+```
+
+Tidying Ticket_Data_2
+
+```{r}
+Ticket_Data_2$score <- NULL
+Ticket_Data_2$weekend <- NULL
+Ticket_Data_2$pop <- NULL
 
 ```
 
