@@ -1,0 +1,32 @@
+---
+title: "concert_ticket_markdown"
+author: "ECB"
+date: "10/21/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cleaning up age_population_by_city
+# deleting unnecessary columns from the data
+
+```{r}
+library(tidyverse)
+library(dplyr)
+
+age_population_by_city$GEO_ID <- NULL
+
+s<- seq(3, ncol(age_population_by_city), by = 2 )
+
+age_population_by_city[s] <- NULL
+
+```
+
+
+#Narrowing to helpful columnbs and renaming
+```{r}
+clean_age_by_city <- age_population_by_city[1:20]
+```
+
