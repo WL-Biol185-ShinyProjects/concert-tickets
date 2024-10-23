@@ -117,3 +117,9 @@ Clean_Ticket_Data_1$Month <- gsub ("12","December", Clean_Ticket_Data_1$Month)
 
 ```
 
+Making Files csv
+
+```{r}
+write.csv(Ticket_Data_2, file = "Final_Ticket_Data_2.csv")
+write.csv(Clean_Ticket_Data_1, file = "Final_Ticket_Data_1.csv")
+```
