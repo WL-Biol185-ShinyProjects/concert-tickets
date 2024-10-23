@@ -27,6 +27,24 @@ age_population_by_city[s] <- NULL
 
 #Narrowing to helpful columnbs and renaming
 ```{r}
-clean_age_by_city <- age_population_by_city[1:20]
+age_population_condensed <- age_population_by_city[1:20]
+```
+
+#removing headings
+```{r}
+clean_age_population <- age_population_condensed[-1,]
+colnames(clean_age_population) <- age_population_condensed[1,]
+```
+
+#removing state names
+```{r}
+a <- strsplit(clean_age_population$`Geographic Area Name`, ", ")
+clean_age_population$`Geographic Area Name` <- sapply(a, function(x) x[1])
+
+```
+
+#Writing to a new CSV
+```{r}
+write.csv(clean_age_population, file = "age_by_city_clean.csv")
 ```
 
