@@ -58,3 +58,13 @@ Ticket_Data_2$genre <- NULL
 
 ```
 
+Changing column names
+
+```{r}
+colnames(Clean_Ticket_Data_1) [1] <- "Artist"
+colnames(Clean_Ticket_Data_1) [2] <- "Venue"
+colnames(Clean_Ticket_Data_1) [3] <- "Minimum Ticket Price"
+colnames(Clean_Ticket_Data_1) [4] <- "City"
+colnames(Clean_Ticket_Data_1) [5] <- "Ticket Vendor"
+
+```
