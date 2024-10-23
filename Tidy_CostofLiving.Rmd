@@ -1,0 +1,24 @@
+---
+title: "Tidying_CostofLiving"
+output: html_document
+---
+
+
+#Tidying the Data
+
+Tidying the data in cost_of_living to NULL the state
+
+```{r}
+
+cost_of_living$State <- NULL
+
+```
+
+
+Changing Cost of Living Index Column Title from cost.of.living.index to Cost of Living Index
+
+```{r}
+
+colnames(cost_of_living) [2] <- "Cost of Living Index"
+
+```
