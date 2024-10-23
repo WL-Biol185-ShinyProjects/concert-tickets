@@ -69,7 +69,8 @@ colnames(Clean_Ticket_Data_1) [5] <- "Ticket Vendor"
 colnames(Ticket_Data_2) [1] <- "City"
 colnames(Ticket_Data_2) [2] <- "Artist"
 colnames(Ticket_Data_2) [3] <- "Venue"
-colnames(Ticket_Data_2) [4] <- "Minimum Ticket Price"
+colnames(Ticket_Data_2) [4] <- "Month"
+colnames(Ticket_Data_2) [5] <- "Minimum Ticket Price"
 ```
 
 Adding Ticket Vendor Column to Ticket Data 2
