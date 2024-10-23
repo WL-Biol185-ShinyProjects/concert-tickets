@@ -1,0 +1,511 @@
+"","City","Cost of Living Index"
+"1","Abilene",89.1
+"2","Adrian",90.5
+"3","Akron",89.4
+"4","Alamogordo",85.8
+"5","Albany",87.3
+"6","Albany",105.4
+"7","Albany",100.1
+"8","Albertville",90.9
+"9","Albuquerque",92.9
+"10","Alexandria",86.2
+"11","Allentown",98.9
+"12","Altoona",90.8
+"13","Amarillo",88.2
+"14","Ames",91.5
+"15","Anchorage",110.7
+"16","Ann Arbor",99.3
+"17","Anniston",85.7
+"18","Appleton",90.7
+"19","Asheville",103.3
+"20","Ashtabula",87.4
+"21","Athens",88.5
+"22","Athens",92.9
+"23","Athens",95
+"24","Atlanta",100.3
+"25","Atlantic City",102
+"26","Auburn",93.7
+"27","Auburn",91.9
+"28","Augusta",91.6
+"29","Augusta",100
+"30","Austin",106.6
+"31","Bakersfield",102.9
+"32","Baltimore",107
+"33","Bangor",98
+"34","Barnstable Town",122.4
+"35","Baton Rouge",91.1
+"36","Battle Creek",85.9
+"37","Bay City",85.4
+"38","Beaumont",88.6
+"39","Beaver Dam",92.9
+"40","Beckley",80
+"41","Bellingham",111.6
+"42","Bend",115.9
+"43","Billings",95.7
+"44","Binghamton",93.3
+"45","Birmingham",90.7
+"46","Bismarck",93.1
+"47","Blacksburg",94.5
+"48","Bloomington",92.4
+"49","Bloomsburg",93.2
+"50","Bluefield",81.2
+"51","Boise City",100.3
+"52","Boston",132.6
+"53","Boulder",118.7
+"54","Bowling Green",87
+"55","Bozeman",125.3
+"56","Brainerd",97.9
+"57","Branson",89.5
+"58","Bremerton",115
+"59","Brownsville",87.8
+"60","Brunswick",94.4
+"61","Buffalo",97.3
+"62","Burlington",91.8
+"63","Burlington",112.8
+"64","Canton",88.2
+"65","Cape Girardeau",88.1
+"66","Carbondale",83.5
+"67","Carson City",103
+"68","Casper",94.2
+"69","Cedar Rapids",88.1
+"70","Centralia",103.3
+"71","Chambersburg",95.7
+"72","Champaign",89
+"73","Charleston",83.9
+"74","Charleston",101.7
+"75","Charlotte",97.9
+"76","Charlottesville",102.1
+"77","Chattanooga",91.2
+"78","Cheyenne",96.9
+"79","Chicago",100.1
+"80","Chico",110.5
+"81","Chillicothe",89.8
+"82","Cincinnati",92.4
+"83","Claremont",102.3
+"84","Clarksburg",83.4
+"85","Clarksville",88.7
+"86","Clearlake",108.8
+"87","Cleveland",89.5
+"88","Cleveland",90
+"89","Coeur d'Alene",103.3
+"90","College Station",92.3
+"91","Colorado Springs",102.2
+"92","Columbia",89.8
+"93","Columbia",91.9
+"94","Columbus",88.5
+"95","Columbus",89.1
+"96","Columbus",93.9
+"97","Concord",108.3
+"98","Cookeville",90.9
+"99","Coos Bay",102
+"100","Corning",90.9
+"101","Corpus Christi",93.3
+"102","Corvallis",110.6
+"103","Cullman",90.5
+"104","Cumberland",90.9
+"105","Dalton",89.1
+"106","Danville",83.9
+"107","Danville",87.1
+"108","Dayton",88.4
+"109","Decatur",88.6
+"110","Decatur",84.9
+"111","Denver",112.1
+"112","Des Moines",91.7
+"113","Detroit",93.2
+"114","Dothan",86.3
+"115","Dover",101.3
+"116","DuBois",88.2
+"117","Dubuque",89.6
+"118","Duluth",93.2
+"119","Dunn",91.4
+"120","Durham",99.8
+"121","East Stroudsburg",96.1
+"122","Eau Claire",91.8
+"123","El Centro",102.3
+"124","El Paso",88.6
+"125","Elizabeth City",91.1
+"126","Elizabethtown",88.1
+"127","Elkhart",88.5
+"128","Elmira",92.5
+"129","Enid",82.9
+"130","Erie",91.8
+"131","Eugene",108.4
+"132","Eureka",116.5
+"133","Evansville",87.2
+"134","Fairbanks",107.9
+"135","Fargo",91.4
+"136","Faribault",102.3
+"137","Farmington",85.4
+"138","Farmington",88.4
+"139","Fayetteville",89.5
+"140","Fayetteville",90.4
+"141","Findlay",91.1
+"142","Flagstaff",108.5
+"143","Flint",85.7
+"144","Florence",87.7
+"145","Florence",86.8
+"146","Fond du Lac",88
+"147","Forest City",89.4
+"148","Fort Collins",109.2
+"149","Fort Smith",84.2
+"150","Fort Wayne",86.8
+"151","Frankfort",88.1
+"152","Fresno",105.9
+"153","Gadsden",86
+"154","Gainesville",97.3
+"155","Gainesville",97
+"156","Gallup",90
+"157","Gettysburg",98.2
+"158","Glens Falls",98.6
+"159","Goldsboro",88.5
+"160","Grand Forks",90.7
+"161","Grand Island",88.8
+"162","Grand Junction",98.1
+"163","Grand Rapids",93.7
+"164","Grants Pass",106.6
+"165","Great Falls",91.1
+"166","Greeley",106.1
+"167","Green Bay",91.4
+"168","Greeneville",86.5
+"169","Greensboro",91
+"170","Greenville",89.8
+"171","Greenville",95
+"172","Greenwood",88.7
+"173","Gulfport",86.8
+"174","Hammond",89
+"175","Hanford",105.4
+"176","Harrisburg",95.8
+"177","Harrisonburg",95.5
+"178","Hartford",104.8
+"179","Hattiesburg",86.1
+"180","Helena",104.2
+"181","Hickory",89.8
+"182","Hilo",136.9
+"183","Hilton Head Island",109.4
+"184","Hinesville",90.8
+"185","Hobbs",87.7
+"186","Homosassa Springs",95.5
+"187","Hot Springs",87.3
+"188","Houma",89.9
+"189","Houston",95.8
+"190","Huntington",84.3
+"191","Huntsville",91.3
+"192","Huntsville",91.2
+"193","Hutchinson",84
+"194","Idaho Falls",91.7
+"195","Indiana",90.8
+"196","Indianapolis",90.2
+"197","Iowa City",93.5
+"198","Ithaca",101.7
+"199","Jackson",87.4
+"200","Jackson",87.8
+"201","Jackson",85.2
+"202","Jacksonville",99
+"203","Jacksonville",91.7
+"204","Jamestown",91.3
+"205","Janesville",89.8
+"206","Jefferson City",86.3
+"207","Johnson City",88.1
+"208","Johnstown",87.6
+"209","Jonesboro",85.2
+"210","Joplin",85.2
+"211","Kahului",158.5
+"212","Kalamazoo",89.3
+"213","Kalispell",112.7
+"214","Kankakee",91
+"215","Kansas City",91.6
+"216","Kapaa",164.9
+"217","Keene",102.1
+"218","Kennewick",99.7
+"219","Key West",140
+"220","Killeen",88.6
+"221","Kingsport",86
+"222","Kingston",106.1
+"223","Klamath Falls",97.1
+"224","Knoxville",91.6
+"225","Kokomo",84.9
+"226","La Crosse",91.8
+"227","Lafayette",89.6
+"228","LaGrange",86
+"229","Lake Charles",89.4
+"230","Lake City",93.6
+"231","Lake Havasu City",98.4
+"232","Lakeland",96.4
+"233","Lancaster",99.5
+"234","Lansing",88.7
+"235","Laredo",90.1
+"236","Las Cruces",88.8
+"237","Las Vegas",100.7
+"238","Laurel",85.9
+"239","Lawrence",91.6
+"240","Lawton",82.8
+"241","Lebanon",95.4
+"242","Lewiston",92.5
+"243","Lewiston",99.7
+"244","Lexington",91.1
+"245","Lima",87.2
+"246","Lincoln",94.7
+"247","Little Rock",88
+"248","London",84.6
+"249","Longview",88.5
+"250","Longview",101.6
+"251","Lubbock",88.8
+"252","Lufkin",88.2
+"253","Lumberton",83.4
+"254","Lynchburg",93.6
+"255","Macon",87.2
+"256","Madera",108.9
+"257","Madison",99.5
+"258","Manchester",109.6
+"259","Manhattan",89.6
+"260","Manitowoc",87.8
+"261","Mankato",95.3
+"262","Mansfield",86.2
+"263","Marinette",86.6
+"264","Marion",81.8
+"265","Marion",85.7
+"266","Marquette",91.3
+"267","Marshall",89.9
+"268","Martinsville",85
+"269","McAllen",86
+"270","Meadville",88.5
+"271","Medford",107.5
+"272","Memphis",88.2
+"273","Merced",108.2
+"274","Meridian",82
+"275","Michigan City",87.8
+"276","Midland",87
+"277","Midland",97.8
+"278","Milwaukee",93.8
+"279","Minot",90.7
+"280","Missoula",103.4
+"281","Mobile",88.3
+"282","Modesto",112.3
+"283","Monroe",86.5
+"284","Monroe",90.5
+"285","Montgomery",88.5
+"286","Morehead City",102.2
+"287","Morgantown",88.5
+"288","Morristown",87.3
+"289","Moses Lake",95.7
+"290","Mount Airy",89
+"291","Mount Pleasant",86.8
+"292","Mount Vernon",110.1
+"293","Muncie",83.7
+"294","Muskegon",87.7
+"295","Muskogee",81.3
+"296","Myrtle Beach",94.7
+"297","Nacogdoches",89.6
+"298","Napa",149.6
+"299","Naples",109.4
+"300","Nashville",100.1
+"301","New Bern",90.2
+"302","New Castle",88.1
+"303","New Haven",107.7
+"304","New Orleans",92.4
+"305","New Philadelphia",88.9
+"306","New York",128
+"307","Niles",89.7
+"308","North Wilkesboro",90.5
+"309","Oak Harbor",125.2
+"310","Ocala",94.5
+"311","Ocean City",109.5
+"312","Odessa",92.7
+"313","Ogden",99.8
+"314","Ogdensburg",88.3
+"315","Oklahoma City",87.3
+"316","Olean",89
+"317","Olympia",110.9
+"318","Omaha",92.9
+"319","Opelousas",86.1
+"320","Orangeburg",85.3
+"321","Orlando",101.4
+"322","Oshkosh",89
+"323","Ottawa",86.6
+"324","Owensboro",86.6
+"325","Owosso",84.8
+"326","Paducah",85.7
+"327","Palatka",93.2
+"328","Panama City",101.9
+"329","Parkersburg",84.7
+"330","Pensacola",97.9
+"331","Peoria",86.7
+"332","Philadelphia",103.4
+"333","Phoenix",104.3
+"334","Pine Bluff",82.3
+"335","Pittsburgh",93.1
+"336","Pittsfield",106.4
+"337","Plattsburgh",93.7
+"338","Pocatello",90.8
+"339","Port Angeles",109.1
+"340","Port St. Lucie",101.1
+"341","Portland",113
+"342","Portland",116.5
+"343","Portsmouth",84.7
+"344","Pottsville",87
+"345","Prescott",104.6
+"346","Providence",111.5
+"347","Provo",100.9
+"348","Pueblo",92.2
+"349","Punta Gorda",100.3
+"350","Quincy",87.3
+"351","Racine",90.9
+"352","Raleigh",99.7
+"353","Rapid City",94.2
+"354","Reading",96
+"355","Redding",108.7
+"356","Reno",107.4
+"357","Richmond",84.2
+"358","Richmond",99.2
+"359","Richmond",90.8
+"360","Riverside",116.1
+"361","Roanoke Rapids",83.1
+"362","Roanoke",94.1
+"363","Rochester",97.3
+"364","Rochester",96.6
+"365","Rockford",87.2
+"366","Rocky Mount",88.3
+"367","Rome",89.6
+"368","Roseburg",100.8
+"369","Roswell",86.3
+"370","Russellville",85.5
+"371","Sacramento",120.3
+"372","Saginaw",84
+"373","Salem",105.8
+"374","Salinas",138.3
+"375","Salisbury",103.2
+"376","Salt Lake City",105.9
+"377","San Angelo",90.7
+"378","San Antonio",92.7
+"379","San Diego",136.2
+"380","San Francisco",178.6
+"381","San Jose",173.5
+"382","San Luis Obispo",136.1
+"383","Sandusky",90.8
+"384","Santa Cruz",163.9
+"385","Santa Fe",105.1
+"386","Santa Rosa",141.7
+"387","Savannah",97.3
+"388","Scranton",91.3
+"389","Searcy",85.4
+"390","Seattle",124.6
+"391","Sebring",93.1
+"392","Seneca",94
+"393","Sevierville",103.5
+"394","Shawnee",82.4
+"395","Sheboygan",89.7
+"396","Shelby",88.1
+"397","Shelton",109.6
+"398","Sherman",91.3
+"399","Show Low",101.9
+"400","Shreveport",85.8
+"401","Sierra Vista",93.2
+"402","Sioux City",87.1
+"403","Sioux Falls",92.8
+"404","Somerset",89.3
+"405","South Bend",87.2
+"406","Spartanburg",91
+"407","Spokane",100.4
+"408","Springfield",87.5
+"409","Springfield",106.5
+"410","Springfield",86.7
+"411","Springfield",87.5
+"412","St. Cloud",95.4
+"413","St. George",98
+"414","St. Joseph",85.5
+"415","St. Louis",89.6
+"416","State College",99.8
+"417","Statesboro",91.1
+"418","Staunton",94.5
+"419","Stevens Point",91.5
+"420","Stillwater",86.3
+"421","Stockton",113.6
+"422","Sumter",88.1
+"423","Sunbury",88.6
+"424","Syracuse",95.1
+"425","Talladega",87.4
+"426","Tallahassee",96.4
+"427","Tampa",101.4
+"428","Terre Haute",84.7
+"429","Texarkana",86.3
+"430","The Villages",100.7
+"431","Toledo",87.5
+"432","Topeka",85.6
+"433","Torrington",105.2
+"434","Traverse City",99.6
+"435","Trenton",104.3
+"436","Truckee",132.8
+"437","Tucson",97.7
+"438","Tullahoma",88.7
+"439","Tulsa",86.7
+"440","Tupelo",87.2
+"441","Tuscaloosa",91
+"442","Twin Falls",91.2
+"443","Tyler",92.8
+"444","Ukiah",128
+"445","Utica",94.1
+"446","Valdosta",89.2
+"447","Vallejo",125.2
+"448","Vineland",97.8
+"449","Virginia Beach",99
+"450","Visalia",103.6
+"451","Waco",89.5
+"452","Walla Walla",100.9
+"453","Warner Robins",90.5
+"454","Warsaw",92.3
+"455","Washington",120.1
+"456","Waterloo",87.6
+"457","Watertown",97.1
+"458","Watertown",96.4
+"459","Wausau",88.9
+"460","Wenatchee",106.6
+"461","Whitewater",97.7
+"462","Wichita Falls",85.7
+"463","Wichita",86.8
+"464","Williamsport",93.4
+"465","Wilmington",99
+"466","Wilson",86.3
+"467","Winchester",97.2
+"468","Winston-Salem",91.2
+"469","Wooster",95.5
+"470","Worcester",113.2
+"471","Yakima",97.5
+"472","York",95.8
+"473","Youngstown",86.4
+"474","Yuba City",108.7
+"475","Yuma",94.5
+"476","Zanesville",87.6
+"477","Bloomington",89
+"478","California",104.8
+"479","Crestview",104.7
+"480","Glenwood Springs",127.8
+"481","Greenfield Town",106.2
+"482","Hermiston",97.9
+"483","Holland",96.2
+"484","Jefferson",97.4
+"485","Lafayette",88.7
+"486","Los Angeles",140.6
+"487","Sarasota",104.4
+"488","Salem",86.6
+"489","Santa Maria",143
+"490","Honolulu",158
+"491","Wisconsin Rapids",86.9
+"492","Stamford",119.2
+"493","Fort Myers",101.5
+"494","Dallas",98.5
+"495","Davenport",87.2
+"496","Daytona Beach",99.6
+"497","Hagerstown",99.7
+"498","Logan",95.2
+"499","Louisville",91.6
+"500","Miami",110.1
+"501","Minneapolis",105.4
+"502","Ventura",132.2
+"503","Melbourne",99.3
+"504","Vero Beach",98.9
+"505","Weirton",82.6
+"506","Wheeling",84.1
+"507","New London",105.9
+"508","Daphne",96.6
+"509","Victoria",89.5
+"510","Aberdeen",97.6

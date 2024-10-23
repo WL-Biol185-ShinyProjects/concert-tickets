@@ -22,3 +22,12 @@ Changing Cost of Living Index Column Title from cost.of.living.index to Cost of 
 colnames(cost_of_living) [2] <- "Cost of Living Index"
 
 ```
+
+Save as CSV
+
+```{r}
+
+write.csv(cost_of_living, file = "Cost_of_Living_Clean.csv")
+
+```
+
