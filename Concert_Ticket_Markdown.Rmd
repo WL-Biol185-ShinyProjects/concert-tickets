@@ -81,4 +81,39 @@ Ticket_Data_2$newColumn <- "Ticketmaster"
 colnames(Ticket_Data_2) [6] <- "Ticket Vendor"
 Ticket_Data_2$newColumn <- NULL
 ```
->>>>>>> 97566acd7883cd0e88b5a87ffdd8e6188231475c
+
+Changing Numeric Months to Words
+```{r}
+
+Ticket_Data_2$Month <- gsub ("10","October", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("1","January", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("2","February", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("3","March", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("4","April", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("5","May", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("6","June", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("7","July", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("8","August", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("9","September", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("10","October", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("11","November", Ticket_Data_2$Month)
+Ticket_Data_2$Month <- gsub ("12","December", Ticket_Data_2$Month)
+
+Clean_Ticket_Data_1$Month <- gsub ("10","October", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("01","January", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("02","February", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("03","March", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("04","April", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("05","May", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("06","June", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("07","July", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("08","August", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("09","September", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("10","October", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("11","November", Clean_Ticket_Data_1$Month)
+Clean_Ticket_Data_1$Month <- gsub ("12","December", Clean_Ticket_Data_1$Month)
+
+
+
+```
+
