@@ -58,6 +58,7 @@ Ticket_Data_2$genre <- NULL
 
 ```
 
+=======
 Changing column names
 
 ```{r}
@@ -80,3 +81,4 @@ Ticket_Data_2$newColumn <- "Ticketmaster"
 colnames(Ticket_Data_2) [6] <- "Ticket Vendor"
 Ticket_Data_2$newColumn <- NULL
 ```
+>>>>>>> 97566acd7883cd0e88b5a87ffdd8e6188231475c
