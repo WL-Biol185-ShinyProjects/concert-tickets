@@ -27,7 +27,8 @@ age_population_by_city[s] <- NULL
 
 #Narrowing to helpful columnbs and renaming
 ```{r}
-age_population_condensed <- age_population_by_city[1:20]
+age_population1<- age_population_by_city[1:20]
+age_population_condensed <- age_population_by_city[-c(29324:29576), ] 
 ```
 
 #removing headings
