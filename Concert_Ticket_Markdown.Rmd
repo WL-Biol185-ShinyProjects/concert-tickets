@@ -35,6 +35,8 @@ Clean_Ticket_Data_1$total_tickets <- NULL
 
 Clean_Ticket_Data_1$total_postings <- NULL
 
+Clean_Ticket_Data_1$max_price <- NULL
+
 ```
 
 Create new month column and get rid of date column in Clean_Ticket_Data_1
@@ -52,6 +54,7 @@ Tidying Ticket_Data_2
 Ticket_Data_2$score <- NULL
 Ticket_Data_2$weekend <- NULL
 Ticket_Data_2$pop <- NULL
+Ticket_Data_2$genre <- NULL
 
 ```
 
