@@ -67,7 +67,8 @@ colnames(Clean_Ticket_Data_1) [3] <- "Minimum Ticket Price"
 colnames(Clean_Ticket_Data_1) [4] <- "City"
 colnames(Clean_Ticket_Data_1) [5] <- "Ticket Vendor"
 colnames(Ticket_Data_2) [1] <- "City"
-
+colnames(Ticket_Data_2) [2] <- "Artist"
+colnames(Ticket_Data_2) [3] <- "Venue"
 
 ```
 
