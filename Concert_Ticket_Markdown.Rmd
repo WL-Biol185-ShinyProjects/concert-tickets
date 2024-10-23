@@ -58,3 +58,27 @@ Ticket_Data_2$genre <- NULL
 
 ```
 
+=======
+Changing column names
+
+```{r}
+colnames(Clean_Ticket_Data_1) [1] <- "Artist"
+colnames(Clean_Ticket_Data_1) [2] <- "Venue"
+colnames(Clean_Ticket_Data_1) [3] <- "Minimum Ticket Price"
+colnames(Clean_Ticket_Data_1) [4] <- "City"
+colnames(Clean_Ticket_Data_1) [5] <- "Ticket Vendor"
+colnames(Ticket_Data_2) [1] <- "City"
+colnames(Ticket_Data_2) [2] <- "Artist"
+colnames(Ticket_Data_2) [3] <- "Venue"
+colnames(Ticket_Data_2) [4] <- "Month"
+colnames(Ticket_Data_2) [5] <- "Minimum Ticket Price"
+```
+
+Adding Ticket Vendor Column to Ticket Data 2
+
+```{r}
+Ticket_Data_2$newColumn <- "Ticketmaster"
+colnames(Ticket_Data_2) [6] <- "Ticket Vendor"
+Ticket_Data_2$newColumn <- NULL
+```
+>>>>>>> 97566acd7883cd0e88b5a87ffdd8e6188231475c
