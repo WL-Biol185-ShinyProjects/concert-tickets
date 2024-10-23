@@ -59,6 +59,38 @@ Ticket_Data_2$genre <- NULL
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #changing column names
 
 ```{r}
