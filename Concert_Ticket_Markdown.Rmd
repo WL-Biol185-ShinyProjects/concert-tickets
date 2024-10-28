@@ -123,3 +123,11 @@ Making Files csv
 write.csv(Ticket_Data_2, file = "Final_Ticket_Data_2.csv")
 write.csv(Clean_Ticket_Data_1, file = "Final_Ticket_Data_1.csv")
 ```
+
+# Deleting Random Column
+
+```{r}
+Final_Ticket_Data_1$...1 <- NULL
+Final_Ticket_Data_2$...1 <- NULL
+```
+
