@@ -25,3 +25,20 @@ write.csv(Final_Ticket_Data_All, file = "Final_Ticket_Data.csv")
 
 ```
 
+Adding cost of living to our final data table and cleaning it and making it a csv
+
+```{r}
+
+Final_Ticket_Data_COL <- left_join (Final_Ticket_Data, Cost_of_Living_Clean, by = "City", relationship = "many-to-many")
+
+Final_Ticket_Data_COL$...1 <- NULL
+Final_Ticket_Data_COL$...2 <- NULL
+Final_Ticket_Data_COL$...9 <- NULL
+
+write.csv(Final_Ticket_Data_COL, file = "Final_Ticket_Data_COL.csv")
+
+Final_Ticket_Data_COL$...1.x <- NULL
+Final_Ticket_Data_COL$...1.y <- NULL
+
+```
+
