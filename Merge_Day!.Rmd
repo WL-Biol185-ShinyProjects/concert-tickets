@@ -1,0 +1,27 @@
+---
+title: "Merge_Day!"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Binding the Data
+
+Binding Clean_Ticket_Data_1 with Ticket_Data_2
+
+```{r}
+
+Final_Ticket_Data_All <- rbind(Final_Ticket_Data_1, Final_Ticket_Data_2) 
+
+```
+
+Saving as .csv
+
+```{r}
+
+write.csv(Final_Ticket_Data_All, file = "Final_Ticket_Data.csv")
+
+```
+
