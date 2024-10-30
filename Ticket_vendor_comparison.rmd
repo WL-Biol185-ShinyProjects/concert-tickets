@@ -25,8 +25,26 @@ ticket_vendor_comparison <- Combined_Clean_Data %>%
 
 ```{r}
 tv_comp_clean <- ticket_vendor_comparison %>%
-  slice(-c(13, 23))
+  slice(-c(2, 3, 4, 5, 8, 9, 10, 12, 13, 14, 16, 18, 20, 
+           21, 23))
 ```
 
+#Ordering/sorting data 
+
+```{r}
+tv_comp_sorted <- arrange(tv_comp_clean, average_min_price)
+tv_comp_ordered <- mutate( tv_comp_sorted, 
+                       'Ticket Vendor' = factor(`Ticket Vendor`, levels = `Ticket Vendor`, ordered = TRUE)
+                     )
+
+```
+
+
 #Making a plot!
+
+```{r}
+ggplot(tv_comp_ordered, aes(`Ticket Vendor`, average_min_price)) + 
+     geom_bar(stat = 'identity') + 
+     theme(axis.text.x = element_text(angle = 60, hjust = 1))
+```
 
