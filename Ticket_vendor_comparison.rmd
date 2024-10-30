@@ -1,0 +1,32 @@
+
+title: "Ticket Vendor Comparison"
+author: "ECB"
+date: "10/30/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Cleaning Combined_Clean_Data to just have ticket vendors and mean price
+
+```{r}
+library(dplyr)
+library(tidyverse)
+
+ticket_vendor_comparison <- Combined_Clean_Data %>%
+  group_by(`Ticket Vendor`) %>%
+  summarise(average_min_price = mean(`Minimum Ticket Price`))
+
+```
+
+#Removing "Venue" and "Official Artist Website"
+
+```{r}
+tv_comp_clean <- ticket_vendor_comparison %>%
+  slice(-c(13, 23))
+```
+
+#Making a plot!
+
