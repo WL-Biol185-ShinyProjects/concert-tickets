@@ -139,3 +139,9 @@ Final_Ticket_Data_COL$...2 <- NULL
 Final_Ticket_Data_COL$...9 <- NULL
 ```
 
+Making CSV of Final Table with Cost of Living
+
+```{r}
+write.csv(Final_Ticket_Data_COL = "Combined_Clean_Data.csv")
+```
+
