@@ -124,10 +124,18 @@ write.csv(Ticket_Data_2, file = "Final_Ticket_Data_2.csv")
 write.csv(Clean_Ticket_Data_1, file = "Final_Ticket_Data_1.csv")
 ```
 
-# Deleting Random Column
+Deleting Random Column
 
 ```{r}
 Final_Ticket_Data_1$...1 <- NULL
 Final_Ticket_Data_2$...1 <- NULL
+```
+
+Deleting More Random Columns on Final_Ticket_Data_COL
+
+```{r}
+Final_Ticket_Data_COL$...1 <- NULL
+Final_Ticket_Data_COL$...2 <- NULL
+Final_Ticket_Data_COL$...9 <- NULL
 ```
 
