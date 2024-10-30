@@ -17,13 +17,16 @@ library(tidyverse)
 
 ticket_vendor_comparison <- Combined_Clean_Data %>%
   group_by(`Ticket Vendor`) %>%
-  summarise(average = mean(`Minimum Ticket Price`))
+  summarise(average_min_price = mean(`Minimum Ticket Price`))
 
 ```
 
 #Removing "Venue" and "Official Artist Website"
 
 ```{r}
-ticket_vendor_comparison
+tv_comp_clean <- ticket_vendor_comparison %>%
+  slice(-c(13, 23))
 ```
+
+#Making a plot!
 
