@@ -36,15 +36,25 @@ tv_comp_sorted <- arrange(tv_comp_clean, average_min_price)
 tv_comp_ordered <- mutate( tv_comp_sorted, 
                        'Ticket Vendor' = factor(`Ticket Vendor`, levels = `Ticket Vendor`, ordered = TRUE)
                      )
-
 ```
 
+Fixing colnames (y axis title)
+
+```{r}
+colnames(tv_comp_ordered) <- c("Ticket Vendor","Average Minimum Price")
+```
 
 #Making a plot!
 
 ```{r}
-ggplot(tv_comp_ordered, aes(`Ticket Vendor`, average_min_price)) + 
+ggplot(tv_comp_ordered, aes(`Ticket Vendor`, `Average Minimum Price`, fill = `Ticket Vendor`)) + 
      geom_bar(stat = 'identity') + 
-     theme(axis.text.x = element_text(angle = 60, hjust = 1))
+     theme(axis.text.x = element_text(angle = 60, hjust = 1),legend.position = "none")
 ```
+
+
+```{r}
+
+```
+
 
