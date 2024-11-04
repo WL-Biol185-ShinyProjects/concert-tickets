@@ -1,0 +1,21 @@
+---
+title: "City_Comp.rmd"
+author: "Zach"
+date: "11/4/2024"
+output: html_document
+---
+
+
+Making a Data Table for our City Ticket Price Comparison Map
+```{r}
+
+
+ticket_city_comparison <- Combined_Clean_Data %>%
+  group_by(`City`, `Month`) %>%
+  summarise(average_min_price = mean(`Minimum Ticket Price`))
+
+write.csv (ticket_city_comparison, file = "Ticket.City.Comp.csv")
+
+
+```
+
