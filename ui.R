@@ -1,3 +1,5 @@
+##building the site
+
 library(shiny)
 library(shinythemes)
 navbarPage(theme = shinytheme("flatly"),
