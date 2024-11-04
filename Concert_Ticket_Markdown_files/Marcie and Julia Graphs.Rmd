@@ -31,6 +31,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ##Generating Graph comparing cost of living and minimum ticket price (trendline)
 
+Getting rid of NA rows
+
 ```{r}
-ggplot(Final_Ticket_Data_COL, aes(Cost of Living Index, Maximum Ticket Price)) + Geom_point()
+library(ggplot2)
+ggplot(Final_Ticket_Data_COL, aes(Cost_of_Living_Index, Minimum_Ticket_Price)) + geom_point() +ylim(0,275)
+       
+
 ```

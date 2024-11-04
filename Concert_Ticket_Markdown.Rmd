@@ -145,3 +145,15 @@ Making CSV of Final Table with Cost of Living
 write.csv (Final_Ticket_Data_COL, file = "Combined_Clean_Data.csv")
 ```
 
+Editing Final_Ticket_Data_COL
+```{r}
+Final_Ticket_Data_COL$...2 <- NULL
+Final_Ticket_Data_COL$...9 <- NULL
+Final_Ticket_Data_COL$...1 <- NULL
+Final_Ticket_Data_COL$Venue <- NULL
+Final_Ticket_Data_COL$`Ticket Vendor` <- NULL
+Final_Ticket_Data_COL$Month <- NULL
+colnames(Final_Ticket_Data_COL) [1] <- "Minimum_Ticket_Price"
+colnames(Final_Ticket_Data_COL) [3] <- "Cost_of_Living_Index"
+```
+
