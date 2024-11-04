@@ -20,6 +20,7 @@ navbarPage(theme = shinytheme("flatly"),
                    HTML("Marcie Bernard: Marcie Bernard is a biology and environmental major on the pre-veterinary track. In her free time, she walks dogs, spends time outdoors, and cooking."),
                    br(), br(),
                    HTML("Zach Ricciardelli: Zach Ricciardelli is a...")),
+           tabPanel("Overall Search Bar"),
            navbarMenu("Maps",
                     tabPanel("City by City Ticket Price",
                              h1("Ticket Price, Artist, and Venue Map Data"))),
@@ -31,6 +32,4 @@ navbarPage(theme = shinytheme("flatly"),
                     tabPanel("Cumulative Ticket Data",
                              h1("Cumulative Ticket Sale Data in the United States")),
                     tabPanel("Cost of Living Data",
-                             h1("Raw Dataset of Cost of Living in United States Cities")),
-                    ))
-
+                             h1("Raw Dataset of Cost of Living in United States Cities"))))
