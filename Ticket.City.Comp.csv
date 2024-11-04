@@ -1,0 +1,566 @@
+"","City","Month","average_min_price"
+"1","Albany","October",55.25
+"2","Albuquerque","August",28.8928571428571
+"3","Albuquerque","July",38.9166666666667
+"4","Allentown","September",39
+"5","Alpharetta","August",25
+"6","Alpharetta","July",58.75
+"7","Alpharetta","June",34.75
+"8","Alpharetta","September",47
+"9","Amsterdam","June",23.9666666666667
+"10","Amsterdam","September",20.7525
+"11","Anaheim","August",37.625
+"12","Anaheim","July",35
+"13","Anaheim","June",25
+"14","Anaheim","November",55
+"15","Anaheim","October",33.75
+"16","Arlington","June",99.5
+"17","Arlington","October",47
+"18","Asheville","June",27
+"19","Atlanta","April",72.0561538461538
+"20","Atlanta","August",42.6666666666667
+"21","Atlanta","January",53.5
+"22","Atlanta","July",29.3
+"23","Atlanta","June",73.248
+"24","Atlanta","March",52.0290909090909
+"25","Atlanta","May",61.8121739130435
+"26","Atlanta","November",55.2728571428571
+"27","Atlanta","October",52.74
+"28","Atlanta","September",45.31
+"29","Atlantic City","July",82.55
+"30","Atlantic City","June",100
+"31","Auburn","August",35
+"32","Auburn","July",28.0833333333333
+"33","Auburn","June",27.5
+"34","Auburn","October",38
+"35","Auckland","July",79.9
+"36","Austin","April",97.6166666666667
+"37","Austin","August",79.2983333333333
+"38","Austin","July",75.04
+"39","Austin","June",86.0277777777778
+"40","Austin","March",155.9
+"41","Austin","May",87.055
+"42","Baltimore","July",27.75
+"43","Baltimore","November",36.75
+"44","Bangor","August",29.75
+"45","Bangor","June",28.125
+"46","Bangor","November",25.75
+"47","Bangor","September",29.75
+"48","Barcelona","July",31.5
+"49","Barcelona","June",6
+"50","Berkeley","September",59.5
+"51","Berlin","September",42.9
+"52","Bethel","July",33.375
+"53","Biloxi","August",32.5
+"54","Biloxi","September",39.5
+"55","Birmingham","August",35
+"56","Birmingham","January",93
+"57","Birmingham","July",29.99
+"58","Boise","October",37.5
+"59","Bonner Springs","August",29.5
+"60","Bonner Springs","July",35
+"61","Boston","April",63.0280555555556
+"62","Boston","August",59.6133333333333
+"63","Boston","December",168.97
+"64","Boston","July",42.0175
+"65","Boston","June",75.85
+"66","Boston","March",68.1186666666667
+"67","Boston","May",89.8241176470588
+"68","Boston","November",80.38
+"69","Boston","October",89.8
+"70","Boston","September",68.2222222222222
+"71","Brandon","July",34.5
+"72","Brisbane","October",73.65
+"73","Bristow","August",29
+"74","Bristow","July",31.9
+"75","Bristow","June",34.5
+"76","Bristow","October",34.75
+"77","Brookings","October",36.5
+"78","Brooklyn","August",62.75
+"79","Brooklyn","July",61
+"80","Brooklyn","June",50.4166666666667
+"81","Brooklyn","October",72.79
+"82","Burgettstown","August",29.5625
+"83","Burgettstown","July",27.25
+"84","Burgettstown","June",36.3333333333333
+"85","Camden","August",30.3125
+"86","Camden","July",25
+"87","Camden","June",30.8125
+"88","Canandaigua","July",35
+"89","Cedar Rapids","August",62.25
+"90","Cedar Rapids","June",22
+"91","Charleston","October",20
+"92","Charleston","September",30.5833333333333
+"93","Charlotte","August",39
+"94","Charlotte","January",53
+"95","Charlotte","July",31.4583333333333
+"96","Charlotte","June",30.1
+"97","Charlotte","March",59.95
+"98","Charlotte","October",52.9166666666667
+"99","Charlotte","September",28.8333333333333
+"100","Charlottesville","October",23.5
+"101","Charlottesville","September",29.75
+"102","Chesterfield","August",25
+"103","Chesterfield","June",35
+"104","Chicago","April",86.5095833333333
+"105","Chicago","August",45.1875
+"106","Chicago","July",62.769
+"107","Chicago","June",60.7463636363636
+"108","Chicago","March",67.1975
+"109","Chicago","May",82.5361538461539
+"110","Chicago","October",67.9733333333333
+"111","Chicago","September",56.1666666666667
+"112","Chula Vista","August",28.25
+"113","Chula Vista","July",31.0833333333333
+"114","Chula Vista","June",33.75
+"115","Chula Vista","September",37.75
+"116","Cincinnati","August",20.1
+"117","Cincinnati","January",65
+"118","Cincinnati","July",22.4166666666667
+"119","Cincinnati","June",16.8333333333333
+"120","Cincinnati","October",31.25
+"121","Cincinnati","September",24.6666666666667
+"122","Clarkston","August",27.3333333333333
+"123","Clarkston","July",34
+"124","Clarkston","June",34.0625
+"125","Clarkston","September",30.75
+"126","Cleveland","July",33.6666666666667
+"127","Cleveland","September",25
+"128","Columbia","July",29.5
+"129","Columbus","July",43.25
+"130","Columbus","June",39.875
+"131","Columbus","May",56.45
+"132","Columbus","September",36.25
+"133","Concord","July",28.5
+"134","Concord","June",29.99
+"135","Corpus Christi","July",44.5
+"136","Council Bluffs","August",35
+"137","Cuyahoga Falls","August",36.8333333333333
+"138","Cuyahoga Falls","July",34.25
+"139","Cuyahoga Falls","June",40
+"140","Dallas","April",86.1876470588235
+"141","Dallas","August",29.15625
+"142","Dallas","January",49.5
+"143","Dallas","July",31.3333333333333
+"144","Dallas","June",66.706
+"145","Dallas","March",52.2772727272727
+"146","Dallas","May",69.138
+"147","Dallas","October",65.8166666666667
+"148","Dallas","September",59.1716666666667
+"149","Darien Center","August",34.375
+"150","Darien Center","July",26.5
+"151","Darien Center","June",34.75
+"152","Darien Center","September",30
+"153","Del Mar","June",22
+"154","Denver","April",73.9515789473684
+"155","Denver","August",45.0533333333333
+"156","Denver","July",54.94
+"157","Denver","June",57.1675
+"158","Denver","March",60.0171428571429
+"159","Denver","May",64.1233333333333
+"160","Detroit","April",59.45
+"161","Detroit","August",39.6666666666667
+"162","Detroit","July",30.75
+"163","Detroit","June",30
+"164","Detroit","October",39.75
+"165","Detroit","September",60.0555555555556
+"166","Doswell","June",18
+"167","Durant","July",100
+"168","East Providence","July",42.75
+"169","East Rutherford","August",70
+"170","East Rutherford","July",49.5
+"171","East Rutherford","June",59
+"172","East Rutherford","September",39.5
+"173","Edmonton","November",103.95
+"174","El Paso","February",58.25
+"175","El Paso","September",33.2
+"176","Eugene","October",29.75
+"177","Fairfax","August",59
+"178","Fairfax","October",39.95
+"179","Farmingville","July",35
+"180","Fort Wayne","October",29.75
+"181","Foxborough","August",66
+"182","Foxborough","July",49.5
+"183","Foxborough","September",39.5
+"184","Fresno","December",62
+"185","Fresno","September",52.5
+"186","Funner","June",18
+"187","George","August",215
+"188","Glendale","August",28.375
+"189","Glendale","July",24.75
+"190","Glendale","March",54.95
+"191","Glendale","October",54.575
+"192","Grand Rapids","July",45
+"193","Grand Rapids","March",65
+"194","Grand Rapids","October",32.25
+"195","Greensboro","November",46.25
+"196","Greensboro","October",29.95
+"197","Greensboro","September",39.5
+"198","Greenville","November",30
+"199","Greenville","September",39.5
+"200","Groningen","October",23
+"201","Gulfport","June",15
+"202","Hampton","August",35
+"203","Hannover","July",358.18
+"204","Hartford","August",19.3125
+"205","Hartford","July",24.875
+"206","Hartford","June",19.375
+"207","Hershey","July",19.75
+"208","Hollywood","June",29.5
+"209","Hollywood","September",32
+"210","Holmdel","August",31.0833333333333
+"211","Holmdel","June",29.25
+"212","Holmdel","September",37
+"213","Honolulu","August",35
+"214","Honolulu","November",49.5
+"215","Houston","April",75.6316666666667
+"216","Houston","June",99.5
+"217","Houston","March",84.7433333333333
+"218","Houston","May",69.282
+"219","Houston","November",39.5
+"220","Houston","September",40.8333333333333
+"221","Huber Heights","August",20
+"222","Huntsville","August",30
+"223","Huntsville","September",36.5
+"224","Independence","July",29.5
+"225","Independence","October",25.75
+"226","Indianapolis","April",59.95
+"227","Indianapolis","August",27.5
+"228","Indianapolis","December",49.5
+"229","Indianapolis","July",31.8125
+"230","Indianapolis","June",49
+"231","Indianapolis","March",65
+"232","Indianapolis","October",20
+"233","Indianapolis","September",47.5
+"234","Inglewood","April",47.45
+"235","Inglewood","August",39.75
+"236","Inglewood","July",35.5
+"237","Inglewood","October",47.6
+"238","Inglewood","September",43.1333333333333
+"239","Irvine","August",36.9375
+"240","Irvine","July",39.625
+"241","Irvine","September",56.9166666666667
+"242","Irving","August",29.5
+"243","Irving","July",35
+"244","Irving","June",68
+"245","Irving","October",59.95
+"246","Jackson","October",25
+"247","Jacksonville","August",49.95
+"248","Jacksonville","June",42.39
+"249","Kansas City","July",27
+"250","Kansas City","June",35
+"251","Kansas City","October",35.5
+"252","Kansas City","September",45.5
+"253","Lafayette","June",50
+"254","Lancaster","June",20
+"255","Landover","July",44
+"256","Las Cruces","September",39.5
+"257","Las Vegas","August",51.015
+"258","Las Vegas","December",49
+"259","Las Vegas","July",83.026
+"260","Las Vegas","June",57.1625
+"261","Las Vegas","September",44.356
+"262","Lexington","July",104.5
+"263","Lexington","November",64
+"264","Lexington","October",30.25
+"265","Lincoln","July",25
+"266","Lincoln","October",29.75
+"267","Lincoln","September",62
+"268","Lisbon","July",63.5
+"269","London","July",89.5
+"270","London","June",119.5
+"271","Los Angeles","April",73.798275862069
+"272","Los Angeles","August",91.17
+"273","Los Angeles","July",79.0092307692308
+"274","Los Angeles","June",63.4545
+"275","Los Angeles","March",83.7175675675676
+"276","Los Angeles","May",77.7957142857143
+"277","Los Angeles","October",116.0575
+"278","Los Angeles","September",55.83
+"279","Louisville","June",43.5
+"280","Louisville","March",61
+"281","Madrid","June",56
+"282","Manchester","September",29.75
+"283","Mansfield","August",31.5
+"284","Mansfield","July",26.5
+"285","Mansfield","June",26.78125
+"286","Mansfield","September",29.5
+"287","Maryland Heights","August",32.7916666666667
+"288","Maryland Heights","July",34.875
+"289","Maryland Heights","June",32.4166666666667
+"290","Maryland Heights","September",34.25
+"291","Melbourne","July",78.53
+"292","Memphis","January",49.5
+"293","Memphis","June",34.5
+"294","Miami","April",109.72
+"295","Miami","August",49.5
+"296","Miami","July",75.148
+"297","Miami","June",46.87
+"298","Miami","March",76.1557142857143
+"299","Miami","May",55.01
+"300","Miami","October",109.63
+"301","Miami","September",59.922
+"302","Miami Beach","July",45
+"303","Miami Beach","March",173.0075
+"304","Milwaukee","July",55.232
+"305","Milwaukee","June",58.056
+"306","Milwaukee","October",42.1666666666667
+"307","Milwaukee","September",50.6825
+"308","Minneapolis","August",47.5
+"309","Minneapolis","July",39.5
+"310","Minneapolis","June",32.5
+"311","Minneapolis","October",37.5
+"312","Minneapolis","September",64.5
+"313","Monroe","July",17
+"314","Montclair","July",20
+"315","Montclair","June",25
+"316","Monterrey","October",780
+"317","Montreal","July",49.5
+"318","Montreal","September",34.5
+"319","Mountain View","August",29.8125
+"320","Mountain View","July",30.15625
+"321","Mountain View","June",71.0833333333333
+"322","Mountain View","September",40
+"323","Mt Claremont","November",74.3
+"324","Mí©xico","June",490
+"325","Mí©xico","November",1100
+"326","Mí©xico","October",1146.8
+"327","Nashville","April",87.7169696969697
+"328","Nashville","August",60.0233333333333
+"329","Nashville","January",70.5
+"330","Nashville","July",40.19
+"331","Nashville","June",101.898571428571
+"332","Nashville","March",73.5205555555556
+"333","Nashville","May",95.6721212121212
+"334","Nashville","November",119.71
+"335","Nashville","October",46.625
+"336","Nashville","September",58.2533333333333
+"337","New Orleans","August",26.5
+"338","New Orleans","January",49.5
+"339","New Orleans","July",51
+"340","New Orleans","June",43.6666666666667
+"341","New Orleans","March",55
+"342","New Orleans","October",25
+"343","New Orleans","September",54
+"344","New York","April",83.9852941176471
+"345","New York","August",80.7016666666667
+"346","New York","December",108.82
+"347","New York","July",93.7117647058824
+"348","New York","June",83.7385714285714
+"349","New York","March",68.3951515151515
+"350","New York","May",85.9931914893617
+"351","New York","November",44.75
+"352","New York","October",77.809
+"353","New York","September",46.4583333333333
+"354","Newark","August",47.5
+"355","Newark","July",59.99
+"356","Newark","November",27
+"357","Newark","October",79.6
+"358","Niagara Falls","July",50.85
+"359","Nijmegen","July",356.583333333333
+"360","Noblesville","August",30.9
+"361","Noblesville","July",23.1428571428571
+"362","Noblesville","June",36.4166666666667
+"363","Noblesville","October",33.75
+"364","Noblesville","September",33.25
+"365","North Little Rock","August",39.5
+"366","North Little Rock","January",65
+"367","North Little Rock","October",26.375
+"368","North Myrtle Beach","September",27.5
+"369","Oakland","April",93.6345454545455
+"370","Oakland","August",126.453333333333
+"371","Oakland","December",49.5
+"372","Oakland","July",29.5
+"373","Oakland","June",112.6
+"374","Oakland","March",113.4175
+"375","Oakland","May",78.8545454545455
+"376","Oakland","October",69.39
+"377","Oakland","September",54.3625
+"378","Oklahoma City","March",54.95
+"379","Oklahoma City","October",29.75
+"380","Omaha","August",36.75
+"381","Ontario","September",52.5
+"382","Orange Beach","August",20
+"383","Orange Beach","July",32.75
+"384","Orlando","July",34.1666666666667
+"385","Orlando","June",32.5
+"386","Orlando","September",28
+"387","Palencia","September",37.95
+"388","Park City","October",20
+"389","Pasadena","August",39.5
+"390","Peoria","September",36.5
+"391","Philadelphia","April",49.0413636363636
+"392","Philadelphia","August",72.64
+"393","Philadelphia","July",80.508
+"394","Philadelphia","June",67.6371428571429
+"395","Philadelphia","March",72.209375
+"396","Philadelphia","May",62.1191304347826
+"397","Philadelphia","November",54.41
+"398","Philadelphia","October",55
+"399","Philadelphia","September",91
+"400","Phoenix","August",30.4166666666667
+"401","Phoenix","July",25
+"402","Phoenix","June",22.8333333333333
+"403","Phoenix","October",37.25
+"404","Phoenix","September",43.225
+"405","Pittsburgh","August",37.5
+"406","Pittsburgh","July",30.75
+"407","Pittsburgh","June",42.5
+"408","Pittsburgh","October",71.5
+"409","Pittsburgh","September",39.25
+"410","Portland","April",72.9078571428571
+"411","Portland","August",76.7557142857143
+"412","Portland","December",63
+"413","Portland","July",72.3444444444444
+"414","Portland","June",82.1190909090909
+"415","Portland","March",68.5633333333333
+"416","Portland","May",69.3233333333333
+"417","Portland","November",43.92
+"418","Portland","October",37.145
+"419","Portland","September",35
+"420","Portsmouth","June",24.5
+"421","Primm","June",35
+"422","Providence","September",29.75
+"423","Raleigh","August",36.3
+"424","Raleigh","January",55.25
+"425","Raleigh","July",35.1
+"426","Raleigh","June",33.5
+"427","Raleigh","October",34.25
+"428","Raleigh","September",29.5
+"429","Reading","October",45
+"430","Ridgefield","July",29.5
+"431","Rochester","October",39.75
+"432","Rosemont","June",50.75
+"433","Rosemont","October",39.95
+"434","Sacramento","April",43.89
+"435","Sacramento","August",35
+"436","Sacramento","December",61.44
+"437","Sacramento","July",25.91
+"438","Sacramento","November",47.14
+"439","Sacramento","October",29.75
+"440","Saint Paul","August",46.5
+"441","Saint Paul","June",26.5
+"442","Saint Paul","May",69.99
+"443","Saint Paul","September",49.25
+"444","Salt Lake City","August",27.75
+"445","Salt Lake City","July",46.5
+"446","Salt Lake City","November",62
+"447","Salt Lake City","October",29.75
+"448","Salt Lake City","September",36.95
+"449","San Antonio","January",49.5
+"450","San Antonio","July",29.5
+"451","San Antonio","June",49.5
+"452","San Antonio","March",51.99
+"453","San Antonio","October",28.975
+"454","San Antonio","September",39
+"455","San Bernardino","September",30.75
+"456","San Diego","June",58.8
+"457","San Diego","September",35.975
+"458","San Francisco","April",77.9373333333333
+"459","San Francisco","August",39.5
+"460","San Francisco","July",103.93
+"461","San Francisco","June",60.9033333333333
+"462","San Francisco","March",71.1415
+"463","San Francisco","May",68.1166666666667
+"464","San Francisco","October",112.22
+"465","San Jose","April",43.45
+"466","San Jose","August",27.75
+"467","San Jose","October",49.5
+"468","Saratoga Springs","August",20
+"469","Saratoga Springs","July",20
+"470","Saratoga Springs","June",23.75
+"471","Scranton","August",25.5
+"472","Seattle","April",74.3996666666667
+"473","Seattle","August",50.602
+"474","Seattle","July",84.1433333333333
+"475","Seattle","June",69.75
+"476","Seattle","March",89.385
+"477","Seattle","May",76.185
+"478","Seattle","November",51.01
+"479","Seattle","October",63.45
+"480","Seattle","September",55.125
+"481","Silver Spring","July",25
+"482","Silver Spring","June",27.25
+"483","Simpsonville","June",22
+"484","Sioux Falls","October",23
+"485","Southaven","July",35.5
+"486","Springfield","August",12
+"487","St Augustine","June",82.14
+"488","St Louis","July",46
+"489","St Louis","June",26.5
+"490","St Louis","September",41.1666666666667
+"491","Stateline","July",69.5
+"492","Stockholm","July",1995
+"493","Sugar Land","August",55.5
+"494","Sugar Land","October",39.95
+"495","Sunrise","July",26.5
+"496","Sunrise","June",45.25
+"497","Sunrise","March",54.95
+"498","Syracuse","August",29
+"499","Syracuse","June",21.5833333333333
+"500","Syracuse","September",29.75
+"501","Tacoma","November",55.5
+"502","Tampa","August",30.25
+"503","Tampa","July",27.625
+"504","Tampa","June",30.0416666666667
+"505","Tampa","March",84.95
+"506","Tampa","November",37
+"507","Tampa","October",56.2
+"508","Tampa","September",32.9583333333333
+"509","Thackerville","August",75
+"510","Tinley Park","August",34.5
+"511","Tinley Park","July",27.4285714285714
+"512","Tinley Park","June",39.5
+"513","Tinley Park","October",34.75
+"514","Tinley Park","September",35.25
+"515","Toronto","August",56
+"516","Toronto","July",33
+"517","Toronto","June",43.75
+"518","Toronto","September",59.5
+"519","Tucson","August",39
+"520","Tulsa","August",27.75
+"521","Tulsa","January",62
+"522","Tulsa","July",26.5
+"523","Tulsa","October",61.5
+"524","Tulsa","September",39.5
+"525","Tupelo","September",39.5
+"526","Tuscaloosa","July",39.5
+"527","Uncasville","December",129
+"528","Uncasville","July",29.25
+"529","Uncasville","September",59
+"530","Uniondale","July",29.25
+"531","University Park","October",58.75
+"532","Utrecht","November",11.5
+"533","Valencia","August",16.8
+"534","Valencia","September",66
+"535","Vancouver","October",20
+"536","Vancouver","September",59.5
+"537","Virginia Beach","August",14.6666666666667
+"538","Virginia Beach","July",16.625
+"539","Virginia Beach","June",25.25
+"540","Wallingford","September",20
+"541","Wantagh","August",34.25
+"542","Wantagh","July",34.5
+"543","Wantagh","June",33.125
+"544","Wantagh","September",25
+"545","Warsaw","June",105
+"546","Washington","August",32.5
+"547","Washington","July",40.25
+"548","Washington","June",39.5
+"549","Washington","October",49.5
+"550","Washington","September",54.5
+"551","Welch","August",30
+"552","West Palm Beach","August",32
+"553","West Palm Beach","June",38.25
+"554","West Palm Beach","September",38.5625
+"555","West Sacramento","September",34.5
+"556","Wheatland","August",34.25
+"557","Wheatland","July",30.8125
+"558","Wheatland","September",36.375
+"559","Wilkes-Barre","June",25
+"560","Wilmington","June",29.5
+"561","Wilmington","September",29.5
+"562","Woodlands","August",35.1666666666667
+"563","Woodlands","July",28.9
+"564","Woodlands","June",57
+"565","Youngstown","August",45
