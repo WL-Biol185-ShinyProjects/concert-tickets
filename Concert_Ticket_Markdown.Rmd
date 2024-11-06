@@ -153,6 +153,7 @@ Final_Ticket_Data_COL$...1 <- NULL
 Final_Ticket_Data_COL$Venue <- NULL
 Final_Ticket_Data_COL$`Ticket Vendor` <- NULL
 Final_Ticket_Data_COL$Month <- NULL
+Final_Ticket_Data_COL$Artist <- NULL
 colnames(Final_Ticket_Data_COL) [1] <- "Minimum_Ticket_Price"
 colnames(Final_Ticket_Data_COL) [3] <- "Cost_of_Living_Index"
 ```
