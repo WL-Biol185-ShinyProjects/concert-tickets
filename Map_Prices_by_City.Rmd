@@ -1,0 +1,39 @@
+---
+title: "Ticket Prices by City Map"
+author: "ECB"
+date: "11/4/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Making a map of ticket prices by city
+
+#Making the Map
+```{r}
+library(dplyr)
+```
+##Making the data useable
+
+```{r}
+Ultimate_with_averages <- Ultimate_Table %>%
+  group_by(`City`, `State`) %>%
+  summarise(Average_Min_Price = mean(`Minimum Ticket Price`))
+
+Ultimate_Table <- left_join (Final_Ultimate_Table, Ultimate_with_averages, by = c("City","State"))
+
+Ultimate_with_averages <- left_join(Ultimate_with_averages, City_Long_Lat, by = c("City", "State"))
+
+```
+
+
+```{r}
+library(leaflet)
+leaflet(Ultimate_with_averages) %>%
+  addTiles() %>%
+  setView(lng = -98, lat = 40, zoom = 4)%>%
+  addCircleMarkers(radius = ~Average_Min_Price, label = ~City)
+```
+
