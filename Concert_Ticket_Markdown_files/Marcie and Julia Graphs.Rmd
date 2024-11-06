@@ -17,11 +17,15 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ##Generating Graph comparing cost of living and minimum ticket price (trendline)
 
-Getting rid of NA rows
+
 
 ```{r}
+
+Usable_COL_Ticket_Data <- Final_Ticket_Data_COL[-c(1464, 1465, 1466, 1467),]
+View(Usable_COL_Ticket_Data)
+
 library(ggplot2)
-ggplot(Final_Ticket_Data_COL, aes(Cost_of_Living_Index, Minimum_Ticket_Price)) + geom_point() +ylim(0,275)
-       
+ggplot(Usable_COL_Ticket_Data, aes(Cost_of_Living_Index, Minimum_Ticket_Price)) + geom_point() +ylim(0,275)
+      
 
 ```
