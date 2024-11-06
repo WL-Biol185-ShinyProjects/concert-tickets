@@ -1,0 +1,27 @@
+---
+title: "Making_Ultimate_Table"
+author: "Zach"
+date: "11/6/2024"
+output: html_document
+---
+
+City_Long_Lat Clean
+
+```{r}
+City_Long_Lat$city_ascii <- NULL
+City_Long_Lat$state_name <- NULL
+City_Long_Lat$county_fips <- NULL
+City_Long_Lat$country_name <- NULL
+City_Long_Lat$density <- NULL
+City_Long_Lat$source <- NULL
+City_Long_Lat$military <- NULL
+City_Long_Lat$timezone <- NULL
+City_Long_Lat$incorporated <- NULL
+City_Long_Lat$ranking <- NULL
+City_Long_Lat$zips <- NULL
+City_Long_Lat$id <- NULL
+
+
+```
+
+
