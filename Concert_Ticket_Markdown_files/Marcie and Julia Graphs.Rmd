@@ -21,11 +21,15 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ```{r}
 
-Usable_COL_Ticket_Data <- Final_Ticket_Data_COL[-c(1464, 1465, 1466, 1467),]
+Usable_COL_Ticket_Data <- Final_Ticket_Data_COL[-1 * c(1390, 1464, 1465, 1466, 1467, 1902, 1907, 1908, 1909, 2046),]
 View(Usable_COL_Ticket_Data)
+write.csv(Usable_COL_Ticket_Data, file = "Usable_COL_Ticket_Data.csv")
+```
+
+```{r}
 
 library(ggplot2)
-ggplot(Usable_COL_Ticket_Data, aes(Cost_of_Living_Index, Minimum_Ticket_Price)) + geom_point() +ylim(0,275)
+ggplot(Usable_COL_Ticket_Data, aes(Cost_of_Living_Index, Minimum_Ticket_Price, color + City)) + geom_point() +ylim(0,275)
       
-
+```
 ```
