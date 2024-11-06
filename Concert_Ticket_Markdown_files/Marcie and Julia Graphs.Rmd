@@ -29,7 +29,7 @@ write.csv(Usable_COL_Ticket_Data, file = "Usable_COL_Ticket_Data.csv")
 ```{r}
 
 library(ggplot2)
-ggplot(Usable_COL_Ticket_Data, aes(Cost_of_Living_Index, Minimum_Ticket_Price, color + City)) + geom_point() +ylim(0,275)
+ggplot(Usable_COL_Ticket_Data, aes(Cost_of_Living_Index, Minimum_Ticket_Price, color = City)) + geom_point() +ylim(0,275)
       
 ```
 ```
