@@ -5,13 +5,18 @@ date: "11/6/2024"
 output: html_document
 ---
 
+```{r}
+library(dplyr)
+```
+
 City_Long_Lat Clean
 
 ```{r}
+
 City_Long_Lat$city_ascii <- NULL
 City_Long_Lat$state_name <- NULL
 City_Long_Lat$county_fips <- NULL
-City_Long_Lat$country_name <- NULL
+City_Long_Lat$county_name <- NULL
 City_Long_Lat$density <- NULL
 City_Long_Lat$source <- NULL
 City_Long_Lat$military <- NULL
@@ -21,7 +26,30 @@ City_Long_Lat$ranking <- NULL
 City_Long_Lat$zips <- NULL
 City_Long_Lat$id <- NULL
 
+```
+
+```{r}
+
+colnames(City_Long_Lat) [1] <- "City"
+colnames(City_Long_Lat) [2] <- "State"
+colnames(City_Long_Lat) [3] <- "Latitude"
+colnames(City_Long_Lat) [4] <- "Longitude"
+colnames(City_Long_Lat) [5] <- "Population"
 
 ```
 
 
+Combining Data Tables
+
+```{r}
+Ultimate_Table <- left_join (Final_Ticket_Data, cost_of_living, by = c("City","State"))
+Final_Ultimate_Table <- left_join (Ultimate_Table, City_Long_Lat, by = c("City","State"))
+```
+
+Making CSV
+
+```{r}
+write.csv (Final_Ultimate_Table, file = "Ultimate_Table.csv")
+```
+
+Putting in 
