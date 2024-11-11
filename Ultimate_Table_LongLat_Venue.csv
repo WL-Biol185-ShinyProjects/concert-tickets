@@ -110,11 +110,11 @@
 1742,Sam Smith,Amway Center,36.5,Orlando,Ticketmaster,July,FL,101.4,28.4773,-81.337,1882705,,
 1746,Shawn Mendes,Amway Center,26.5,Orlando,Ticketmaster,July,FL,101.4,28.4773,-81.337,1882705,,
 1445,Afro Latin Jazz Orchestra,Apollo Theater,218.62,New York,Ticketmaster,April,NY,128,40.6943,-73.9249,18908608,,
-431,Nicky Jam,Aragon Ballroom,123.12,Chicago,Ticketmaster,April,IL,100.1,41.8375,-87.6866,8497759,,
-453,Alabama Shakes,Aragon Ballroom,95.72,Chicago,Ticketmaster,July,IL,100.1,41.8375,-87.6866,8497759,,
-459,DJ Snake,Aragon Ballroom,63.85,Chicago,Ticketmaster,April,IL,100.1,41.8375,-87.6866,8497759,,
-472,Leon Bridges,Aragon Ballroom,69.5,Chicago,Ticketmaster,September,IL,100.1,41.8375,-87.6866,8497759,,
-460,Anthony Hamilton,Arie Crown Theater,73.3,Chicago,Ticketmaster,April,IL,100.1,41.8375,-87.6866,8497759,,
+431,Nicky Jam,Aragon Ballroom,123.12,Chicago,Ticketmaster,April,IL,100.1,41.8375,-87.6866,8497759,41.9691,87.658
+453,Alabama Shakes,Aragon Ballroom,95.72,Chicago,Ticketmaster,July,IL,100.1,41.8375,-87.6866,8497759,41.9691,87.658
+459,DJ Snake,Aragon Ballroom,63.85,Chicago,Ticketmaster,April,IL,100.1,41.8375,-87.6866,8497759,41.9691,87.658
+472,Leon Bridges,Aragon Ballroom,69.5,Chicago,Ticketmaster,September,IL,100.1,41.8375,-87.6866,8497759,41.9691,87.658
+460,Anthony Hamilton,Arie Crown Theater,73.3,Chicago,Ticketmaster,April,IL,100.1,41.8375,-87.6866,8497759,41.85170326,-87.6093709
 1921,Dream Theater,Arlene Schnitzer Hall,99.26,Portland,Evenue,May,OR,116.5,45.5371,-122.65,2095808,,
 1282,Foster The People,Armory,55,Minneapolis,Ticketmaster,July,MN,105.4,44.9635,-93.2678,2892569,,
 1284,Dua Lipa,Armory,32.5,Minneapolis,Ticketmaster,June,MN,105.4,44.9635,-93.2678,2892569,,
@@ -122,12 +122,12 @@
 939,Kenny Chesney,Arrowhead Stadium,27,Kansas City,Ticketmaster,July,MO,91.6,39.1238,-94.5541,1689556,,
 940,Camila Cabello,Arrowhead Stadium,45.5,Kansas City,Ticketmaster,September,MO,91.6,39.1238,-94.5541,1689556,,
 941,Ed Sheeran,Arrowhead Stadium,35.5,Kansas City,Ticketmaster,October,MO,91.6,39.1238,-94.5541,1689556,,
-1360,Alabama Shakes,Ascend Amphitheater,73.3,Nashville,Live Nation,April,TN,100.1,36.1715,-86.7842,1177657,,
-1409,Maren Morris,Ascend Amphitheater part of the Journeys Concert Series,35,Nashville,Ticketmaster,July,TN,100.1,36.1715,-86.7842,1177657,,
-1410,Niall Horan,Ascend Amphitheater part of the Journeys Concert Series,35,Nashville,Ticketmaster,July,TN,100.1,36.1715,-86.7842,1177657,,
-1416,Leon Bridges,Ascend Amphitheater part of the Journeys Concert Series,39.5,Nashville,Ticketmaster,August,TN,100.1,36.1715,-86.7842,1177657,,
-1419,Halsey,Ascend Amphitheater part of the Journeys Concert Series,29.5,Nashville,Ticketmaster,July,TN,100.1,36.1715,-86.7842,1177657,,
-1427,Charlie Puth,Ascend Amphitheater part of the Journeys Concert Series,30,Nashville,Ticketmaster,August,TN,100.1,36.1715,-86.7842,1177657,,
+1360,Alabama Shakes,Ascend Amphitheater,73.3,Nashville,Live Nation,April,TN,100.1,36.1715,-86.7842,1177657,36.0933,-86.4681
+1409,Maren Morris,Ascend Amphitheater part of the Journeys Concert Series,35,Nashville,Ticketmaster,July,TN,100.1,36.1715,-86.7842,1177657,36.0933,-86.4681
+1410,Niall Horan,Ascend Amphitheater part of the Journeys Concert Series,35,Nashville,Ticketmaster,July,TN,100.1,36.1715,-86.7842,1177657,36.0933,-86.4681
+1416,Leon Bridges,Ascend Amphitheater part of the Journeys Concert Series,39.5,Nashville,Ticketmaster,August,TN,100.1,36.1715,-86.7842,1177657,36.0933,-86.4681
+1419,Halsey,Ascend Amphitheater part of the Journeys Concert Series,29.5,Nashville,Ticketmaster,July,TN,100.1,36.1715,-86.7842,1177657,36.0933,-86.4681
+1427,Charlie Puth,Ascend Amphitheater part of the Journeys Concert Series,30,Nashville,Ticketmaster,August,TN,100.1,36.1715,-86.7842,1177657,36.0933,-86.4681
 2134,Ed Sheeran,AT & T Park,39.5,San Francisco,Ticketmaster,August,CA,178.6,37.7558,-122.4449,3364979,,
 2138,Anne-Marie,AT & T Park,39.5,San Francisco,Ticketmaster,August,CA,178.6,37.7558,-122.4449,3364979,,
 2035,Justin Timberlake,AT&T Center,49.5,San Antonio,Ticketmaster,January,TX,92.7,29.4632,-98.5238,2058444,,
