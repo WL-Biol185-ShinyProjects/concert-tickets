@@ -37,9 +37,11 @@ ggplot(Usable_COL_Ticket_Data, aes(Cost_of_Living_Index, Minimum_Ticket_Price, c
 
 library(shiny)
 library(ggplot2)
+library(DT)
 runApp(shinyApp(
   ui = fluidPage(
-    plotOutput("plot", click = "click", brush = "brush")
+    plotOutput("plot", click = "click", brush = "plot_brush"), 
+    DTOutput("Table")
   ),
   server = function(input, output, session) {
     output$plot <- renderPlot({
