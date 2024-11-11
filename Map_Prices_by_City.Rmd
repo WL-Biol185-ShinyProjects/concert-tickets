@@ -42,14 +42,25 @@ Color <- function(Ultimate_with_averages) {
 icons <- awesomeIcons( icon = 'ticket-outline', iconColor = 'blue', library = 'ion', markerColor = Color(Ultimate_with_averages))
 ```
 
-#Making the map
+##Making the map
+
 
 ```{r}
 library(leaflet)
 leaflet(Ultimate_with_averages) %>%
   addTiles() %>%
   setView(lng = -98, lat = 40, zoom = 4)%>%
-  addAwesomeMarkers(~Longitude, ~Latitude, icon=icons, popup = ~as.character(Average_Min_Price)) %>%
-  addLegend(position ="bottomright", pal = pal, values = ~Average_Min_Price, title = "Average Prices", labFormat = labelFormat(prefix = "$"))
+  addAwesomeMarkers(~Longitude,
+                    ~Latitude, 
+                    icon=icons, 
+                    popup = ~paste("<p><b>", Ultimate_with_averages$City, "</b></p>"), 
+                    label = ~as.character(City)) %>%
+  addLegend(position ="bottomright", 
+            colors = c("#00FF00", "#0000FF", "#FFA500", "#FF0000", "#000000"),
+            opacity = 1,
+            labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
+            title = "Average Prices", 
+            labFormat = labelFormat(prefix = "$")
+            )
 ```
 
