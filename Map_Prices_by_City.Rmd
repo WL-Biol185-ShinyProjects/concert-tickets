@@ -54,8 +54,9 @@ leaflet(Ultimate_with_averages) %>%
                     ~Latitude, 
                     icon=icons, 
                     popup = ~paste("<p><b>", Ultimate_with_averages$City, "</b></p>",
-                                   "<p>", "Average Ticket Price:", prefix = "$", Ultimate_with_averages$Average_Min_Price, "</p>",
-                                   "<p><small>", "*Cities with multiple markers and prices have multiple venues", "</small></p>"), 
+                                   "<p>", "Average Ticket Price:", 
+                                          prefix = "$",
+                                          format(Ultimate_with_averages$Average_Min_Price, digits = 4), "</p>"), 
                     label = ~as.character(City)) %>%
   addLegend(position ="bottomright", 
             colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
