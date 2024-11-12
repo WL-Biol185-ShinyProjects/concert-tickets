@@ -50,21 +50,20 @@ library(leaflet)
 leaflet(Ultimate_with_averages) %>%
   addTiles() %>%
   setView(lng = -98, lat = 40, zoom = 4)%>%
-<<<<<<< HEAD
   addAwesomeMarkers(~Longitude,
                     ~Latitude, 
                     icon=icons, 
-                    popup = ~paste("<p><b>", Ultimate_with_averages$City, "</b></p>"), 
+                    popup = ~paste("<p><b>", Ultimate_with_averages$City, "</b></p>",
+                                   "<p>", "Average Ticket Price:", prefix = "$", Ultimate_with_averages$Average_Min_Price, "</p>",
+                                   "<p><small>", "*Cities with multiple markers and prices have multiple venues", "</small></p>"), 
                     label = ~as.character(City)) %>%
   addLegend(position ="bottomright", 
-            colors = c("#00FF00", "#0000FF", "#FFA500", "#FF0000", "#000000"),
-            opacity = 1,
+            colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
+            opacity = 0.5,
             labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
             title = "Average Prices", 
             labFormat = labelFormat(prefix = "$")
             )
-=======
-  addAwesomeMarkers(~Longitude, ~Latitude, icon=icons, popup = ~as.character(Average_Min_Price))
->>>>>>> 7311260ab9577d4f90f7f51f4ca6f65e664c11bd
+
 ```
 
