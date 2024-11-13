@@ -30,6 +30,7 @@ Ultimate_with_averages <- left_join(Ultimate_with_averages, City_Long_Lat, by = 
 
 #Making the colors
 ```{r}
+library(leaflet)
 Color <- function(Ultimate_with_averages) { 
   sapply(Ultimate_with_averages$Average_Min_Price, 
          function(Average_Min_Price) {
@@ -46,7 +47,7 @@ icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = C
 
 
 ```{r}
-library(leaflet)
+
 leaflet(Ultimate_with_averages) %>%
   addTiles() %>%
   setView(lng = -98, lat = 40, zoom = 4)%>%
@@ -60,7 +61,7 @@ leaflet(Ultimate_with_averages) %>%
                     label = ~as.character(City)) %>%
   addLegend(position ="bottomright", 
             colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
-            opacity = 0.5,
+            opacity = 1,
             labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
             title = "Average Prices", 
             labFormat = labelFormat(prefix = "$")
