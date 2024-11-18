@@ -1,0 +1,52 @@
+---
+title: "Map_Prices_by_Month_City"
+author: "Zach"
+date: "11/11/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Making Map with averages by Month and City with a Month Selecting Slider
+```{r}
+library (dplyr)
+library(leaflet)
+```
+
+
+First Creating a Data Set to Use
+```{r}
+ Ultimate_averages_by_month <- Final_Ultimate_Table %>%
+     group_by(`City`, `State`, `Month`) %>%
+     summarise(Average_Min_Price = mean(`Minimum Ticket Price`))
+
+Ultimate_averages_by_month_longlat <- left_join(Ultimate_averages_by_month, City_Long_Lat, by = c("City", "State"))
+```
+
+Colors
+```{r}
+Color <- function(Ultimate_with_averages) { 
+  sapply(Ultimate_with_averages$Average_Min_Price, 
+         function(Average_Min_Price) {
+           if (Average_Min_Price <= 30)       {"green"} 
+           else if (Average_Min_Price <= 60)  {"blue"}
+           else if (Average_Min_Price <= 90)  {"orange"} 
+           else if (Average_Min_Price <= 120) {"red"} 
+           else {"black"}})}
+
+icons <- awesomeIcons( icon = 'ticket-outline', iconColor = 'blue', library = 'ion', markerColor = Color(Ultimate_with_averages))
+```
+
+Map
+```{r}
+Ultimate_averages_by_month_longlat %>%
+    filter (Month == Ultimate_averages_by_month_longlat$Month) %>%
+  
+leaflet(Ultimate_averages_by_month_longlat) %>%
+  addTiles() %>%
+  setView(lng = -98, lat = 40, zoom = 4)%>%
+  addAwesomeMarkers(~Longitude, ~Latitude, icon=icons, popup = ~as.character(Average_Min_Price))
+```
+

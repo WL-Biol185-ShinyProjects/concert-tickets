@@ -1,0 +1,12 @@
+---
+title: "CSV-making"
+author: "Zach"
+date: "11/18/2024"
+output: html_document
+---
+
+```{r}
+write.csv(Ultimate_with_averages, file = "Ultimate_with_averages.csv")
+write.csv(Ultimate_averages_by_month_longlat, file = "Ultimate_averages_by_month_longlat.csv")
+```
+

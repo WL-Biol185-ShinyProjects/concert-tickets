@@ -1,13 +1,19 @@
 library(shiny)
-<<<<<<< HEAD
 library(DT)
 
 server = function(input, output) {}
 
-=======
+
 library(leaflet)
 library(dplyr)
 library(tidyverse)
+library(readr)
+
+Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
+Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
+
+server = function(input, output) {}
+
 server = function(input, output, session) {
   output$`Average Ticket Price by City` <- renderLeaflet({
     Color <- function(Ultimate_with_averages) { 
@@ -74,4 +80,4 @@ server = function(input, output, session) {
 
   
 }
->>>>>>> 8073966aa9fa8a1499a6add3979d721ea4f408fe
+
