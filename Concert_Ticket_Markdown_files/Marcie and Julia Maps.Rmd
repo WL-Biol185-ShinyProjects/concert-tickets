@@ -1,0 +1,25 @@
+---
+title: "Marcie and Julia Maps"
+author: "Marcie"
+date: "11/11/2024"
+output: html_document
+---
+#Editing table to make it usable for Leaflet
+```{r}
+Book3$Latitude <- NULL
+Book3$Longitude <- NULL
+colnames(Book3) [11] <- "Lat"
+colnames(Book3) [12]<- "Long"
+Venue_Map_Data <- Book3[-1 * c(2153, 2154, 2155, 2156, 2157),]
+write.csv (Venue_Map_Data, file = "Venue_Map_Data.csv")
+```
+
+
+
+```{r}
+library(leaflet)
+leaflet(data = Venue_Map_Data) %>% 
+  addTiles() %>% 
+  addMarkers(popup = ~Venue)
+
+```
