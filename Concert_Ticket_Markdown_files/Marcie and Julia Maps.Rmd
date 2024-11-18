@@ -12,14 +12,23 @@ colnames(Book3) [11] <- "Lat"
 colnames(Book3) [12]<- "Long"
 Venue_Map_Data <- Book3[-1 * c(2153, 2154, 2155, 2156, 2157),]
 write.csv (Venue_Map_Data, file = "Venue_Map_Data.csv")
+
+```
+
+```{r}
+library(dplyr)
+ Venue_Avg_Price <- Venue_Map_Data %>%
+     group_by(`Venue`, `City`, `State`) %>%
+     summarise(Average_Min_Price = mean(`Minimum Ticket Price`))
+Venue_Avg_Price_Map_Data <- left_join(Venue_Avg_Price, Venue_Map_Data, by = c("City", "State"))
 ```
 
 
 
 ```{r}
 library(leaflet)
-leaflet(data = Venue_Map_Data) %>% 
+leaflet(data = Venue_Avg_Price_Map_Data) %>% 
   addTiles() %>% 
-  addMarkers(popup = ~Venue)
+  addMarkers(popup = ~Venue.y, label = ~Average_Min_Price)
 
 ```
