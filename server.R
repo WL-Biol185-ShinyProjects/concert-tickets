@@ -7,9 +7,10 @@ server = function(input, output) {}
 library(leaflet)
 library(dplyr)
 library(tidyverse)
+library(readr)
 
-read.csv('Ultimate_with_averages.csv')
-read.csv('Ultimate_averages_by_month_longlat.csv')
+Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
+Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
 
 server = function(input, output) {}
 
