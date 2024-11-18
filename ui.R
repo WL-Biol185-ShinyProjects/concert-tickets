@@ -2,6 +2,8 @@
 
 library(shiny)
 library(shinythemes)
+library (dplyr)
+library (leaflet)
 
 navbarPage(theme = shinytheme("flatly"),
   "Concert Tickets USA",
@@ -19,11 +21,30 @@ navbarPage(theme = shinytheme("flatly"),
                    br(), br(),
                    HTML("Marcie Bernard: Marcie Bernard is a biology and environmental major on the pre-veterinary track. In her free time, she walks dogs, spends time outdoors, and cooking."),
                    br(), br(),
-                   HTML("Zach Ricciardelli: Zach Ricciardelli is a...")),
+                   HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football.")),
            tabPanel("Overall Search Bar"),
            navbarMenu("Maps",
                     tabPanel("City by City Ticket Price",
-                             h1("Ticket Price, Artist, and Venue Map Data"))),
+                             h1("Ticket Price, Artist, and Venue Map Data"),
+                             leafletOutput ("Average Ticket Price by City"),
+                             fluidPage(
+                               selectInput(inputId = "Selector",
+                                           label = "Select Month",
+                                           choices = c("Please Select:",
+                                                       "January",
+                                                       "February",
+                                                       "March",
+                                                       "April",
+                                                       "May",
+                                                       "June",
+                                                       "July",
+                                                       "August",
+                                                       "September",
+                                                       "October",
+                                                       "November",
+                                                       "December" ),
+                                           selected = "Please Select:"),
+                             leafletOutput ("Average Ticket Price by City and Month")))),
            tabPanel("Graphical Cost Comparisons",
                     h1("Concert Ticket Graphical Cost Comparisons"),
                     HTML("Ticket Vendor Comparison Graph")),

@@ -1,5 +1,77 @@
 library(shiny)
+<<<<<<< HEAD
 library(DT)
 
 server = function(input, output) {}
 
+=======
+library(leaflet)
+library(dplyr)
+library(tidyverse)
+server = function(input, output, session) {
+  output$`Average Ticket Price by City` <- renderLeaflet({
+    Color <- function(Ultimate_with_averages) { 
+      sapply(Ultimate_with_averages$Average_Min_Price, 
+             function(Average_Min_Price) {
+               if (Average_Min_Price <= 30)       {"green"} 
+               else if (Average_Min_Price <= 60)  {"blue"}
+               else if (Average_Min_Price <= 90)  {"orange"} 
+               else if (Average_Min_Price <= 120) {"red"} 
+               else {"black"}})}
+    
+    icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_with_averages))
+    leaflet(Ultimate_with_averages) %>%
+      addTiles() %>%
+      setView(lng = -98, lat = 40, zoom = 4)%>%
+      addAwesomeMarkers(~Longitude,
+                        ~Latitude, 
+                        icon=icons, 
+                        popup = ~paste("<p><b>", Ultimate_with_averages$City, "</b></p>",
+                                       "<p>", "Average Ticket Price:", 
+                                       prefix = "$",
+                                       format(Ultimate_with_averages$Average_Min_Price, digits = 4), "</p>"), 
+                        label = ~as.character(City)) %>%
+      addLegend(position ="bottomright", 
+                colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
+                opacity = 1,
+                labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
+                title = "Average Prices", 
+                labFormat = labelFormat(prefix = "$")
+      )
+    
+  })
+
+  output$`Average Ticket Price by City and Month` <- renderLeaflet({
+    Color <- function(Ultimate_averages_by_month_longlat) { 
+      sapply(Ultimate_averages_by_month_longlat$Average_Min_Price, 
+             function(Average_Min_Price) {
+               if (Average_Min_Price <= 30)       {"green"} 
+               else if (Average_Min_Price <= 60)  {"blue"}
+               else if (Average_Min_Price <= 90)  {"orange"} 
+               else if (Average_Min_Price <= 120) {"red"} 
+               else {"black"}})}
+    
+    icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_averages_by_month_longlat))
+    leaflet(Ultimate_averages_by_month_longlat) %>%
+      addTiles() %>%
+      setView(lng = -98, lat = 40, zoom = 4)%>%
+      addAwesomeMarkers(~Longitude,
+                        ~Latitude, 
+                        icon=icons, 
+                        popup = ~paste("<p><b>", Ultimate_averages_by_month_longlat$City, "</b></p>",
+                                       "<p>", "Average Ticket Price:", 
+                                       prefix = "$",
+                                       format(Ultimate_averages_by_month_longlat$Average_Min_Price, digits = 4), "</p>"), 
+                        label = ~as.character(City)) %>%
+      addLegend(position ="bottomright", 
+                colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
+                opacity = 1,
+                labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
+                title = "Average Prices", 
+                labFormat = labelFormat(prefix = "$")
+      )
+  })
+
+  
+}
+>>>>>>> 8073966aa9fa8a1499a6add3979d721ea4f408fe
