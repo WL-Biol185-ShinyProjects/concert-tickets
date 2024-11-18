@@ -1,0 +1,15 @@
+---
+title: "City by City Map"
+output: html_document
+---
+
+```{r}
+
+library(leaflet)
+leaflet() %>% 
+addTiles() %>%
+  setView(lng = -98, lat = 40, zoom = 4)
+
+
+```
+

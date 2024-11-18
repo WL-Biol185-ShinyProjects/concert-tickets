@@ -1,0 +1,22 @@
+---
+title: "Ticket Prices by City Map"
+author: "ECB"
+date: "11/4/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Making a map of ticket prices by city
+
+#Making the Map
+
+```{r}
+library(leaflet)
+leaflet(data = Combined_Clean_Data) %>%
+  addTiles() %>%
+  setView(lng = -98, lat = 40, zoom = 4)
+```
+

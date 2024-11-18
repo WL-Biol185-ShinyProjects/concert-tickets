@@ -1,0 +1,54 @@
+---
+title: "Cost of Living Graph Markdown"
+output: html_document
+---
+
+```{r}
+
+library(shiny)
+library(ggplot2)
+runApp(shinyApp(
+
+ui = fluidPage(
+  plotOutput("plot", click = "click", brush = "brush")),
+)
+
+server = function(input, output) {
+  output$plot <- renderPlot({
+    ggplot(Ultimate_Table, aes(`Cost of Living Index`, `Minimum Ticket Price`, color = City)) + geom_point() + ylim(0, 275)
+  })
+  
+  output$data <- renderTable({
+    brushedPoints(Ultimate_Table, input$plot_brush)
+  })
+}
+
+shinyApp(ui, server)
+
+
+```
+
+
+```{r}
+library(shiny)
+library(ggplot2)
+library(DT)
+runApp(shinyApp(
+  ui = fluidPage(
+    plotOutput("plot", click = "click", brush = "plot_brush"), 
+    DTOutput("Table")
+  ),
+  server = function(input, output, session) {
+    output$plot <- renderPlot({
+      ggplot(Ultimate_Table, aes(`Cost of Living Index`, `Minimum Ticket Price`, color= City)) + geom_point()
+    })
+    output$table <- renderDataTable({brushedPoints(Ultimate_Table, input$plot_brush, xvar = `Cost of Living Index`, yvar = `Minimum Ticket Price`)}) 
+    observeEvent(input$click, {
+      cat("clicked\n")
+    })
+    observeEvent(input$brush, {
+      cat("brushed\n")
+    })}))
+
+```
+
