@@ -1,4 +1,10 @@
 library(shiny)
+<<<<<<< HEAD
+library(DT)
+
+server = function(input, output) {}
+
+=======
 library(leaflet)
 library(dplyr)
 library(tidyverse)
@@ -68,3 +74,4 @@ server = function(input, output, session) {
 
   
 }
+>>>>>>> 8073966aa9fa8a1499a6add3979d721ea4f408fe
