@@ -1,6 +1,7 @@
 library(shiny)
 library(DT)
 
+
 server = function(input, output) {}
 
 
@@ -8,9 +9,12 @@ library(leaflet)
 library(dplyr)
 library(tidyverse)
 library(readr)
+library(ggplot2)
+library(plotly)
 
 Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
 Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
+Ultimate_Table <- read_csv("Ultimate_Table.csv")
 
 server = function(input, output) {}
 
@@ -78,6 +82,5 @@ server = function(input, output, session) {
       )
   })
 
-  
 }
 
