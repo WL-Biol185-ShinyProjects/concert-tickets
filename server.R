@@ -97,5 +97,6 @@ server = function(input, output, session) {
 output$myTable = DT::renderDataTable({
   Ultimate_Table
 })
+
 }
 
