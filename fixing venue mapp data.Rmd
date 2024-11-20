@@ -17,5 +17,11 @@ Updated_Venue_Avg_Price_Map_Data$State <- NULL
 Updated_Venue_Avg_Price_Map_Data$`Cost of Living Index` <- NULL
 Updated_Venue_Avg_Price_Map_Data$Population <- NULL
 write.csv(Updated_Venue_Avg_Price_Map_Data, file = "Fixed_Venue_Map_Data.csv")
+
 ```
 
+```{r}
+
+Fixed_Venue <- Fixed_Venue_Map_Data[-1 * c(3:84),]
+
+```
