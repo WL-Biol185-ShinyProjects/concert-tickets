@@ -52,7 +52,6 @@ server = function(input, output, session) {
   })
 
   output$`Average Ticket Price by City and Month` <- renderLeaflet({
-    input$Selector
     Color <- function(Ultimate_averages_by_month_longlat) { 
       sapply(Ultimate_averages_by_month_longlat$Average_Min_Price, 
              function(Average_Min_Price) {
@@ -63,7 +62,9 @@ server = function(input, output, session) {
                else {"black"}})}
     
     icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_averages_by_month_longlat))
-    leaflet(Ultimate_averages_by_month_longlat) %>%
+    Ultimate_averages_by_month_longlat %>%
+      filter(Month == input$Selector)%>%
+    leaflet() %>%
       addTiles() %>%
       setView(lng = -98, lat = 40, zoom = 4)%>%
       addAwesomeMarkers(~Longitude,
@@ -82,6 +83,8 @@ server = function(input, output, session) {
                 labFormat = labelFormat(prefix = "$")
       )
   })
-
+ output$show_selected <- renderText({
+   input$Selector
+ })
 }
 
