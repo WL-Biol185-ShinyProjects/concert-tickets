@@ -4,6 +4,8 @@ library(shiny)
 library(shinythemes)
 library (dplyr)
 library (leaflet)
+library(ggplot2)
+library(plotly)
 
 navbarPage(theme = shinytheme("flatly"),
   "Concert Tickets USA",
@@ -24,8 +26,8 @@ navbarPage(theme = shinytheme("flatly"),
                    HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football.")),
            tabPanel("Overall Search Bar"),
            navbarMenu("Maps",
-                    tabPanel("City by City Ticket Price",
-                             h1("Ticket Price, Artist, and Venue Map Data"),
+                    tabPanel("United States Yearly Average Ticket Price",
+                             h1("General Average Ticket Price (2016)"),
                              leafletOutput ("Average Ticket Price by City"),
                              fluidPage(
                                selectInput(inputId = "Selector",
@@ -45,9 +47,11 @@ navbarPage(theme = shinytheme("flatly"),
                                                        "December" ),
                                            selected = "Please Select:"),
                              leafletOutput ("Average Ticket Price by City and Month")))),
+                    tabPanel("Monthly Average",
+                             h1("Average Ticket Price by Month")),
            tabPanel("Graphical Cost Comparisons",
                     h1("Concert Ticket Graphical Cost Comparisons"),
-                    HTML("Ticket Vendor Comparison Graph")),
+                    HTML("Ticket Vendor Comparison Graph")),            
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Ticket Data",
                              h1("Cumulative Ticket Sale Data in the United States")),
