@@ -83,5 +83,6 @@ server = function(input, output, session) {
                 labFormat = labelFormat(prefix = "$")
       )
   })
+
 }
 
