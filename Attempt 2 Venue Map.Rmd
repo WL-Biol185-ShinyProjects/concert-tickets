@@ -1,0 +1,22 @@
+---
+title: "Attempt 2 Venue Map"
+author: "Marcie"
+date: "11/19/2024"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+ Venue_Avg_Price <- Venue_Map_Data %>%
+     group_by(`Venue`, `City`) %>%
+     summarise(Average_Min_Price = mean(`Minimum Ticket Price`))
+Venue_Avg_Price_Map_Data <- left_join(Venue_Avg_Price, Venue_Map_Data, by = c("City"))
+write.csv(Venue_Avg_Price_Map_Data, file = "Venue_Avg_Price_Map_Data.csv")
+```
+
+```{r}
+Venue_Avg_Price_Map_Data$...1 <- NULL
+Venue_Avg_Price_Map_Data$...5 <- NULL
+Venue_Avg_Price_Map_Data$Column1 <- NULL
+write.csv(Venue_Avg_Price_Map_Data, file = "Updated_Venue_Avg_Price_Map_Data.csv")
+```
