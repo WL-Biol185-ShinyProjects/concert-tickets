@@ -70,10 +70,10 @@ server = function(input, output, session) {
       addAwesomeMarkers(~Longitude,
                         ~Latitude, 
                         icon=icons, 
-                        popup = ~paste("<p><b>", Ultimate_averages_by_month_longlat$City, "</b></p>",
+                        popup = ~paste("<p><b>", City, "</b></p>",
                                        "<p>", "Average Ticket Price:", 
                                        prefix = "$",
-                                       format(Ultimate_averages_by_month_longlat$Average_Min_Price, digits = 4), "</p>"), 
+                                       format(Average_Min_Price, digits = 4), "</p>"), 
                         label = ~as.character(City)) %>%
       addLegend(position ="bottomright", 
                 colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
@@ -83,8 +83,5 @@ server = function(input, output, session) {
                 labFormat = labelFormat(prefix = "$")
       )
   })
- output$show_selected <- renderText({
-   input$Selector
- })
 }
 
