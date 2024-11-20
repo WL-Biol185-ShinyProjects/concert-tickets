@@ -12,11 +12,16 @@ library(readr)
 library(ggplot2)
 library(plotly)
 
+
+##Calling Packages and Data Tables
+
 Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
 Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
 Ultimate_Table <- read_csv("Ultimate_Table.csv")
 
 server = function(input, output) {}
+
+#Rendering the interactive map
 
 server = function(input, output, session) {
   output$`Average Ticket Price by City` <- renderLeaflet({
@@ -50,6 +55,9 @@ server = function(input, output, session) {
       )
     
   })
+  
+  
+  #Rendering the filtered map
 
   output$`Average Ticket Price by City and Month` <- renderLeaflet({
     Color <- function(Ultimate_averages_by_month_longlat) { 
@@ -83,6 +91,11 @@ server = function(input, output, session) {
                 labFormat = labelFormat(prefix = "$")
       )
   })
-
+  
+  #Rendering the Raw Data 
+  
+output$myTable = DT::renderDataTable({
+  Ultimate_Table
+})
 }
 
