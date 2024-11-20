@@ -70,4 +70,5 @@ navbarPage(theme = shinytheme("flatly"),
                              h1("Cumulative Ticket Sale Data in the United States"),
                             DT::dataTableOutput("myTable")),
                     tabPanel("Venue Data",
-                             h1("Raw Dataset of Cost of Living in United States Cities"))))
+                             h1("Raw Dataset of Cost of Living in United States Cities"),
+                             DT::dataTableOutput("venueData"))))

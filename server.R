@@ -97,6 +97,8 @@ server = function(input, output, session) {
 output$myTable = DT::renderDataTable({
   Ultimate_Table
 })
-
+output$venueData = DT::renderDataTable({
+  Book3
+})
 }
 
