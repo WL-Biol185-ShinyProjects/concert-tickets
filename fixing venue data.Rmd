@@ -1,0 +1,42 @@
+---
+title: "Fixing Venue Data"
+author: "Marcie"
+date: "11/20/2024"
+output: html_document
+---
+
+```{r}
+  Book3$Column1 <- NULL
+  Book3$Artist <- NULL
+  Book3$`Ticket Vendor` <- NULL
+  Book3$Month <- NULL
+  Book3$`Cost of Living Index` <- NULL
+  Book3$Latitude <- NULL
+  Book3$Longitude <- NULL
+  Book3$Population <- NULL
+  colnames(Book3) [5] <- "Lat"
+  colnames(Book3) [6] <- "Long"
+  colnames(Book3) [2] <- "Ticket_Price"
+
+```
+
+```{r}
+library(dplyr)
+ Venue_Prices_fixed <- Book3 %>%
+   group_by(`Venue`, `Lat`, `Long`) %>%
+  summarise(Avg_Price = mean(`Ticket_Price`))
+```
+
+```{r}
+Map_Venue_Prices_Fixed <- Venue_Prices_fixed[-1 * c(82),]
+write.csv(Map_Venue_Prices_Fixed, file="Venue_Map_ULTIMATE.csv")
+```
+
+```{r}
+library(leaflet)
+leaflet(data = Venue_Map_ULTIMATE) %>% 
+  addTiles() %>% 
+  addMarkers(popup = ~Venue, label = ~Avg_Price)
+```
+
+
