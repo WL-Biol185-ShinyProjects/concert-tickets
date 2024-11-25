@@ -63,12 +63,11 @@ navbarPage(theme = shinytheme("flatly"),
            tabPanel("Graphical Cost Comparisons",
                     h1("Concert Ticket Graphical Cost Comparisons"),
                     HTML("Ticket Vendor Comparison Graph"),
-
                     fluidPage(
                       
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
-                    )),            
+                    ),            
                     img(src = "Ticket_Vendor_Comparison.png")),
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Ticket Data",
