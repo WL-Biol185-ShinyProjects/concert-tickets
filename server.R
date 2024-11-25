@@ -59,7 +59,6 @@ server = function(input, output, session) {
   
   #Rendering the filtered map
   
-  Output$`Average Ticket Price by City and Month` <- renderLeaflet ({
     output$`Average Ticket Price by City and Month` <- renderLeaflet({
       Color <- function(Ultimate_averages_by_month_longlat) { 
         sapply(Ultimate_averages_by_month_longlat$Average_Min_Price, 
