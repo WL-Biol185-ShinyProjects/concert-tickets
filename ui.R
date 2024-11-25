@@ -1,5 +1,6 @@
-##building the site
+#Building the Site
 
+##Calling packages
 library(shiny)
 library(shinythemes)
 library (dplyr)
@@ -7,6 +8,8 @@ library (leaflet)
 library(ggplot2)
 library(plotly)
 library(tidyverse)
+
+##Creating the Navigation Bar
 
 navbarPage(theme = shinytheme("flatly"),
   "Concert Tickets USA",
@@ -26,6 +29,9 @@ navbarPage(theme = shinytheme("flatly"),
                    br(), br(),
                    HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football.")),
            tabPanel("Overall Search Bar"),
+  
+  #Adding Interactive Maps
+  
            navbarMenu("Maps",
                     tabPanel("United States Average Ticket Price",
                              h1("United States Average Ticket Price (2016)"),
@@ -49,18 +55,29 @@ navbarPage(theme = shinytheme("flatly"),
                                                       "October",
                                                       "November",
                                                       "December" ),
-                                          selected = "Please Select:"),
+                                          selected = "January"),
                               leafletOutput ("Average Ticket Price by City and Month")))),
+  
+  #Stationary PNG of Bar Graph
+  
            tabPanel("Graphical Cost Comparisons",
                     h1("Concert Ticket Graphical Cost Comparisons"),
                     HTML("Ticket Vendor Comparison Graph"),
+<<<<<<< HEAD
                     fluidPage(
                       
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
                     )),            
+=======
+                    img(src = "Ticket_Vendor_Comparison.png")),  
+  #Raw Data Graphs
+  
+>>>>>>> 522b7cd5aabeaaa262f07986d2a5f269407b0915
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Ticket Data",
-                             h1("Cumulative Ticket Sale Data in the United States")),
-                    tabPanel("Cost of Living Data",
-                             h1("Raw Dataset of Cost of Living in United States Cities"))))
+                             h1("Cumulative Ticket Sale Data in the United States"),
+                            DT::dataTableOutput("myTable")),
+                    tabPanel("Venue Data",
+                             h1("Raw Dataset of Cost of Living in United States Cities"),
+                             DT::dataTableOutput("venueData"))))
