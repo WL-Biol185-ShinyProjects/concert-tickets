@@ -92,7 +92,7 @@ server = function(input, output, session) {
                 labFormat = labelFormat(prefix = "$")
       )
   })
-  output$Ultimate_Table_Plot <- renderPlot({ggplot(Ultimate_Table, aes( `Cost of Living Index`, `Minimum Ticket Price`, color = City)) + geom_point() + ylim(0, 275)
+  output$Ultimate_Table_Plot <- renderPlot({ggplot(Ultimate_Table, aes( `Cost of Living Index`, `Minimum Ticket Price`, color = City)) + geom_point(show.legend = NULL) + ylim(0, 275)
   })
   
   output$Ultimate_Table_Info <- renderTable({
