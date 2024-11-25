@@ -1,6 +1,7 @@
 library(shiny)
 library(DT)
-
+library(tidyverse)
+library(ggplot2)
 
 server = function(input, output) {}
 
@@ -81,6 +82,12 @@ server = function(input, output, session) {
                 title = "Average Prices", 
                 labFormat = labelFormat(prefix = "$")
       )
+  })
+  output$Ultimate_Table_Plot <- renderPlot({ggplot(Ultimate_Table, aes( `Cost of Living Index`, `Minimum Ticket Price`, color = City)) + geom_point() + ylim(0, 275)
+  })
+  
+  output$Ultimate_Table_Info <- renderTable({
+    brushedPoints(Ultimate_Table, input$selected_cities)
   })
 
 }

@@ -6,6 +6,7 @@ library (dplyr)
 library (leaflet)
 library(ggplot2)
 library(plotly)
+library(tidyverse)
 
 navbarPage(theme = shinytheme("flatly"),
   "Concert Tickets USA",
@@ -52,7 +53,12 @@ navbarPage(theme = shinytheme("flatly"),
                               leafletOutput ("Average Ticket Price by City and Month")))),
            tabPanel("Graphical Cost Comparisons",
                     h1("Concert Ticket Graphical Cost Comparisons"),
-                    HTML("Ticket Vendor Comparison Graph")),            
+                    HTML("Ticket Vendor Comparison Graph"),
+                    fluidPage(
+                      
+                      plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
+                      tableOutput("Ultimate_Table_Info")
+                    )),            
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Ticket Data",
                              h1("Cumulative Ticket Sale Data in the United States")),
