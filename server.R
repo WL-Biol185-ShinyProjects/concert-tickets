@@ -58,17 +58,18 @@ server = function(input, output, session) {
   
   
   #Rendering the filtered map
-
-  output$`Average Ticket Price by City and Month` <- renderLeaflet({
-    Color <- function(Ultimate_averages_by_month_longlat) { 
-      sapply(Ultimate_averages_by_month_longlat$Average_Min_Price, 
-             function(Average_Min_Price) {
-               if (Average_Min_Price <= 30)       {"green"} 
-               else if (Average_Min_Price <= 60)  {"blue"}
-               else if (Average_Min_Price <= 90)  {"orange"} 
-               else if (Average_Min_Price <= 120) {"red"} 
-               else {"black"}})}
-    
+  
+  Output$`Average Ticket Price by City and Month` <- renderLeaflet ({
+    output$`Average Ticket Price by City and Month` <- renderLeaflet({
+      Color <- function(Ultimate_averages_by_month_longlat) { 
+        sapply(Ultimate_averages_by_month_longlat$Average_Min_Price, 
+               function(Average_Min_Price) {
+                 if (Average_Min_Price <= 30)       {"green"} 
+                 else if (Average_Min_Price <= 60)  {"blue"}
+                 else if (Average_Min_Price <= 90)  {"orange"} 
+                 else if (Average_Min_Price <= 120) {"red"} 
+                 else {"black"}})}
+      
     icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_averages_by_month_longlat))
     Ultimate_averages_by_month_longlat %>%
       filter(Month == input$Selector)%>%
