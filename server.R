@@ -92,7 +92,6 @@ server = function(input, output, session) {
                 labFormat = labelFormat(prefix = "$")
       )
   })
-<<<<<<< HEAD
   output$Ultimate_Table_Plot <- renderPlot({ggplot(Ultimate_Table, aes( `Cost of Living Index`, `Minimum Ticket Price`, color = City)) + geom_point() + ylim(0, 275)
   })
   
@@ -100,7 +99,6 @@ server = function(input, output, session) {
     brushedPoints(Ultimate_Table, input$selected_cities)
   })
 
-=======
   
   #Rendering the Raw Data 
   
@@ -110,6 +108,6 @@ output$myTable = DT::renderDataTable({
 output$venueData = DT::renderDataTable({
   Book3
 })
->>>>>>> 522b7cd5aabeaaa262f07986d2a5f269407b0915
+
 }
 
