@@ -59,16 +59,16 @@ navbarPage(theme = shinytheme("flatly"),
                               leafletOutput ("Average Ticket Price by City and Month")))),
   
   #Stationary PNG of Bar Graph
-  
-           tabPanel("Graphical Cost Comparisons",
+          navbarMenu("Graphical Cost Comparisons",
+           tabPanel("Ticket Vendor Cost Comparisons",
                     h1("Concert Ticket Graphical Cost Comparisons"),
-                    HTML("Ticket Vendor Comparison Graph"),
-                    fluidPage(
-                      
+                    HTML("Ticket Vendor Comparison Graph"),            
+                    img(src = "Ticket_Vendor_Comparison.png")),
+            tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
+                  fluidPage(
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
-                    ),            
-                    img(src = "Ticket_Vendor_Comparison.png")),
+                    ))),
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Ticket Data",
                              h1("Cumulative Ticket Sale Data in the United States"),
