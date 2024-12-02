@@ -11,16 +11,16 @@ library(tidyverse)
 
 ##Creating the Navigation Bar
 
-navbarPage(theme = shinytheme("superhero"),
+navbarPage(theme = shinytheme("flatly"),
   "Concert Tickets USA",
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
-                    h3("Concert Tickets USA is your virtual guide to concert ticket understanding. Our site displays connections between ticket prices, artistis, locations, venues, and more! Concerts are pricey. 
-                       Concert Tickets USA allows us to predict ticket prices based on a multitude of factors, and financially plan for that cost.")),
+                    h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
+                       Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!")),
             tabPanel("About",
                     h4("About the Creators:"),
                     HTML("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
-                    But as college students, we have to find a way to save money... while also having fun! Concert Tickets USA comes from our love of concerts and music, but our need to be
+                    But as college students, we have to find a way to save money... while also having fun! Our website, Concert Tickets USA, comes from our love of concerts and music, but also our need to be
                     cost efficient."),
                    br(), br(),
                    HTML("Julia Luzzio: Julia Luzzio is a biology major and a music minor. She is pre-veterinary and in her freetime enjoys reading, horseback riding, and coding!"),
