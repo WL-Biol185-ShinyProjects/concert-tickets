@@ -15,8 +15,9 @@ navbarPage(theme = shinytheme("flatly"),
   "Concert Tickets USA",
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
-                    sidebarPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
-                       Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!"))),
+                    mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
+                       Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!")),
+                    img(src = "Ticket2.png")),
             tabPanel("About",
                     h4("About the Creators:"),
                     sidebarPanel(HTML("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
