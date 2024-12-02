@@ -63,7 +63,7 @@ server = function(input, output, session) {
   
 
 
-  output$`Average Ticket Price by City and Month` <- renderLeaflet({ 
+  output$`Average Ticket Price by City and Month` <- renderLeaflet({
   
 
     Ultimate_averages_by_month_longlat %>%
@@ -87,32 +87,7 @@ server = function(input, output, session) {
                              markerColor = "grey"
                            ),
                            label = ~as.character(City)) %>%
-        
-         addLegend(position ="bottomright", 
-                   
-      leaflet() %>%
-      addTiles() %>%
-      setView(lng = -98, lat = 40, zoom = 4)%>%
-      
-      Color <- function() { 
-          sapply(Average_Min_Price, 
-                 function(Average_Min_Price) {
-                   if (Average_Min_Price <= 30)       {"green"} 
-                   else if (Average_Min_Price <= 60)  {"blue"}
-                   else if (Average_Min_Price <= 90)  {"orange"} 
-                   else if (Average_Min_Price <= 120) {"red"} 
-                   else {"black"}})}
-        icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Average_Min_Price))%>%
-      
-      addAwesomeMarkers(~Longitude,
-                        ~Latitude, 
-                        icon=icons, 
-                        popup = ~paste("<p><b>", City, "</b></p>",
-                                       "<p>", "Average Ticket Price:", 
-                                       prefix = "$",
-                                       format(Average_Min_Price, digits = 4), "</p>"), 
-                        label = ~as.character(City)) %>%
-      addLegend(position ="bottomright", 
+        addLegend(position ="bottomright", 
 
                 colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
                 opacity = 1,
@@ -120,6 +95,8 @@ server = function(input, output, session) {
                 title = "Average Prices", 
                 labFormat = labelFormat(prefix = "$"))
   })
+    
+
   
   #Rendering the interactive table
   
