@@ -111,14 +111,11 @@ server = function(input, output, session) {
 
   
   #Rendering the Raw Data 
-  
-output$myTable = DT::renderDataTable({
-  Ultimate_Table})
-
+  output$venueData = DT::renderDataTable({
+    Book3})
 #Rendering Venue Map
 
-output$venueData = DT::renderDataTable({
-  Book3})
+
 output$VenueMap <- renderLeaflet({
   leaflet(data = Venue_Map_ULTIMATE) %>%
     addTiles() %>%

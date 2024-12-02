@@ -75,9 +75,6 @@ navbarPage(theme = shinytheme("flatly"),
                       tableOutput("Ultimate_Table_Info")
                     ))),
            navbarMenu("Raw Data",
-                    tabPanel("Cumulative Ticket Data",
-                             h1("Cumulative Ticket Sale Data in the United States"),
-                            DT::dataTableOutput("myTable")),
-                    tabPanel("Venue Data",
-                             h1("Raw Dataset of Cost of Living in United States Cities"),
+                    tabPanel("Cumulative Raw Data",
+                             h1("Raw Dataset used for all features"),
                              DT::dataTableOutput("venueData"))))
