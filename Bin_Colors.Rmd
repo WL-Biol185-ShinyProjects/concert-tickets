@@ -11,11 +11,11 @@ library(dplyr)
 
 Ultimate_averages_by_month_longlat <- Ultimate_averages_by_month_longlat %>%
   mutate(Color = case_when (
-   Average_Min_Price <= 30 ~ "Green",
-   Average_Min_Price <= 60 ~ "Blue",
-   Average_Min_Price <= 90 ~ "Orange",
-   Average_Min_Price <= 120 ~ "Red",
-   Average_Min_Price > 120 ~ "Black"
+   Average_Min_Price <= 30 ~ "green",
+   Average_Min_Price <= 60 ~ "blue",
+   Average_Min_Price <= 90 ~ "orange",
+   Average_Min_Price <= 120 ~ "red",
+   Average_Min_Price > 120 ~ "black"
          )
            )
 

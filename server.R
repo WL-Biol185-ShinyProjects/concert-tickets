@@ -82,10 +82,10 @@ server = function(input, output, session) {
                                              prefix = "$",
                                              format(Average_Min_Price, digits = 4), "</p>"), 
                            icon = awesomeIcons(
-                             icon = 'ios-close',
-                             iconColor = ~Color,
+                             icon = 'ticket',
+                             iconColor = "black",
                              library = 'ion',
-                             markerColor = "grey"
+                             markerColor = ~Color
                            ),
                            label = ~as.character(City)) %>%
         addLegend(position ="bottomright", 
