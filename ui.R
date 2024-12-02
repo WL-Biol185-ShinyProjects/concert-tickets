@@ -31,7 +31,22 @@ navbarPage(theme = shinytheme("flatly"),
                    HTML("Marcie Bernard: Marcie Bernard is a biology and environmental major on the pre-veterinary track. In her free time, she walks dogs, spends time outdoors, and cooking."),
                    br(), br(),
                    HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football."))),
-           tabPanel("Overall Search Bar"),
+           tabPanel("Artist Search Bar",
+                    fluidPage(
+                      titlePanel("Artist Ticket Information"),
+                      
+                      sidebarLayout(
+                        sidebarPanel(
+                          textInput("artist_search", "Search Artist:", value = ""),
+                          actionButton("search_button", "Search")
+                        ),
+                        
+                        mainPanel(
+                          tableOutput("artist_info")
+                        )
+                      )
+                    )
+           ),
   
   #Adding Interactive Maps
   

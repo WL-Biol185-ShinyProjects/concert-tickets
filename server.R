@@ -121,6 +121,26 @@ output$VenueMap <- renderLeaflet({
     addTiles() %>%
     addMarkers(popup = ~Venue, label = ~Average_Price)
 })
+
+filtered_data <- reactive({
+  req(input$artist_search)  # Ensure input is not empty
+  
+  artist_name <- input$artist_search
+  
+  
+  result <- Ultimate_Table %>%
+    filter(grepl(artist_name, Artist, ignore.case = TRUE)) %>%
+    select(Artist, Venue, City, `Minimum Ticket Price`)  # Only show City and Minimum Ticket Cost
+  
+  return(result)
+})
+
+
+output$artist_info <- renderTable({
+  req(input$search_button)  
+  filtered_data()      
+})
+
 }
 
 
