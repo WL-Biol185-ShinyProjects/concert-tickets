@@ -1,481 +1,479 @@
-"","Venue","Lat","Long","Avg_Price"
+"","Venue","Latitude","Longitude","Average_Price"
 "1","1st Ward",NA,NA,60.32
 "2","20 Monroe Live",NA,NA,45
-"3","ACL Live at The Moody Theater",30.26548,-97.74686,118.359411764706
+"3","ACL Live at The Moody Theater","30.26548",-97.74686,118.36
 "4","AT & T Park",NA,NA,39.5
-"5","AT&T Center",NA,NA,45.1225
-"6","AT&T Performing Arts Center - Winspear Opera House",32.79095,-96.79748,147.05
+"5","AT&T Center",NA,NA,45.12
+"6","AT&T Performing Arts Center - Winspear Opera House","32.79095",-96.79748,147.05
 "7","AT&T Stadium",NA,NA,57.5
-"8","Agganis Arena",42.3522,-71.1177,79.89125
-"9","Ak-Chin Pavilion",33.4175,-112.2329,29.0681818181818
-"10","Aladdin Theater Portland",NA,NA,88.7666666666667
+"8","Agganis Arena","42.3522",-71.1177,79.89
+"9","Ak-Chin Pavilion","33.4175",-112.2329,29.07
+"10","Aladdin Theater Portland",NA,NA,88.77
 "11","Allen County War Memorial Coliseum",NA,NA,29.75
 "12","Allentown Fairgrounds",NA,NA,39
-"13","Allstate Arena",NA,NA,49.2071428571429
+"13","Allstate Arena",NA,NA,49.21
 "14","Aloha Stadium",NA,NA,49.5
 "15","Amalie Arena",NA,NA,41.69
-"16","American Airlines Arena",25.7754969,-80.18616592,95.8607142857143
-"17","American Airlines Center",32.709,-96.8103,60.21
-"18","American Family Insurance Amphitheater-Summerfest",43.027954,-87.971497,60.15375
-"19","AmericanAirlines Arena",25.7754969,-80.18616592,46.9388888888889
+"16","American Airlines Arena","25.7754969",-80.18616592,95.86
+"17","American Airlines Center","32.709",-96.8103,60.21
+"18","American Family Insurance Amphitheater-Summerfest","43.027954",-87.971497,60.15
+"19","AmericanAirlines Arena","25.7754969",-80.18616592,46.94
 "20","Amway Center",NA,NA,31.5
 "21","Apollo Theater",NA,NA,218.62
-"22","Aragon Ballroom",41.9691,-87.658,88.0475
-"23","Arie Crown Theater",41.9691,-87.658,73.3
+"22","Aragon Ballroom","41.9691",-87.658,88.05
+"23","Arie Crown Theater","41.9691",-87.658,73.3
 "24","Arlene Schnitzer Hall",NA,NA,99.26
 "25","Armory",NA,NA,43.75
-"26","Arrowhead Stadium",NA,NA,38.375
-"27","Ascend Amphitheater",36.0933,-86.4618,73.3
-"28","Ascend Amphitheater part of the Journeys Concert Series",36.0933,-86.4618,33.8
-"29","Atlantic City Beach",NA,NA,80.9375
-"30","Auditorium Theatre",41.8760639,-87.6241856,123.96
+"26","Arrowhead Stadium",NA,NA,38.38
+"27","Ascend Amphitheater","36.0933",-86.4618,73.3
+"28","Ascend Amphitheater part of the Journeys Concert Series","36.0933",-86.4618,33.8
+"29","Atlantic City Beach",NA,NA,80.94
+"30","Auditorium Theatre","41.8760639",-87.6241856,123.96
 "31","Aura",NA,NA,20
-"32","Austin360 Amphitheater",30.758,-97.3828,68.094
-"33","B.B. King Blues Club & Grill",40.77824,-73.97542,93.3339285714286
-"34","BB&T Center",NA,NA,42.2333333333333
-"35","BB&T Pavilion",NA,NA,29.9444444444444
-"36","BMO Harris Pavilion",43.02912,-87.89639,42.47
-"37","BOK Center",NA,NA,50.21875
+"32","Austin360 Amphitheater","30.758",-97.3828,68.09
+"33","B.B. King Blues Club & Grill","40.77824",-73.97542,93.33
+"34","BB&T Center",NA,NA,42.23
+"35","BB&T Pavilion",NA,NA,29.94
+"36","BMO Harris Pavilion","43.02912",-87.89639,42.47
+"37","BOK Center",NA,NA,50.22
 "38","Balboa Theatre",NA,NA,28
 "39","BancorpSouth Arena",NA,NA,39.5
 "40","BankPlus Amphitheater at Snowden Grove",NA,NA,35.5
-"41","Bankers Life Fieldhouse",39.763924,-86.155807,45.7833333333333
-"42","Barclays Center",40.6826,-73.9754,62.4769230769231
+"41","Bankers Life Fieldhouse","39.763924",-86.155807,45.78
+"42","Barclays Center","40.6826",-73.9754,62.48
 "43","Barclays Center",NA,-73.9754,76
 "44","Bardot",NA,NA,67.37
 "45","Bayfront Park Amphitheater",NA,NA,30
-"46","Beacon Theatre",40.78131,-73.98111,91.0556
-"47","Beat Kitchen",41.93979,-87.68088,90.74
-"48","Belasco Theater Los Angeles",34.04052,-118.25938,75.005
-"49","Bellco Theatre",39.74143,-104.99775,111.72
-"50","Bethel Woods Center for the Arts",NA,NA,33.375
-"51","Bill Graham Civic Auditorium",37.77901,-122.41702,82.797
-"52","Bimbos 365 Club",37.80456,-122.41536,49.695
-"53","Blossom Music Center",NA,NA,36.1818181818182
+"46","Beacon Theatre","40.78131",-73.98111,91.06
+"47","Beat Kitchen","41.93979",-87.68088,90.74
+"48","Belasco Theater Los Angeles","34.04052",-118.25938,75
+"49","Bellco Theatre","39.74143",-104.99775,111.72
+"50","Bethel Woods Center for the Arts",NA,NA,33.38
+"51","Bill Graham Civic Auditorium","37.77901",-122.41702,82.8
+"52","Bimbos 365 Club","37.80456",-122.41536,49.7
+"53","Blossom Music Center",NA,NA,36.18
 "54","Blue Cross Arena",NA,NA,39.75
-"55","Blue Hills Bank Pavilion",42.34934,-71.03585,47.25
-"56","Bluebird Theater",39.74124,-104.94828,63.14
+"55","Blue Hills Bank Pavilion","42.34934",-71.03585,47.25
+"56","Bluebird Theater","39.74124",-104.94828,63.14
 "57","Bob Carpenter Center at University of Delaware",NA,NA,27
 "58","Bogart's presented by Cricket Wireless",NA,NA,22.5
 "59","Bold Point Park",NA,NA,42.75
 "60","Bold Sphere Music at Champions Square",NA,NA,31
-"61","Bomb Factory",32.78335,-96.78357,93.966
+"61","Bomb Factory","32.78335",-96.78357,93.97
 "62","Bon Secours Wellness Arena",NA,NA,34.75
 "63","Bootleg Theater",NA,NA,67.4
-"64","Bowery Ballroom",40.72104,-73.99304,62.233023255814
+"64","Bowery Ballroom","40.72104",-73.99304,62.23
 "65","Brandon Amphitheater",NA,NA,34.5
-"66","Bridgestone Arena",36.1603,-86.77839,67.2562962962963
-"67","Brighton Music Hall",42.35378,-71.13226,54.135
+"66","Bridgestone Arena","36.1603",-86.77839,67.26
+"67","Brighton Music Hall","42.35378",-71.13226,54.13
 "68","Bryce Jordan Center",NA,NA,58.75
-"69","Buckhead Theatre",33.8411,-84.37904,70.1983333333333
-"70","Buell Theatre",39.74545,-104.9972,158.85
+"69","Buckhead Theatre","33.8411",-84.37904,70.2
+"70","Buell Theatre","39.74545",-104.9972,158.85
 "71","Busch Stadium",NA,NA,39.5
 "72","Cafeina Wynwood Lounge",NA,NA,61.5
 "73","Cal Coast Credit Union Open Air Theatre at SDSU",NA,NA,59.6
-"74","Cambridge Room at House of Blues Dallas",32.78593,-96.80827,45.6875
-"75","Cannery Ballroom",36.15362,-86.77997,42.966
-"76","Capital One Arena",NA,NA,43.9583333333333
-"77","Cellairis Amphitheatre at Lakewood",33.69831,-84.39613,48.9423076923077
-"78","Center Stage Theatre",33.80566,-84.38736,60.6285714285714
-"79","Central Park",33.80566,-84.38736,93.05
-"80","Central Park Summerstage",40.77259,-73.96964,108.983333333333
+"74","Cambridge Room at House of Blues Dallas","32.78593",-96.80827,45.69
+"75","Cannery Ballroom","36.15362",-86.77997,42.97
+"76","Capital One Arena",NA,NA,43.96
+"77","Cellairis Amphitheatre at Lakewood","33.69831",-84.39613,48.94
+"78","Center Stage Theatre","33.80566",-84.38736,60.63
+"79","Central Park","33.80566",-84.38736,93.05
+"80","Central Park Summerstage","40.77259",-73.96964,108.98
 "81","CenturyLink Center Omaha",NA,NA,36.75
-"82","Cervantes",39.75526,-104.97666,63.38
+"82","Cervantes","39.75526",-104.97666,63.38
 "83","Chameleon Club",NA,NA,20
 "84","Charleston Civic Center",NA,NA,29.75
 "85","Charleston Municipal Auditorium",NA,NA,20
-"86","Charlotte Metro Credit Union Amphitheatre",35.23988,-80.84446,27.5
+"86","Charlotte Metro Credit Union Amphitheatre","35.23988",-80.84446,27.5
 "87","Chase Field",NA,NA,18.5
 "88","Chesapeake Energy Arena",NA,NA,38.15
 "89","Chesterfield Amphitheater",NA,NA,30
-"90","Chicago Theatre",41.8855,-87.6276,91.99375
+"90","Chicago Theatre","41.8855",-87.6276,91.99
 "91","Choctaw Grand Theater",NA,NA,100
-"92","Chop Suey",47.61384,-122.31428,47.4
-"93","Citizens Bank Park",39.95288,-75.17641,107.52
-"94","Civic Opera House Chicago",41.88221,-87.63738,98.27
-"95","Club Dada",32.78469,-96.78397,68.58
-"96","Coastal Credit Union Music Park at Walnut Creek",35.75096,-78.57796,33
-"97","Coca-Cola Roxy",33.8913,-84.47009,30
+"92","Chop Suey","47.61384",-122.31428,47.4
+"93","Citizens Bank Park","39.95288",-75.17641,107.52
+"94","Civic Opera House Chicago","41.88221",-87.63738,98.27
+"95","Club Dada","32.78469",-96.78397,68.58
+"96","Coastal Credit Union Music Park at Walnut Creek","35.75096",-78.57796,33
+"97","Coca-Cola Roxy","33.8913",-84.47009,30
 "98","Colonial Life Arena",NA,NA,29.5
-"99","Comerica Theatre",NA,NA,43.225
-"100","Concord Music Hall",41.91945,-87.68951,55.4875
-"101","Concord Pavilion",NA,NA,29.4933333333333
+"99","Comerica Theatre",NA,NA,43.23
+"100","Concord Music Hall","41.91945",-87.68951,55.49
+"101","Concord Pavilion",NA,NA,29.49
 "102","Concrete Street Amphitheater",NA,NA,44.5
-"103","Copernicus Center",41.96839,-87.75873,102.79
-"104","Coral Sky Amphitheatre at the S. Florida Fairgrounds",NA,NA,36.6428571428571
-"105","Cross Insurance Arena",43.65625,-70.25893,108.11
-"106","Cross Insurance Arena (Formerly Cumberland County Civic Center)",43.65625,-70.25893,26.75
-"107","Cross Insurance Center",NA,NA,28.4166666666667
-"108","Cullen Performance Hall",NA,NA,86.6733333333333
-"109","DTE Energy Music Theatre",NA,NA,32.4705882352941
-"110","Dade County Auditorium",25.77305,-80.24112,98.47
-"111","Daily's Place",NA,NA,42.9833333333333
-"112","Darien Lake Amphitheater",NA,NA,31.3055555555556
+"103","Copernicus Center","41.96839",-87.75873,102.79
+"104","Coral Sky Amphitheatre at the S. Florida Fairgrounds",NA,NA,36.64
+"105","Cross Insurance Arena","43.65625",-70.25893,108.11
+"106","Cross Insurance Arena (Formerly Cumberland County Civic Center)","43.65625",-70.25893,26.75
+"107","Cross Insurance Center",NA,NA,28.42
+"108","Cullen Performance Hall",NA,NA,86.67
+"109","DTE Energy Music Theatre",NA,NA,32.47
+"110","Dade County Auditorium","25.77305",-80.24112,98.47
+"111","Daily's Place",NA,NA,42.98
+"112","Darien Lake Amphitheater",NA,NA,31.31
 "113","Darling's Waterfront Pavilion",NA,NA,28.45
 "114","Del Mar Fairgrounds",NA,NA,22
-"115","Dodger Stadium",34.07404,-118.23979,59.75
-"116","Don Haskins Center",NA,NA,45.725
-"117","Dos Equis Pavilion",32.77609,-96.75615,31.5384615384615
-"118","Doug Fir Lounge",45.51794,-122.66179,67.1331578947368
-"119","Downtown Las Vegas Events Center",36.16908,-115.14408,42.45
+"115","Dodger Stadium","34.07404",-118.23979,59.75
+"116","Don Haskins Center",NA,NA,45.73
+"117","Dos Equis Pavilion","32.77609",-96.75615,31.54
+"118","Doug Fir Lounge","45.51794",-122.66179,67.13
+"119","Downtown Las Vegas Events Center","36.16908",-115.14408,42.45
 "120","Dunkin' Donuts Center",NA,NA,29.75
 "121","EXPRESS LIVE!",NA,NA,59.5
-"122","EagleBank Arena",NA,NA,49.475
-"123","Echoplex",34.07829,-118.25882,60.26
-"124","El Corazon",47.61952,-122.32915,90.3975
-"125","El Rey Theatre (LA)",34.06305,-118.34844,63.7454166666667
-"126","Ellie Caulkins Opera House",39.74498,-104.99713,74.785
-"127","Emos",30.24045,-97.72773,48.8666666666667
+"122","EagleBank Arena",NA,NA,49.48
+"123","Echoplex","34.07829",-118.25882,60.26
+"124","El Corazon","47.61952",-122.32915,90.4
+"125","El Rey Theatre (LA)","34.06305",-118.34844,63.75
+"126","Ellie Caulkins Opera House","39.74498",-104.99713,74.78
+"127","Emos","30.24045",-97.72773,48.87
 "128","Enterprise Center",NA,NA,36.5
-"129","Exit In",36.15239,-86.80415,58.6642857142857
+"129","Exit In","36.15239",-86.80415,58.66
 "130","F. M. Kirby Center",NA,NA,25
-"131","Farm Bureau Insurance Lawn at White River State Park",39.81974,-86.16265,29.8333333333333
+"131","Farm Bureau Insurance Lawn at White River State Park","39.81974",-86.16265,29.83
 "132","FedExField",NA,NA,44
 "133","FedExForum",NA,NA,42
-"134","Festival Pier (at Penn's Landing)",39.95288,-75.17641,65
-"135","Fillmore Auditorium (Denver)",39.74036,-104.97728,35
-"136","Fillmore San Francisco",37.78419,-122.43295,49.865
-"137","First Unitarian Church of Philadelphia",39.95288,-75.17641,62.5125
+"134","Festival Pier (at Penn's Landing)","39.95288",-75.17641,65
+"135","Fillmore Auditorium (Denver)","39.74036",-104.97728,35
+"136","Fillmore San Francisco","37.78419",-122.43295,49.87
+"137","First Unitarian Church of Philadelphia","39.95288",-75.17641,62.51
 "138","FirstEnergy Stadium, Home of the Cleveland Browns",NA,NA,45.5
-"139","FivePoint Amphitheatre",NA,NA,43.3636363636364
-"140","Fonda Theatre",34.10257,-118.32284,63.8253846153846
-"141","Ford Field",42.34012,-83.04557,39.2
-"142","Fox Theater Oakland",37.80916,-122.27016,86.7252380952381
-"143","Fox Theatre Detroit",42.33869,-83.05241,42
-"144","Freeman Coliseum",NA,NA,32.3166666666667
-"145","Gas Monkey Bar N Grill",32.86094,-96.89614,44.4671428571429
-"146","Georgia Dome",33.89057,-84.46974,106.34
-"147","Gexa Energy Pavilion",32.77518,-96.75654,72.12
-"148","Gila River Arena",NA,NA,40.9333333333333
+"139","FivePoint Amphitheatre",NA,NA,43.36
+"140","Fonda Theatre","34.10257",-118.32284,63.83
+"141","Ford Field","42.34012",-83.04557,39.2
+"142","Fox Theater Oakland","37.80916",-122.27016,86.73
+"143","Fox Theatre Detroit","42.33869",-83.05241,42
+"144","Freeman Coliseum",NA,NA,32.32
+"145","Gas Monkey Bar N Grill","32.86094",-96.89614,44.47
+"146","Georgia Dome","33.89057",-84.46974,106.34
+"147","Gexa Energy Pavilion","32.77518",-96.75654,72.12
+"148","Gila River Arena",NA,NA,40.93
 "149","Gillette Stadium",NA,NA,48.8
 "150","Glen Helen Amphitheater formerly San Manuel Amphitheater",NA,NA,30.75
-"151","Golden 1 Center",NA,NA,38.9828571428571
+"151","Golden 1 Center",NA,NA,38.98
 "152","Gorge Amphitheatre",NA,NA,215
-"153","Gramercy Theatre",40.74018,-73.98494,20
-"154","Granada Theater Dallas",32.83102,-96.76977,72.41
-"155","Great American Music Hall",37.78524,-122.41871,62.8533333333333
-"156","Greek Theatre",34.11972,-118.29631,40.5714285714286
-"157","Greek Theatre Los Angeles",34.11972,-118.29631,91.9633333333333
+"153","Gramercy Theatre","40.74018",-73.98494,20
+"154","Granada Theater Dallas","32.83102",-96.76977,72.41
+"155","Great American Music Hall","37.78524",-122.41871,62.85
+"156","Greek Theatre","34.11972",-118.29631,40.57
+"157","Greek Theatre Los Angeles","34.11972",-118.29631,91.96
 "158","Greek Theatre-U.C. Berkeley",NA,NA,59.5
 "159","Greensboro Coliseum Complex",NA,NA,40.29
-"160","Hard Rock Stadium",25.95853,-80.23947,49.5
+"160","Hard Rock Stadium","25.95853",-80.23947,49.5
 "161","Harrah��s Resort SoCal ��� Dive",NA,NA,18
 "162","Hartman Arena",NA,NA,20
-"163","Heinz Field",NA,NA,42.375
-"164","Henry Maier Festival Park (Summerfest Grounds)",43.03105,-87.90081,50
-"165","Herbst Theatre",37.78003,-122.42067,132.3
+"163","Heinz Field",NA,NA,42.38
+"164","Henry Maier Festival Park (Summerfest Grounds)","43.03105",-87.90081,50
+"165","Herbst Theatre","37.78003",-122.42067,132.3
 "166","Heritage Park Amphitheatre",NA,NA,22
 "167","Hersheypark Stadium",NA,NA,19.75
 "168","Hollywood Bowl",NA,NA,29.5
 "169","Hollywood Casino Amphitheatre - Chicago, IL",NA,NA,31.75
-"170","Hollywood Casino Amphitheatre - St. Louis, MO",NA,NA,33.1666666666667
+"170","Hollywood Casino Amphitheatre - St. Louis, MO",NA,NA,33.17
 "171","Hollywood Palladium",NA,NA,32
-"172","Honda Center",NA,NA,38.7916666666667
+"172","Honda Center",NA,NA,38.79
 "173","House of Blues Anaheim presented by Cricket Wireless",NA,NA,25
-"174","House of Blues Boston",42.34751,-71.09568,50.28
-"175","House of Blues Boston presented by Cricket Wireless",42.34751,-71.09568,25
-"176","House of Blues Chicago",41.88838,-87.62891,81.95
-"177","House of Blues Chicago presented by Cricket Wireless",41.88838,-87.62891,29.5
+"174","House of Blues Boston","42.34751",-71.09568,50.28
+"175","House of Blues Boston presented by Cricket Wireless","42.34751",-71.09568,25
+"176","House of Blues Chicago","41.88838",-87.62891,81.95
+"177","House of Blues Chicago presented by Cricket Wireless","41.88838",-87.62891,29.5
 "178","House of Blues Cleveland presented by Cricket Wireless",NA,NA,17.5
-"179","House of Blues Dallas",32.78527,-96.80824,50.78
-"180","House of Blues Dallas presented by Cricket Wireless",32.78527,-96.80824,25
+"179","House of Blues Dallas","32.78527",-96.80824,50.78
+"180","House of Blues Dallas presented by Cricket Wireless","32.78527",-96.80824,25
 "181","House of Blues Houston",NA,NA,44.78
 "182","House of Blues Houston presented by Cricket Wireless",NA,NA,27.5
 "183","House of Blues Las Vegas presented by Cricket Wireless",NA,NA,32
 "184","House of Blues Myrtle Beach presented by Cricket Wireless",NA,NA,27.5
 "185","House of Blues New Orleans presented by Cricket Wireless",NA,NA,42.25
-"186","House of Blues Orlando",NA,NA,33.3333333333333
-"187","Hulu Theater at Madison Square Garden",40.75081,-73.9937,49.5
-"188","Huntington Bank Pavilion at Northerly Island",41.86343,-87.6081,35.095
+"186","House of Blues Orlando",NA,NA,33.33
+"187","Hulu Theater at Madison Square Garden","40.75081",-73.9937,49.5
+"188","Huntington Bank Pavilion at Northerly Island","41.86343",-87.6081,35.09
 "189","ICON - Miami Beach",NA,NA,90.99
 "190","Illinois State Fairgrounds Il State Fair",NA,NA,12
-"191","Indiana Farmers Coliseum",39.82778,-86.13508,49
-"192","Irving Plaza",40.7351,-73.98839,46.14
-"193","Irving Plaza presented by Cricket Wireless",40.7351,-73.98839,26.6666666666667
+"191","Indiana Farmers Coliseum","39.82778",-86.13508,49
+"192","Irving Plaza","40.7351",-73.98839,46.14
+"193","Irving Plaza presented by Cricket Wireless","40.7351",-73.98839,26.67
 "194","Island View Casino",NA,NA,15
 "195","Isleta Amphitheater",NA,NA,31.9
 "196","Jacksonville Veterans Memorial Arena",NA,NA,48.17
-"197","James L Knight Center",35.77134,-80.19125,39
-"198","Jiffy Lube Live",NA,NA,30.6447368421053
-"199","John Paul Jones Arena",NA,NA,27.6666666666667
-"200","Keller Auditorium",45.5129,-122.67812,159
-"201","Key Arena",47.62221,-122.35399,98.053
-"202","KeyArena",47.62221,-122.35399,45.75
-"203","KeyBank Pavilion",NA,NA,31.3055555555556
-"204","Kimmel Center",39.94737,-75.16571,159.635
+"197","James L Knight Center","35.77134",-80.19125,39
+"198","Jiffy Lube Live",NA,NA,30.64
+"199","John Paul Jones Arena",NA,NA,27.67
+"200","Keller Auditorium","45.5129",-122.67812,159
+"201","Key Arena","47.62221",-122.35399,98.05
+"202","KeyArena","47.62221",-122.35399,45.75
+"203","KeyBank Pavilion",NA,NA,31.31
+"204","Kimmel Center","39.94737",-75.16571,159.64
 "205","Kings Dominion - Kingswood Amphitheatre",NA,NA,18
-"206","LIV Nightclub",25.81796,-80.12272,234.956666666667
+"206","LIV Nightclub","25.81796",-80.12272,234.96
 "207","Lafayette Cajundome",NA,NA,50
 "208","Lake Tahoe Outdoor Arena at Harveys",NA,NA,69.5
 "209","Langley Speedway",NA,NA,35
-"210","Las Vegas Festival Grounds",36.14334,-115.16216,49
+"210","Las Vegas Festival Grounds","36.14334",-115.16216,49
 "211","Legacy Arena at The BJCC",NA,NA,93
 "212","Lexington Opera House",NA,NA,104.5
-"213","Lincoln Financial Field",39.90174,-75.16755,60.25
-"214","Little Caesars Arena",42.34125,-83.05527,57.9708333333333
-"215","Los Angeles Convention Center",34.04058,-118.26958,133.87
-"216","Lucas Oil Stadium",39.76754,-86.16713,46.5
+"213","Lincoln Financial Field","39.90174",-75.16755,60.25
+"214","Little Caesars Arena","42.34125",-83.05527,57.97
+"215","Los Angeles Convention Center","34.04058",-118.26958,133.87
+"216","Lucas Oil Stadium","39.76754",-86.16713,46.5
 "217","MAPFRE Stadium",NA,NA,45
 "218","MAPS Backlot",NA,NA,64.25
-"219","MIDFLORIDA Credit Union Amphitheatre at the FL State Fairgrounds",NA,NA,30.4642857142857
+"219","MIDFLORIDA Credit Union Amphitheatre at the FL State Fairgrounds",NA,NA,30.46
 "220","Made in America Venue",NA,NA,125
-"221","Madison Square Garden",40.75087,-73.99351,96.2808333333333
+"221","Madison Square Garden","40.75087",-73.99351,96.28
 "222","Madrid Theatre",NA,NA,35
-"223","Maine State Pier",43.65831,-70.24903,73.5311111111111
+"223","Maine State Pier","43.65831",-70.24903,73.53
 "224","Maine State Pier",NA,NA,122.26
-"225","Majestic Theatre Dallas",32.78279,-96.79498,76.0533333333333
+"225","Majestic Theatre Dallas","32.78279",-96.79498,76.05
 "226","Mandalay Bay Beach at Mandalay Bay Resort",NA,NA,87.16
-"227","Mann Center for the Performing Arts",39.9866,-75.22197,71.8945454545455
-"228","Marathon Music Works",36.16427,-86.79744,70.0463636363636
-"229","Mark G Etess Arena at Hard Rock Hotel & Casino",NA,NA,92.6666666666667
-"230","Marquis Theater Denver",39.75363,-104.9925,67.758
-"231","Masonic Temple",42.34205,-83.06033,59
-"232","Masquerade Atlanta",33.75181,-84.38989,45.3245
+"227","Mann Center for the Performing Arts","39.9866",-75.22197,71.89
+"228","Marathon Music Works","36.16427",-86.79744,70.05
+"229","Mark G Etess Arena at Hard Rock Hotel & Casino",NA,NA,92.67
+"230","Marquis Theater Denver","39.75363",-104.9925,67.76
+"231","Masonic Temple","42.34205",-83.06033,59
+"232","Masquerade Atlanta","33.75181",-84.38989,45.32
 "233","Matthew Knight Arena",NA,NA,29.75
 "234","Mattress Firm Amphitheatre (Formerly Sleep Train Amphitheatre)",NA,NA,30.75
-"235","Mayan Theater",34.04072,-118.25914,91.0466666666667
-"236","McFarlin Auditorium",32.88434,-96.78611,156.36
+"235","Mayan Theater","34.04072",-118.25914,91.05
+"236","McFarlin Auditorium","32.88434",-96.78611,156.36
 "237","McGrath Amphitheatre",NA,NA,22
-"238","Mercedes-Benz Stadium",33.75551,-84.40066,41.1666666666667
+"238","Mercedes-Benz Stadium","33.75551",-84.40066,41.17
 "239","Mercedes-Benz Superdome",NA,NA,90
-"240","Mercury Lounge",40.72237,-73.98664,99.9125
-"241","Mercy Lounge",36.15305,-86.78046,42.895
-"242","MetLife Stadium",NA,NA,49.4545454545455
-"243","Metro",41.94994,-87.65886,52.164
-"244","Mezzanine",37.78254,-122.40801,63.335
-"245","Miami National Hotel",25.7921,-80.12964,95.72
-"246","Microsoft Theater",34.04458,-118.26704,96.8541666666667
-"247","Miller High Life Theatre",43.04205,-87.91759,22
-"248","Miller Park",43.02833,-87.97123,39.5
+"240","Mercury Lounge","40.72237",-73.98664,99.91
+"241","Mercy Lounge","36.15305",-86.78046,42.89
+"242","MetLife Stadium",NA,NA,49.45
+"243","Metro","41.94994",-87.65886,52.16
+"244","Mezzanine","37.78254",-122.40801,63.34
+"245","Miami National Hotel","25.7921",-80.12964,95.72
+"246","Microsoft Theater","34.04458",-118.26704,96.85
+"247","Miller High Life Theatre","43.04205",-87.91759,22
+"248","Miller Park","43.02833",-87.97123,39.5
 "249","Minute Maid Park",NA,NA,69.5
 "250","Mississippi Coast Coliseum",NA,NA,36
 "251","Mississippi Coliseum",NA,NA,25
-"252","Moda Center",45.53176,-122.66682,48.15
-"253","Moda Center at the Rose Quarter",45.53176,-122.66682,80.32625
+"252","Moda Center","45.53176",-122.66682,48.15
+"253","Moda Center at the Rose Quarter","45.53176",-122.66682,80.33
 "254","Mohegan Sun Arena",NA,NA,60.5
 "255","Monroe Civic Center Arena",NA,NA,17
-"256","Moore Theatre",47.61188,-122.3414,58.8
+"256","Moore Theatre","47.61188",-122.3414,58.8
 "257","Murat Theatre at Old National Centre",NA,NA,34.5
-"258","Music Hall at Fair Park",32.78049,-96.76596,103.78
+"258","Music Hall at Fair Park","32.78049",-96.76596,103.78
 "259","NMSU Pan American Center",NA,NA,39.5
 "260","NRG Stadium",NA,NA,62
 "261","NYCB LIVE, Home of The Nassau Veterans Memorial Coliseum",NA,NA,29.25
-"262","Nashville Municipal Auditorium",36.16771,-86.78233,42
-"263","Nationwide Arena",NA,NA,38.4166666666667
+"262","Nashville Municipal Auditorium","36.16771",-86.78233,42
+"263","Nationwide Arena",NA,NA,38.42
 "264","Nautilus",NA,NA,118.14
 "265","Neal S Blaisdell Arena",NA,NA,35
-"266","Neptune Theatre",47.66128,-122.31392,27.5
-"267","New York Society for Ethical Culture",40.77155,-73.98009,48.52
+"266","Neptune Theatre","47.66128",-122.31392,27.5
+"267","New York Society for Ethical Culture","40.77155",-73.98009,48.52
 "268","Newport Music Hall",NA,NA,23
 "269","Nikki Beach",NA,NA,161.8
-"270","Nissan Stadium",36.16667,-86.77133,41.125
+"270","Nissan Stadium","36.16667",-86.77133,41.12
 "271","Northwell Health at Jones Beach Theater",NA,NA,32.75
-"272","Oak Mountain Amphitheatre",NA,NA,32.495
-"273","Ogden Theatre",39.74028,-104.9752,63.5920833333333
+"272","Oak Mountain Amphitheatre",NA,NA,32.49
+"273","Ogden Theatre","39.74028",-104.9752,63.59
 "274","Ohio Stadium",NA,NA,49.5
-"275","Oracle Arena",NA,-122.20313,83.4888888888889
-"276","Orpheum Theatre - MA",42.36305,-71.0611,93.3085714285714
-"277","Orpheum Theatre Los Angeles",42.36305,-71.0611,86.65
-"278","PNC Arena",NA,NA,45.75
-"279","PNC Bank Arts Center",NA,NA,30.8125
-"280","PNC Music Pavilion",35.32765,-80.71221,31.1428571428571
-"281","PNC PAVILION",NA,NA,20
-"282","PNC Park",35.32765,-80.71221,39.5
-"283","PPG Paints Arena",NA,NA,44.9375
-"284","Palace of Fine Arts",37.80327,-122.44854,109.09
-"285","Pantages Theatre Los Angeles",NA,NA,88.64
-"286","Papa Johns Cardinal Stadium",NA,NA,43.5
-"287","Paradise Rock Club",42.35193,-71.11954,52.7866666666667
-"288","Paramount Theatre Denver",39.74449,-104.99019,81.95
-"289","Paramount Theatre Oakland",NA,-122.20313,102.795
-"290","Paramount Theatre Seattle",47.61371,-122.3315,92.57
-"291","Park Theater",NA,NA,90.768
-"292","Pearl Concert Theater at Palms Casino Resort",36.16918,-115.29089,45.39
-"293","Pearl Concert Theater at Palms Casino Resort",NA,NA,35.78
-"294","Peoria Civic Center",NA,NA,36.5
-"295","PhilaMOCA",39.96263,-75.15774,34.75
-"296","Philips Arena",33.75766,-84.3962,85.2041666666667
-"297","Pinnacle Bank Arena",NA,NA,40.5
-"298","Playstation Theater",40.75812,-73.98646,67.05
-"299","Port City Music Hall",43.65636,-70.26052,65.4163636363636
-"300","Port City Music Hall",NA,NA,63.38
-"301","Providence Medical Center Amphitheater",NA,NA,30.875
-"302","Prudential Center",NA,NA,69.12375
-"303","RC Cola Plant",NA,NA,79.18
-"304","Radio City Music Hall",40.76019,-73.9801,96.345
-"305","Raley Field",NA,NA,34.5
-"306","Raymond James Stadium",NA,NA,32.1666666666667
-"307","Red Hat Amphitheater",NA,NA,35
-"308","Regency Ballroom",37.78795,-122.42153,74.436875
-"309","Resident",NA,NA,68.53
-"310","Revention Music Center",NA,NA,85.1
-"311","Revolution Hall Portland",45.51933,-122.65192,149.985
-"312","Revolution Hall Portland",NA,NA,70.87
-"313","River Stage at Great Plaza",39.94798,-75.14068,77.88
-"314","Riverbend Music Center",NA,NA,20.6607142857143
-"315","Rockefeller Chapel",41.78867,-87.59685,66.22
-"316","Rose Bowl",NA,NA,39.5
-"317","Roseland Theater",45.52343,-122.67627,64.175
-"318","Roseland Theater",NA,NA,67.08
-"319","Roxy Theatre Los Angeles",34.09098,-118.38794,88.3785714285714
-"320","Royal Farms Arena (formerly Baltimore Arena)",NA,NA,32.25
-"321","Royale Boston",42.3502,-71.06563,60.2238888888889
-"322","Royce Hall/UCLA",34.07304,-118.44218,85.49
-"323","Ruby Skye Nightclub",37.78781,-122.40975,108.1
-"324","Ruoff Home Mortgage Music Center",NA,NA,29.4204545454545
-"325","Rupp Arena",NA,NA,41.5
-"326","Ryman Auditorium",36.16147,-86.77835,97.2734285714286
-"327","SAP Center at San Jose",NA,NA,40.2333333333333
-"328","STAGE AE",NA,NA,28.5
-"329","STAPLES Center",34.0431,-118.2673,145.647777777778
-"330","Safeco Field",47.59195,-122.33259,76.84
-"331","Saint Andrews Hall",42.33246,-83.04151,25
-"332","Sanford Pentagon",NA,NA,23
-"333","Saratoga Performing Arts Center",NA,NA,21.6666666666667
-"334","Save Mart Center",NA,NA,62
-"335","Schermerhorn Symphony Center",36.16007,-86.77595,131.14125
-"336","Schottenstein Center",NA,NA,56.45
-"337","Scout Bar Houston",NA,NA,68.865
-"338","Selland Arena at Fresno Convention & Entertainment Center",NA,NA,52.5
-"339","Shoreline Amphitheatre",NA,NA,38.359375
-"340","Showbox Sodo",47.58827,-122.33376,72.3623529411765
-"341","Shrine Auditorium Los Angeles",34.02368,-118.2813,76.56
-"342","Shrine Expo Hall",34.02368,-118.2813,80.0433333333333
-"343","Silverstein Eye Centers Arena",NA,NA,27.625
-"344","Slims",37.77166,-122.41335,63.24
-"345","Smart Financial Centre at Sugar Land",NA,NA,47.725
-"346","Smoothie King Center",NA,NA,41.2142857142857
-"347","Social Hall SF",37.78793,-122.42144,75.644
-"348","Soldier Field",41.86254,-87.61663,61.0616666666667
-"349","South SIde Music Hall",32.76911,-96.79731,61.785
-"350","South Side Ballroom",32.76915,-96.7985,27.5
-"351","Space Ibiza New York",40.76794,-73.99589,44.19
-"352","Spectrum Center",35.22553,-80.83936,54.49
-"353","Sports Authority Field At Mile High",39.74443,-105.02016,28.8333333333333
-"354","Spybar Chicago",41.89382,-87.63593,94.54
-"355","St Augustine Amphitheatre",NA,NA,82.14
-"356","St. Joseph��s Health Amphitheater at Lakeview",NA,NA,24.55
-"357","Stambaugh Stadium",NA,NA,45
-"358","Star Of The Desert Arena at Primm Valley Resorts",NA,NA,35
-"359","Star Theater Portland",NA,NA,54.81
-"360","State Theatre",NA,NA,59
-"361","State Theatre Portland Maine",43.65418,-70.26358,71.501
-"362","Stereo Live",NA,NA,95.72
-"363","Stir Concert Cove-Harrah's Council Bluffs Casino & Hotel",NA,NA,35
-"364","Story Nightclub",NA,NA,177.14
-"365","Stubbs BarBQ",30.26864,-97.73625,67.27
-"366","Subterranean",41.91039,-87.678,68.97
-"367","Summit Music Hall",39.75355,-104.99528,59.3985714285714
-"368","SunTrust Park",33.89119,-84.46849,35.5
-"369","Suncoast Showroom",36.16918,-115.29089,12
-"370","Sunlight Supply Amphitheater",NA,NA,29.5
-"371","Swiftel Center",NA,NA,36.5
-"372","Symphony Hall Atlanta",33.78913,-84.38529,84.0275
-"373","TD Garden",42.36633,-71.06207,73.071052631579
-"374","Tabernacle",33.75908,-84.39132,49.5
-"375","Taco Bell Arena",NA,NA,37.5
-"376","Tacoma Dome",NA,NA,55.5
-"377","Taft Theatre",NA,NA,36.5
-"378","Target Field",NA,NA,24.75
-"379","Teragram Ballroom",34.05218,-118.26709,65.745
-"380","Terminal 5",40.77003,-73.99267,75.9359090909091
-"381","Terminal West",33.78186,-84.41572,53.3554545454545
-"382","Thalia Hall Chicago",41.85777,-87.65747,57.31
-"383","The Amphitheater at Bald Hill",NA,NA,35
-"384","The Basement",NA,NA,20
-"385","The Belasco Theater",NA,NA,27.5
-"386","The Chapel San Francisco",37.76072,-122.42138,79.3866666666667
-"387","The Chicago Theatre",41.8857,-87.62759,59.5
-"388","The Colosseum at WinStar",NA,NA,75
-"389","The Cosmopolitan of Las Vegas",NA,NA,39
-"390","The Cynthia Woods Mitchell Pavilion presented by Huntsman",NA,NA,38.9
-"391","The Dome at America's Center",NA,NA,46.5
-"392","The Echo",34.07771,-118.26007,46.605
-"393","The Electric Factory",39.95918,-75.14986,58.5233333333333
-"394","The Fillmore",37.78531,-122.43316,25
-"395","The Fillmore Charlotte presented by Cricket Wireless",35.24375,-80.84658,39.5
-"396","The Fillmore Miami Beach at Jackie Gleason Theater",NA,NA,45
-"397","The Fillmore Philadelphia presented by Cricket Wireless",39.96576,-75.13502,51.6666666666667
-"398","The Fillmore Silver Spring presented by Cricket Wireless",NA,NA,26.5
-"399","The Forum",NA,NA,42.14
-"400","The Foundry Philadelphia",39.96579,-75.13496,54.715
-"401","The High Watt",36.15313,-86.78048,83.92
-"402","The Independent",37.77564,-122.43753,68.8124
-"403","The Mann",39.98387,-75.22204,34
-"404","The Masonic",37.79144,-122.4131,50
-"405","The Masonic Lodge at Hollywood Forever",34.62066,-118.41657,59.08
-"406","The Neptune",47.66127,-122.31397,56.56
-"407","The Novo by Microsoft",34.04479,-118.26478,61.3509090909091
-"408","The Oncenter War Memorial Arena",NA,NA,29.75
-"409","The Pageant",NA,NA,37.25
-"410","The Parish",30.26505,-97.73411,99.98
-"411","The Pavilion at Montage Mountain",NA,NA,25.5
-"412","The Pavilion at Toyota Music Factory",NA,NA,54.7416666666667
-"413","The Queen",NA,NA,29.5
-"414","The Regent Theater Los Angeles",34.04734,-118.24795,102.6
-"415","The Ritz",NA,NA,49.5
-"416","The Rooftop at Pier 17",40.70568,-74.00175,45
-"417","The Rose Music Center at The Heights",NA,NA,20
-"418","The Santander Arena",NA,NA,45
-"419","The Showbox",47.61024,-122.34015,78.398275862069
-"420","The Sidewinder",30.26811,-97.73653,76.49
-"421","The Soiled Dove Underground",39.71917,-104.9014,120.49
-"422","The Studio at Webster Hall",40.75075,-73.99323,95.81
-"423","The Theater at Madison Square Garden",40.75075,-73.99323,99.355
-"424","The Theatre at Ace",34.04191,-118.25682,94.4933333333333
-"425","The Warfield",37.78289,-122.41406,88.1488888888889
-"426","The Wellmont Theater",NA,NA,22.5
-"427","The Wharf Amphitheater",NA,NA,26.375
-"428","The Wiltern",34.06176,-118.30902,69.425
-"429","Theatre of Living Arts",39.94163,-75.14877,27.26
-"430","Thunder Valley Casino Resort",NA,NA,25
-"431","Times Union Center",NA,NA,55.25
-"432","Town Hall New York",40.75615,-73.98461,109.27
-"433","Toyota Amphitheatre",NA,NA,32.8928571428571
-"434","Toyota Center",NA,NA,82.35
-"435","Toyota Oakdale Theatre",NA,NA,20
-"436","Treasure Island Resort & Casino",NA,NA,30
-"437","Treehouse Miami",25.79818,-80.12742,131.12
-"438","Trees",32.78503,-96.78438,58.6528571428571
-"439","Trocadero",32.78503,-96.78438,84.95
-"440","Tucson Arena",NA,NA,39
-"441","Tuscaloosa Amphitheater",NA,NA,39.5
-"442","U.S. Bank Arena",NA,NA,65
-"443","U.S. Bank Stadium",NA,NA,44.1666666666667
-"444","U.S. Cellular Center Asheville",NA,NA,27
-"445","UIC Pavilion",41.87497,-87.65615,69.165
-"446","USF Sun Dome",NA,NA,56.2
-"447","Union Bank & Trust Pavilion",NA,NA,24.5
-"448","Union Transfer",39.9616,-75.15526,46.0166666666667
-"449","United Center",41.88091,-87.67408,69.1673333333333
-"450","United Palace Theatre",40.84664,-73.93797,131.12
-"451","Van Andel Arena",NA,NA,43.1666666666667
-"452","Variety Playhouse",33.76399,-84.35106,70.63
-"453","Verizon Amphitheatre",NA,NA,42.5
-"454","Verizon Arena",NA,NA,39.35
-"455","Veterans Memorial Coliseum",45.53236,-122.66946,23
-"456","Veterans United Home Loans Amphitheater at Virginia Beach",NA,NA,17.8888888888889
-"457","Vic Theatre",41.93972,-87.65392,80.765
-"458","Viejas Arena at Aztec Bowl San Diego State University",NA,NA,39.95
-"459","Vivint Smart Home Arena",NA,NA,39.8857142857143
-"460","Volvo Car Stadium",NA,NA,31
-"461","Von Braun Center Arena",NA,NA,33.25
-"462","WaMu Theater",47.59352,-122.33229,71.31
-"463","Wang Theatre at Boston",42.3505,-71.06479,138.773333333333
-"464","Warehouse Live",NA,NA,73.1928571428572
-"465","Webster Hall",40.73187,-73.98927,49.1326666666667
-"466","Wells Fargo Center Philadelphia",39.90138,-75.17175,213.72
-"467","White Oak Music Hall",NA,NA,61.44
-"468","White River Amphitheatre",NA,NA,29.65
-"469","Wilbur Theatre",42.35089,-71.065,114.328461538462
-"470","Wild Things Park (formerly CONSOL Energy Park)",NA,NA,39.5
-"471","Wiltern Theatre",34.06178,-118.30904,61.49
-"472","Wisconsin Entertainment and Sports Center",43.04528,-87.91743,56
-"473","Wonder Ballroom",45.541,-122.6632,59.3714285714286
-"474","Woodland Park Zoo",47.66861,-122.35098,83.9
-"475","World Cafe Live Philadelphia",39.95223,-75.18463,65.02
-"476","XFINITY Theatre",NA,NA,21.1875
-"477","Xcel Energy Center",NA,NA,48.7211111111111
-"478","Xfinity Center",NA,NA,28.9204545454545
-"479","Zappos Theater at Planet Hollywood",36.11002,-115.17019,49
-"480","newbo evolve",NA,NA,62.25
+"275","Orpheum Theatre - MA","42.36305",-71.0611,93.31
+"276","Orpheum Theatre Los Angeles","42.36305",-71.0611,86.65
+"277","PNC Arena",NA,NA,45.75
+"278","PNC Bank Arts Center",NA,NA,30.81
+"279","PNC Music Pavilion","35.32765",-80.71221,31.14
+"280","PNC PAVILION",NA,NA,20
+"281","PNC Park","35.32765",-80.71221,39.5
+"282","PPG Paints Arena",NA,NA,44.94
+"283","Palace of Fine Arts","37.80327",-122.44854,109.09
+"284","Pantages Theatre Los Angeles",NA,NA,88.64
+"285","Papa Johns Cardinal Stadium",NA,NA,43.5
+"286","Paradise Rock Club","42.35193",-71.11954,52.79
+"287","Paramount Theatre Denver","39.74449",-104.99019,81.95
+"288","Paramount Theatre Seattle","47.61371",-122.3315,92.57
+"289","Park Theater",NA,NA,90.77
+"290","Pearl Concert Theater at Palms Casino Resort","36.16918",-115.29089,45.39
+"291","Pearl Concert Theater at Palms Casino Resort",NA,NA,35.78
+"292","Peoria Civic Center",NA,NA,36.5
+"293","PhilaMOCA","39.96263",-75.15774,34.75
+"294","Philips Arena","33.75766",-84.3962,85.2
+"295","Pinnacle Bank Arena",NA,NA,40.5
+"296","Playstation Theater","40.75812",-73.98646,67.05
+"297","Port City Music Hall","43.65636",-70.26052,65.42
+"298","Port City Music Hall",NA,NA,63.38
+"299","Providence Medical Center Amphitheater",NA,NA,30.88
+"300","Prudential Center",NA,NA,69.12
+"301","RC Cola Plant",NA,NA,79.18
+"302","Radio City Music Hall","40.76019",-73.9801,96.34
+"303","Raley Field",NA,NA,34.5
+"304","Raymond James Stadium",NA,NA,32.17
+"305","Red Hat Amphitheater",NA,NA,35
+"306","Regency Ballroom","37.78795",-122.42153,74.44
+"307","Resident",NA,NA,68.53
+"308","Revention Music Center",NA,NA,85.1
+"309","Revolution Hall Portland","45.51933",-122.65192,149.99
+"310","Revolution Hall Portland",NA,NA,70.87
+"311","River Stage at Great Plaza","39.94798",-75.14068,77.88
+"312","Riverbend Music Center",NA,NA,20.66
+"313","Rockefeller Chapel","41.78867",-87.59685,66.22
+"314","Rose Bowl",NA,NA,39.5
+"315","Roseland Theater","45.52343",-122.67627,64.17
+"316","Roseland Theater",NA,NA,67.08
+"317","Roxy Theatre Los Angeles","34.09098",-118.38794,88.38
+"318","Royal Farms Arena (formerly Baltimore Arena)",NA,NA,32.25
+"319","Royale Boston","42.3502",-71.06563,60.22
+"320","Royce Hall/UCLA","34.07304",-118.44218,85.49
+"321","Ruby Skye Nightclub","37.78781",-122.40975,108.1
+"322","Ruoff Home Mortgage Music Center",NA,NA,29.42
+"323","Rupp Arena",NA,NA,41.5
+"324","Ryman Auditorium","36.16147",-86.77835,97.27
+"325","SAP Center at San Jose",NA,NA,40.23
+"326","STAGE AE",NA,NA,28.5
+"327","STAPLES Center","34.0431",-118.2673,145.65
+"328","Safeco Field","47.59195",-122.33259,76.84
+"329","Saint Andrews Hall","42.33246",-83.04151,25
+"330","Sanford Pentagon",NA,NA,23
+"331","Saratoga Performing Arts Center",NA,NA,21.67
+"332","Save Mart Center",NA,NA,62
+"333","Schermerhorn Symphony Center","36.16007",-86.77595,131.14
+"334","Schottenstein Center",NA,NA,56.45
+"335","Scout Bar Houston",NA,NA,68.87
+"336","Selland Arena at Fresno Convention & Entertainment Center",NA,NA,52.5
+"337","Shoreline Amphitheatre",NA,NA,38.36
+"338","Showbox Sodo","47.58827",-122.33376,72.36
+"339","Shrine Auditorium Los Angeles","34.02368",-118.2813,76.56
+"340","Shrine Expo Hall","34.02368",-118.2813,80.04
+"341","Silverstein Eye Centers Arena",NA,NA,27.62
+"342","Slims","37.77166",-122.41335,63.24
+"343","Smart Financial Centre at Sugar Land",NA,NA,47.73
+"344","Smoothie King Center",NA,NA,41.21
+"345","Social Hall SF","37.78793",-122.42144,75.64
+"346","Soldier Field","41.86254",-87.61663,61.06
+"347","South SIde Music Hall","32.76911",-96.79731,61.78
+"348","South Side Ballroom","32.76915",-96.7985,27.5
+"349","Space Ibiza New York","40.76794",-73.99589,44.19
+"350","Spectrum Center","35.22553",-80.83936,54.49
+"351","Sports Authority Field At Mile High","39.74443",-105.02016,28.83
+"352","Spybar Chicago","41.89382",-87.63593,94.54
+"353","St Augustine Amphitheatre",NA,NA,82.14
+"354","St. Joseph��s Health Amphitheater at Lakeview",NA,NA,24.55
+"355","Stambaugh Stadium",NA,NA,45
+"356","Star Of The Desert Arena at Primm Valley Resorts",NA,NA,35
+"357","Star Theater Portland",NA,NA,54.81
+"358","State Theatre",NA,NA,59
+"359","State Theatre Portland Maine","43.65418",-70.26358,71.5
+"360","Stereo Live",NA,NA,95.72
+"361","Stir Concert Cove-Harrah's Council Bluffs Casino & Hotel",NA,NA,35
+"362","Story Nightclub",NA,NA,177.14
+"363","Stubbs BarBQ","30.26864",-97.73625,67.27
+"364","Subterranean","41.91039",-87.678,68.97
+"365","Summit Music Hall","39.75355",-104.99528,59.4
+"366","SunTrust Park","33.89119",-84.46849,35.5
+"367","Suncoast Showroom","36.16918",-115.29089,12
+"368","Sunlight Supply Amphitheater",NA,NA,29.5
+"369","Swiftel Center",NA,NA,36.5
+"370","Symphony Hall Atlanta","33.78913",-84.38529,84.03
+"371","TD Garden","42.36633",-71.06207,73.07
+"372","Tabernacle","33.75908",-84.39132,49.5
+"373","Taco Bell Arena",NA,NA,37.5
+"374","Tacoma Dome",NA,NA,55.5
+"375","Taft Theatre",NA,NA,36.5
+"376","Target Field",NA,NA,24.75
+"377","Teragram Ballroom","34.05218",-118.26709,65.75
+"378","Terminal 5","40.77003",-73.99267,75.94
+"379","Terminal West","33.78186",-84.41572,53.36
+"380","Thalia Hall Chicago","41.85777",-87.65747,57.31
+"381","The Amphitheater at Bald Hill",NA,NA,35
+"382","The Basement",NA,NA,20
+"383","The Belasco Theater",NA,NA,27.5
+"384","The Chapel San Francisco","37.76072",-122.42138,79.39
+"385","The Chicago Theatre","41.8857",-87.62759,59.5
+"386","The Colosseum at WinStar",NA,NA,75
+"387","The Cosmopolitan of Las Vegas",NA,NA,39
+"388","The Cynthia Woods Mitchell Pavilion presented by Huntsman",NA,NA,38.9
+"389","The Dome at America's Center",NA,NA,46.5
+"390","The Echo","34.07771",-118.26007,46.6
+"391","The Electric Factory","39.95918",-75.14986,58.52
+"392","The Fillmore","37.78531",-122.43316,25
+"393","The Fillmore Charlotte presented by Cricket Wireless","35.24375",-80.84658,39.5
+"394","The Fillmore Miami Beach at Jackie Gleason Theater",NA,NA,45
+"395","The Fillmore Philadelphia presented by Cricket Wireless","39.96576",-75.13502,51.67
+"396","The Fillmore Silver Spring presented by Cricket Wireless",NA,NA,26.5
+"397","The Forum",NA,NA,42.14
+"398","The Foundry Philadelphia","39.96579",-75.13496,54.72
+"399","The High Watt","36.15313",-86.78048,83.92
+"400","The Independent","37.77564",-122.43753,68.81
+"401","The Mann","39.98387",-75.22204,34
+"402","The Masonic","37.79144",-122.4131,50
+"403","The Masonic Lodge at Hollywood Forever","34.62066",-118.41657,59.08
+"404","The Neptune","47.66127",-122.31397,56.56
+"405","The Novo by Microsoft","34.04479",-118.26478,61.35
+"406","The Oncenter War Memorial Arena",NA,NA,29.75
+"407","The Pageant",NA,NA,37.25
+"408","The Parish","30.26505",-97.73411,99.98
+"409","The Pavilion at Montage Mountain",NA,NA,25.5
+"410","The Pavilion at Toyota Music Factory",NA,NA,54.74
+"411","The Queen",NA,NA,29.5
+"412","The Regent Theater Los Angeles","34.04734",-118.24795,102.6
+"413","The Ritz",NA,NA,49.5
+"414","The Rooftop at Pier 17","40.70568",-74.00175,45
+"415","The Rose Music Center at The Heights",NA,NA,20
+"416","The Santander Arena",NA,NA,45
+"417","The Showbox","47.61024",-122.34015,78.4
+"418","The Sidewinder","30.26811",-97.73653,76.49
+"419","The Soiled Dove Underground","39.71917",-104.9014,120.49
+"420","The Studio at Webster Hall","40.75075",-73.99323,95.81
+"421","The Theater at Madison Square Garden","40.75075",-73.99323,99.36
+"422","The Theatre at Ace","34.04191",-118.25682,94.49
+"423","The Warfield","37.78289",-122.41406,88.15
+"424","The Wellmont Theater",NA,NA,22.5
+"425","The Wharf Amphitheater",NA,NA,26.38
+"426","The Wiltern","34.06176",-118.30902,69.42
+"427","Theatre of Living Arts","39.94163",-75.14877,27.26
+"428","Thunder Valley Casino Resort",NA,NA,25
+"429","Times Union Center",NA,NA,55.25
+"430","Town Hall New York","40.75615",-73.98461,109.27
+"431","Toyota Amphitheatre",NA,NA,32.89
+"432","Toyota Center",NA,NA,82.35
+"433","Toyota Oakdale Theatre",NA,NA,20
+"434","Treasure Island Resort & Casino",NA,NA,30
+"435","Treehouse Miami","25.79818",-80.12742,131.12
+"436","Trees","32.78503",-96.78438,58.65
+"437","Trocadero","32.78503",-96.78438,84.95
+"438","Tucson Arena",NA,NA,39
+"439","Tuscaloosa Amphitheater",NA,NA,39.5
+"440","U.S. Bank Arena",NA,NA,65
+"441","U.S. Bank Stadium",NA,NA,44.17
+"442","U.S. Cellular Center Asheville",NA,NA,27
+"443","UIC Pavilion","41.87497",-87.65615,69.17
+"444","USF Sun Dome",NA,NA,56.2
+"445","Union Bank & Trust Pavilion",NA,NA,24.5
+"446","Union Transfer","39.9616",-75.15526,46.02
+"447","United Center","41.88091",-87.67408,69.17
+"448","United Palace Theatre","40.84664",-73.93797,131.12
+"449","Van Andel Arena",NA,NA,43.17
+"450","Variety Playhouse","33.76399",-84.35106,70.63
+"451","Verizon Amphitheatre",NA,NA,42.5
+"452","Verizon Arena",NA,NA,39.35
+"453","Veterans Memorial Coliseum","45.53236",-122.66946,23
+"454","Veterans United Home Loans Amphitheater at Virginia Beach",NA,NA,17.89
+"455","Vic Theatre","41.93972",-87.65392,80.76
+"456","Viejas Arena at Aztec Bowl San Diego State University",NA,NA,39.95
+"457","Vivint Smart Home Arena",NA,NA,39.89
+"458","Volvo Car Stadium",NA,NA,31
+"459","Von Braun Center Arena",NA,NA,33.25
+"460","WaMu Theater","47.59352",-122.33229,71.31
+"461","Wang Theatre at Boston","42.3505",-71.06479,138.77
+"462","Warehouse Live",NA,NA,73.19
+"463","Webster Hall","40.73187",-73.98927,49.13
+"464","Wells Fargo Center Philadelphia","39.90138",-75.17175,213.72
+"465","White Oak Music Hall",NA,NA,61.44
+"466","White River Amphitheatre",NA,NA,29.65
+"467","Wilbur Theatre","42.35089",-71.065,114.33
+"468","Wild Things Park (formerly CONSOL Energy Park)",NA,NA,39.5
+"469","Wiltern Theatre","34.06178",-118.30904,61.49
+"470","Wisconsin Entertainment and Sports Center","43.04528",-87.91743,56
+"471","Wonder Ballroom","45.541",-122.6632,59.37
+"472","Woodland Park Zoo","47.66861",-122.35098,83.9
+"473","World Cafe Live Philadelphia","39.95223",-75.18463,65.02
+"474","XFINITY Theatre",NA,NA,21.19
+"475","Xcel Energy Center",NA,NA,48.72
+"476","Xfinity Center",NA,NA,28.92
+"477","Zappos Theater at Planet Hollywood","36.11002",-115.17019,49
+"478","newbo evolve",NA,NA,62.25

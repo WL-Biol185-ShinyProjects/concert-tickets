@@ -15,11 +15,12 @@ navbarPage(theme = shinytheme("flatly"),
   "Concert Tickets USA",
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
-                    h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
+                    mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
                        Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!")),
+                    img(src = "Ticket2.png")),
             tabPanel("About",
                     h4("About the Creators:"),
-                    HTML("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
+                    sidebarPanel(HTML("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
                     But as college students, we have to find a way to save money... while also having fun! Our website, Concert Tickets USA, comes from our love of concerts and music, but also our need to be
                     cost efficient."),
                    br(), br(),
@@ -29,7 +30,7 @@ navbarPage(theme = shinytheme("flatly"),
                    br(), br(),
                    HTML("Marcie Bernard: Marcie Bernard is a biology and environmental major on the pre-veterinary track. In her free time, she walks dogs, spends time outdoors, and cooking."),
                    br(), br(),
-                   HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football.")),
+                   HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football."))),
            tabPanel("Overall Search Bar"),
   
   #Adding Interactive Maps

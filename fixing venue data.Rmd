@@ -14,8 +14,8 @@ output: html_document
   Book3$Latitude <- NULL
   Book3$Longitude <- NULL
   Book3$Population <- NULL
-  colnames(Book3) [5] <- "Lat"
-  colnames(Book3) [6] <- "Long"
+  colnames(Book3) [5] <- "Latitude"
+  colnames(Book3) [6] <- "Longitude"
   colnames(Book3) [2] <- "Ticket_Price"
 
 ```
@@ -23,20 +23,26 @@ output: html_document
 ```{r}
 library(dplyr)
  Venue_Prices_fixed <- Book3 %>%
-   group_by(`Venue`, `Lat`, `Long`) %>%
-  summarise(Avg_Price = mean(`Ticket_Price`))
+   group_by(`Venue`, `Latitude`, `Longitude`) %>%
+  summarise(Avg_Price = mean(`Ticket_Price`),
+            round(Avg_Price, digits = 2))
 ```
 
 ```{r}
-Map_Venue_Prices_Fixed <- Venue_Prices_fixed[-1 * c(82),]
+Map_Venue_Prices_Fixed <- Venue_Prices_fixed[-1 * c(82,276:293, 307, 308),]
+Map_Venue_Prices_Fixed$Avg_Price <- NULL
+colnames(Map_Venue_Prices_Fixed) [4] <- "Average_Price"
+
+```
+
+```{r}
 write.csv(Map_Venue_Prices_Fixed, file="Venue_Map_ULTIMATE.csv")
+
 ```
 
-```{r}
-library(leaflet)
-leaflet(data = Venue_Map_ULTIMATE) %>% 
-  addTiles() %>% 
-  addMarkers(popup = ~Venue, label = ~Avg_Price)
+```
+
+
 ```
 
 
