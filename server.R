@@ -61,21 +61,15 @@ server = function(input, output, session) {
   
   #Rendering the filtered map
   
-<<<<<<< HEAD
-    output$`Average Ticket Price by City and Month` <- renderLeaflet({
 
-      
-    
-=======
-   
-      
+
   output$`Average Ticket Price by City and Month` <- renderLeaflet({ 
   
->>>>>>> 77466d1c7ddc29c5d78c17948dc9dd9be3588fbf
+
     Ultimate_averages_by_month_longlat %>%
         
       filter(Month == input$Selector)%>%
-<<<<<<< HEAD
+
       leaflet() %>% 
         
          addTiles() %>%
@@ -95,7 +89,7 @@ server = function(input, output, session) {
                            label = ~as.character(City)) %>%
         
          addLegend(position ="bottomright", 
-=======
+                   
       leaflet() %>%
       addTiles() %>%
       setView(lng = -98, lat = 40, zoom = 4)%>%
@@ -119,7 +113,7 @@ server = function(input, output, session) {
                                        format(Average_Min_Price, digits = 4), "</p>"), 
                         label = ~as.character(City)) %>%
       addLegend(position ="bottomright", 
->>>>>>> 77466d1c7ddc29c5d78c17948dc9dd9be3588fbf
+
                 colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
                 opacity = 1,
                 labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
