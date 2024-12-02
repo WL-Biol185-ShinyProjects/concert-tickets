@@ -11,7 +11,7 @@ library(tidyverse)
 
 ##Creating the Navigation Bar
 
-navbarPage(theme = shinytheme("flatly"),
+navbarPage(theme = shinytheme("superhero"),
   "Concert Tickets USA",
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
@@ -19,7 +19,7 @@ navbarPage(theme = shinytheme("flatly"),
                        Concert Tickets USA allows us to predict ticket prices based on a multitude of factors, and financially plan for that cost.")),
             tabPanel("About",
                     h4("About the Creators:"),
-                    HTML("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after and exhausting week. 
+                    HTML("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
                     But as college students, we have to find a way to save money... while also having fun! Concert Tickets USA comes from our love of concerts and music, but our need to be
                     cost efficient."),
                    br(), br(),
