@@ -61,22 +61,26 @@ server = function(input, output, session) {
   
   #Rendering the filtered map
   
-    output$`Average Ticket Price by City and Month` <- renderLeaflet({
-      Color <- function(Ultimate_averages_by_month_longlat) { 
-        sapply(Ultimate_averages_by_month_longlat$Average_Min_Price, 
-               function(Average_Min_Price) {
-                 if (Average_Min_Price <= 30)       {"green"} 
-                 else if (Average_Min_Price <= 60)  {"blue"}
-                 else if (Average_Min_Price <= 90)  {"orange"} 
-                 else if (Average_Min_Price <= 120) {"red"} 
-                 else {"black"}})}
+   
       
-    icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_averages_by_month_longlat))
+  output$`Average Ticket Price by City and Month` <- renderLeaflet({ 
+  
     Ultimate_averages_by_month_longlat %>%
       filter(Month == input$Selector)%>%
-    leaflet() %>%
+      leaflet() %>%
       addTiles() %>%
       setView(lng = -98, lat = 40, zoom = 4)%>%
+      
+      Color <- function() { 
+          sapply(Average_Min_Price, 
+                 function(Average_Min_Price) {
+                   if (Average_Min_Price <= 30)       {"green"} 
+                   else if (Average_Min_Price <= 60)  {"blue"}
+                   else if (Average_Min_Price <= 90)  {"orange"} 
+                   else if (Average_Min_Price <= 120) {"red"} 
+                   else {"black"}})}
+        icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Average_Min_Price))%>%
+      
       addAwesomeMarkers(~Longitude,
                         ~Latitude, 
                         icon=icons, 
@@ -90,10 +94,14 @@ server = function(input, output, session) {
                 opacity = 1,
                 labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
                 title = "Average Prices", 
-                labFormat = labelFormat(prefix = "$")
-      )
+                labFormat = labelFormat(prefix = "$"))
   })
-  output$Ultimate_Table_Plot <- renderPlot({ggplot(Ultimate_Table, aes( `Cost of Living Index`, `Minimum Ticket Price`, color = City)) + geom_point(show.legend = NULL) + ylim(0, 275)
+  
+  #Rendering the interactive table
+  
+  output$Ultimate_Table_Plot <- renderPlot({
+    ggplot(Ultimate_Table, aes( `Cost of Living Index`, `Minimum Ticket Price`, color = City)) 
+    + geom_point(show.legend = NULL) + ylim(0, 275)
   })
   
   output$Ultimate_Table_Info <- renderTable({
@@ -104,11 +112,10 @@ server = function(input, output, session) {
   #Rendering the Raw Data 
   
 output$myTable = DT::renderDataTable({
-  Ultimate_Table
-})
+  Ultimate_Table})
+
 output$venueData = DT::renderDataTable({
-  Book3
-})
+  Book3})
 
 }
 
