@@ -59,7 +59,9 @@ navbarPage(theme = shinytheme("flatly"),
                                                       "November",
                                                       "December" ),
                                           selected = "January"),
-                              leafletOutput ("Average Ticket Price by City and Month")))),
+                              leafletOutput ("Average Ticket Price by City and Month"))),
+                    tabPanel("Venue Prices Map",
+                             leafletOutput ("VenueMap"))),
   
   #Stationary PNG of Bar Graph
           navbarMenu("Graphical Cost Comparisons",

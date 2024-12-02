@@ -20,6 +20,7 @@ Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
 Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
 Ultimate_Table <- read_csv("Ultimate_Table.csv")
 Book3 <- read_csv("Book3.csv")
+Venue_Map_ULTIMATE <- read.csv("Venue_Map_ULTIMATE.csv")
 
 server = function(input, output) {}
 
@@ -114,8 +115,16 @@ server = function(input, output, session) {
 output$myTable = DT::renderDataTable({
   Ultimate_Table})
 
+#Rendering Venue Map
+
 output$venueData = DT::renderDataTable({
   Book3})
-
+output$VenueMap <- renderLeaflet({
+  leaflet(data = Venue_Map_ULTIMATE) %>%
+    addTiles() %>%
+    addMarkers(popup = ~Venue, label = ~Average_Price)
+})
 }
+
+
 
