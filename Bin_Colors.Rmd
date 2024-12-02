@@ -1,0 +1,29 @@
+---
+title: "Binning and Adding Color Columns to Ultimate_averages_by_month_longlat"
+author: "Zach"
+date: "12/2/2024"
+output: html_document
+---
+
+Making Color Column
+```{r}
+library(dplyr)
+
+Ultimate_averages_by_month_longlat <- Ultimate_averages_by_month_longlat %>%
+  mutate(Color = case_when (
+   Average_Min_Price <= 30 ~ "Green",
+   Average_Min_Price <= 60 ~ "Blue",
+   Average_Min_Price <= 90 ~ "Orange",
+   Average_Min_Price <= 120 ~ "Red",
+   Average_Min_Price > 120 ~ "Black"
+         )
+           )
+
+```
+
+
+Making New CSV
+```{r}
+write.csv(Ultimate_averages_by_month_longlat, file = "Ultimate_averages_by_month_longlat.csv")
+```
+

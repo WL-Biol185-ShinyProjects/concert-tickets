@@ -62,30 +62,31 @@ server = function(input, output, session) {
   #Rendering the filtered map
   
     output$`Average Ticket Price by City and Month` <- renderLeaflet({
-      Color <- function(Ultimate_averages_by_month_longlat) { 
-        sapply(Ultimate_averages_by_month_longlat$Average_Min_Price, 
-               function(Average_Min_Price) {
-                 if (Average_Min_Price <= 30)       {"green"} 
-                 else if (Average_Min_Price <= 60)  {"blue"}
-                 else if (Average_Min_Price <= 90)  {"orange"} 
-                 else if (Average_Min_Price <= 120) {"red"} 
-                 else {"black"}})}
+
       
-    icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_averages_by_month_longlat))
+    
     Ultimate_averages_by_month_longlat %>%
+        
       filter(Month == input$Selector)%>%
-    leaflet() %>%
-      addTiles() %>%
-      setView(lng = -98, lat = 40, zoom = 4)%>%
-      addAwesomeMarkers(~Longitude,
-                        ~Latitude, 
-                        icon=icons, 
-                        popup = ~paste("<p><b>", City, "</b></p>",
-                                       "<p>", "Average Ticket Price:", 
-                                       prefix = "$",
-                                       format(Average_Min_Price, digits = 4), "</p>"), 
-                        label = ~as.character(City)) %>%
-      addLegend(position ="bottomright", 
+      leaflet() %>% 
+        
+         addTiles() %>%
+         setView(lng = -98, lat = 40, zoom = 4)%>%
+         addAwesomeMarkers(~Longitude,
+                           ~Latitude, 
+                            popup = ~paste("<p><b>", City, "</b></p>",
+                                           "<p>", "Average Ticket Price:", 
+                                             prefix = "$",
+                                             format(Average_Min_Price, digits = 4), "</p>"), 
+                           icon = awesomeIcons(
+                             icon = 'ios-close',
+                             iconColor = ~Color,
+                             library = 'ion',
+                             markerColor = "grey"
+                           ),
+                           label = ~as.character(City)) %>%
+        
+         addLegend(position ="bottomright", 
                 colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
                 opacity = 1,
                 labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
