@@ -1,0 +1,19 @@
+---
+title: "Editing sig figs and creating venue map"
+author: "Marcie"
+date: "12/2/2024"
+output: html_document
+---
+
+
+```{r}
+Venue_Map_ULTIMATE$...1 <- NULL
+```
+
+```{r}
+library(leaflet)
+leaflet(data = Venue_Map_ULTIMATE) %>%
+  addTiles() %>%
+  addMarkers(popup = ~Venue, label = ~Average_Price)
+```
+
