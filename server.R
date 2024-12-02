@@ -19,6 +19,7 @@ library(plotly)
 Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
 Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
 Ultimate_Table <- read_csv("Ultimate_Table.csv")
+Book3 <- read_csv("Book3.csv")
 
 server = function(input, output) {}
 
