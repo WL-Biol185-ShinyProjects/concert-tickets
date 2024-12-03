@@ -76,5 +76,5 @@ navbarPage(theme = shinytheme("flatly"),
                     ))),
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
-                             h1("Raw Dataset used for all features"),
+                             h1("Raw Dataset Used For All Features With a Convenient Search Bar"),
                              DT::dataTableOutput("venueData"))))

@@ -38,7 +38,7 @@ server = function(input, output, session) {
        addAwesomeMarkers(~Longitude,
                          ~Latitude, 
                          popup = ~paste("<p><b>", City, "</b></p>",
-                                       "<p>", "Average Ticket Price:", 
+                                       "<p>", "Average Minimum Ticket Price:", 
                                        prefix = "$",
                                        format(Average_Min_Price, digits = 4), "</p>"), 
                          icon = awesomeIcons(
@@ -77,7 +77,7 @@ server = function(input, output, session) {
          addAwesomeMarkers(~Longitude,
                            ~Latitude, 
                             popup = ~paste("<p><b>", City, "</b></p>",
-                                           "<p>", "Average Ticket Price:", 
+                                           "<p>", "Average Minimum Ticket Price:", 
                                              prefix = "$",
                                              format(Average_Min_Price, digits = 4), "</p>"), 
                            icon = awesomeIcons(
