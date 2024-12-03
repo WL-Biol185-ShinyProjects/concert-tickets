@@ -27,3 +27,32 @@ Making New CSV
 write.csv(Ultimate_averages_by_month_longlat, file = "Ultimate_averages_by_month_longlat.csv")
 ```
 
+
+Making Color Column for Other Table
+```{r}
+Ultimate_with_averages <- Ultimate_with_averages %>%
+  mutate(Color = case_when (
+   Average_Min_Price <= 30 ~ "green",
+   Average_Min_Price <= 60 ~ "blue",
+   Average_Min_Price <= 90 ~ "orange",
+   Average_Min_Price <= 120 ~ "red",
+   Average_Min_Price > 120 ~ "black"
+         )
+           )
+```
+
+Making New CSV
+```{r}
+write.csv(Ultimate_with_averages, file = "Ultimate_with_averages.csv")
+```
+
+Color <- function(Ultimate_with_averages) { 
+      sapply(Ultimate_with_averages$Average_Min_Price, 
+             function(Average_Min_Price) {
+               if (Average_Min_Price <= 30)       {"green"} 
+               else if (Average_Min_Price <= 60)  {"blue"}
+               else if (Average_Min_Price <= 90)  {"orange"} 
+               else if (Average_Min_Price <= 120) {"red"} 
+               else {"black"}})}
+    
+    icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_with_averages))

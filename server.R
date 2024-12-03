@@ -28,27 +28,26 @@ server = function(input, output) {}
 
 server = function(input, output, session) {
   output$`Average Ticket Price by City` <- renderLeaflet({
-    Color <- function(Ultimate_with_averages) { 
-      sapply(Ultimate_with_averages$Average_Min_Price, 
-             function(Average_Min_Price) {
-               if (Average_Min_Price <= 30)       {"green"} 
-               else if (Average_Min_Price <= 60)  {"blue"}
-               else if (Average_Min_Price <= 90)  {"orange"} 
-               else if (Average_Min_Price <= 120) {"red"} 
-               else {"black"}})}
     
-    icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_with_averages))
-    leaflet(Ultimate_with_averages) %>%
-      addTiles() %>%
-      setView(lng = -98, lat = 40, zoom = 4)%>%
-      addAwesomeMarkers(~Longitude,
-                        ~Latitude, 
-                        icon=icons, 
-                        popup = ~paste("<p><b>", Ultimate_with_averages$City, "</b></p>",
+    Ultimate_with_averages %>%
+      
+      leaflet() %>%
+      
+       addTiles() %>%
+       setView(lng = -98, lat = 40, zoom = 4) %>%
+       addAwesomeMarkers(~Longitude,
+                         ~Latitude, 
+                         popup = ~paste("<p><b>", City, "</b></p>",
                                        "<p>", "Average Ticket Price:", 
                                        prefix = "$",
-                                       format(Ultimate_with_averages$Average_Min_Price, digits = 4), "</p>"), 
-                        label = ~as.character(City)) %>%
+                                       format(Average_Min_Price, digits = 4), "</p>"), 
+                         icon = awesomeIcons(
+                          icon = 'ticket',
+                          iconColor = "black",
+                          library = 'ion',
+                          markerColor = ~Color),
+                         label = ~as.character(City)) %>%
+      
       addLegend(position ="bottomright", 
                 colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
                 opacity = 1,
@@ -69,12 +68,12 @@ server = function(input, output, session) {
 
     Ultimate_averages_by_month_longlat %>%
         
-      filter(Month == input$Selector)%>%
+      filter(Month == input$Selector) %>%
 
       leaflet() %>% 
         
          addTiles() %>%
-         setView(lng = -98, lat = 40, zoom = 4)%>%
+         setView(lng = -98, lat = 40, zoom = 4) %>%
          addAwesomeMarkers(~Longitude,
                            ~Latitude, 
                             popup = ~paste("<p><b>", City, "</b></p>",
@@ -85,11 +84,10 @@ server = function(input, output, session) {
                              icon = 'ticket',
                              iconColor = "black",
                              library = 'ion',
-                             markerColor = ~Color
-                           ),
+                             markerColor = ~Color),
                            label = ~as.character(City)) %>%
+      
         addLegend(position ="bottomright", 
-
                 colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
                 opacity = 1,
                 labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
