@@ -31,7 +31,7 @@ navbarPage(theme = shinytheme("flatly"),
                    HTML("Marcie Bernard: Marcie Bernard is a biology and environmental major on the pre-veterinary track. In her free time, she walks dogs, spends time outdoors, and cooking."),
                    br(), br(),
                    HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football."))),
-           tabPanel("Overall Search Bar",
+           tabPanel("Artist Search Bar",
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
                       
@@ -84,15 +84,28 @@ navbarPage(theme = shinytheme("flatly"),
   #Stationary PNG of Bar Graph
           navbarMenu("Graphical Cost Comparisons",
            tabPanel("Ticket Vendor Cost Comparisons",
-                    h1("Concert Ticket Graphical Cost Comparisons"),
-                    HTML("Ticket Vendor Comparison Graph"),            
+                    h1("Concert Ticket Vendor Graphical Cost Comparisons"),
+                    sidebarPanel(HTML("This figure allows the buyer to understand which ticket vendor will
+                                      sell the most affordable concert tickets. Our data finds Wantickets to
+                                      be the most cost effective ticket vendor, and we recommend avoiding Live Nation.
+                                      While these are subject to change, the graphical representation should
+                                      help advise you to check as many vendors as possible and compare prices for
+                                      cost efficiency.
+                                      ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
             tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
                   fluidPage(
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
-                    ))),
+                    ),
+                  mainPanel(HTML("This graph outlines the comparison between the cost of living index and 
+                                 minimum average ticket price city by city. For your convenience, the 
+                                 graph is colored city by city, allowing visualization of the contrast between
+                                 cities. With this tool, you can find cities with the most affordable ticket 
+                                 prices. Hold and brush over the graph to compare other factors of each data point,
+                                 including venues and other features."))
+                  )),
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
-                             h1("Raw Dataset Used For All Features With a Convenient Search Bar"),
+                             h1("Raw Dataset Used For All Features With Search Bar"),
                              DT::dataTableOutput("venueData"))))
