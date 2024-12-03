@@ -43,8 +43,10 @@ navbarPage(theme = shinytheme("flatly"),
                         
                         mainPanel(
                           tableOutput("artist_info")
-                        )
-                      )
+                        ),
+                        
+                      ),
+                      img(src = "guitar.png")
                     )
                     
                     ),
