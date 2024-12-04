@@ -61,7 +61,7 @@ navbarPage(theme = shinytheme("cerulean"),
                         ),
                         
                       ),
-                      img(src = "guitar.png")
+                      img(src = "guitar.png", width = "33%", height = "33%")
                     )
                     
                     ),
