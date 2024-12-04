@@ -23,8 +23,10 @@ navbarPage(theme = shinytheme("cerulean"),
                                   maps to find optimum minimum ticket price by city, month, and venue. Our venur graph compares ticket vendors,
                                  to inform you of the most cost efficient place to purchase your tickets from. Our interactive cost of living and minimum
                                   ticket price graph help you view specific data about your home town. Finally, our entire dataset is at your 
-                                 fingertips to search with our convenient data search bar.")),
-                    img(src = "Ticket2.png")),
+                                 fingertips to search with our convenient data search bar."),
+                              br(),
+                              br()),
+                    img(src = "musicconcert.png")),
             tabPanel("About",
                     h1("About the Creators:"),
                     sidebarPanel(h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
@@ -37,7 +39,9 @@ navbarPage(theme = shinytheme("cerulean"),
                    br(), br(),
                    HTML("Marcie Bernard: Marcie Bernard is a biology and environmental major on the pre-veterinary track. In her free time, she walks dogs, spends time outdoors, and cooking."),
                    br(), br(),
-                   HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football."))),
+                   HTML("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football.")),
+                   br(), br(),
+                   img(src = "grouppic.png")),
            tabPanel("Artist Search Bar",
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
