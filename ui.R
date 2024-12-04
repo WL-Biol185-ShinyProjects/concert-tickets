@@ -11,7 +11,7 @@ library(tidyverse)
 
 ##Creating the Navigation Bar
 
-navbarPage(theme = shinytheme("flatly"),
+navbarPage(theme = shinytheme("cerulean"),
   "Concert Tickets USA",
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
