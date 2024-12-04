@@ -1,0 +1,15 @@
+---
+title: "Untitled"
+author: "Marcie"
+date: "12/4/2024"
+output: html_document
+---
+
+```{r}
+Book3$Column1 <- NULL
+Book3_1 <- Book3[-1 * c(2261:2265),]
+```
+
+```{r}
+write.csv(Book3_1, file="Book3.csv")
+```
