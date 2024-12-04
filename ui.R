@@ -100,7 +100,7 @@ navbarPage(theme = shinytheme("cerulean"),
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
-                             h4("Click on popup to see name of Venue, and holding over should give you the price in American Dollars"))),
+                             h4("Click on popup to see name of Venue and hovering over each venue will give you the price in American Dollars"))),
 
   
   #Stationary PNG of Bar Graph

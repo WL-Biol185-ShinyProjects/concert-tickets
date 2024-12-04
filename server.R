@@ -88,9 +88,17 @@ server = function(input, output, session) {
                            label = ~as.character(City)) %>%
       
         addLegend(position ="bottomright", 
-                colors = c("#00CD00", "#00B2EE", "#FFA500", "#CD2626", "#000000"),
+                colors = c("#00CD00", 
+                           "#00B2EE", 
+                           "#FFA500", 
+                           "#CD2626", 
+                           "#000000"),
                 opacity = 1,
-                labels = c("<$30", "$30-60", "$60-90", "$90-120", "$120<"),
+                labels = c("<$30", 
+                           "$30-60", 
+                           "$60-90",
+                           "$90-120", 
+                           "$120<"),
                 title = "Average Prices", 
                 labFormat = labelFormat(prefix = "$"))
   })
@@ -100,11 +108,15 @@ server = function(input, output, session) {
   #Rendering the interactive table
   
   output$Ultimate_Table_Plot <- renderPlot({
-    ggplot(Book3, aes( `Cost of Living Index`, `Minimum Ticket Price`, color = City)) + geom_point(show.legend = NULL) + ylim(0, 275)
+    ggplot(Book3,
+           aes( `Cost of Living Index`, 
+                `Minimum Ticket Price`, 
+                color = City)) + geom_point(show.legend = NULL) + ylim(0, 275)
   })
   
   output$Ultimate_Table_Info <- renderTable({
-    brushedPoints(Ultimate_Table, input$selected_cities)
+    brushedPoints(Ultimate_Table, 
+                  input$selected_cities)
   })
 
   
@@ -117,7 +129,8 @@ server = function(input, output, session) {
 output$VenueMap <- renderLeaflet({
   leaflet(data = Venue_Map_ULTIMATE) %>%
     addTiles() %>%
-    addMarkers(popup = ~Venue, label = ~Average_Price)
+    addMarkers(popup = ~Venue, 
+               label = ~Average_Price)
 })
 
 filtered_data <- reactive({
@@ -126,9 +139,13 @@ filtered_data <- reactive({
   artist_name <- input$artist_search
   
   
-  result <- Ultimate_Table %>%
-    filter(grepl(artist_name, Artist, ignore.case = TRUE)) %>%
-    select(Artist, Venue, City, `Minimum Ticket Price`)  # Only show City and Minimum Ticket Cost
+  result <- Book3 %>%
+    filter(grepl(artist_name,
+                 Artist, 
+                 ignore.case = TRUE)) %>%
+    select(Artist, 
+           Venue, City, 
+           `Minimum Ticket Price`)  # Only show City and Minimum Ticket Cost
   
   return(result)
 })
