@@ -41,6 +41,10 @@ navbarPage(theme = shinytheme("flatly"),
            tabPanel("Artist Search Bar",
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
+                      br(),
+                      h4("Search the name of your favorite performer and discover which cities they commonly perform at, what venues they attend in said city, 
+                         and the average minimum ticket price a consumer can find for one of their concerts."),
+                      br(),
                       
                       sidebarLayout(
                         sidebarPanel(
@@ -62,11 +66,13 @@ navbarPage(theme = shinytheme("flatly"),
   
            navbarMenu("Maps",
                     tabPanel("United States Average Ticket Price",
-                             h1("United States Average Ticket Price (2016)"),
+                             h1("United States Average Ticket Price by City (2016)"),
                              leafletOutput ("Average Ticket Price by City"),
+                             h4("The provided map allows the viewer to check the minimum average ticket price in a city of their choosing. Whether it is 
+                                your hometown or across the country, prospective ticket buyers can check where the most afforable concerts are being held.")
                              ),
                     tabPanel("United States Monthly Average Ticket Price",
-                            h1("United States Monthly Average Ticket Price (2016)"),
+                            h1("United States Monthly Average Ticket Price by City (2016)"),
                             fluidPage(
                               selectInput(inputId = "Selector",
                                           label = "Select Month",
