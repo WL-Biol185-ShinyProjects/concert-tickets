@@ -16,11 +16,18 @@ navbarPage(theme = shinytheme("flatly"),
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
                     mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
-                       Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!")),
+                       Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!"),
+                              br(),
+                              h4("Our convenient features allow you to make the most educated decisions about your ticket purchase.
+                                 Use our artist search bar to view your favorite performer's past concerts and prices. View our interactive
+                                  maps to find optimum minimum ticket price by city, month, and venue. Our venur graph compares ticket vendors,
+                                 to inform you of the most cost efficient place to purchase your tickets from. Our interactive cost of living and minimum
+                                  ticket price graph help you view specific data about your home town. Finally, our entire dataset is at your 
+                                 fingertips to search with our convenient data search bar.")),
                     img(src = "Ticket2.png")),
             tabPanel("About",
-                    h4("About the Creators:"),
-                    sidebarPanel(HTML("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
+                    h1("About the Creators:"),
+                    sidebarPanel(h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
                     But as college students, we have to find a way to save money... while also having fun! Our website, Concert Tickets USA, comes from our love of concerts and music, but also our need to be
                     cost efficient."),
                    br(), br(),
@@ -85,7 +92,10 @@ navbarPage(theme = shinytheme("flatly"),
           navbarMenu("Graphical Cost Comparisons",
            tabPanel("Ticket Vendor Cost Comparisons",
                     h1("Concert Ticket Vendor Graphical Cost Comparisons"),
-                    sidebarPanel(HTML("This figure allows the buyer to understand which ticket vendor will
+                    sidebarPanel(h3("Understand What You Are Paying For..."),
+                                 br(),
+                                 br(),
+                    HTML("This figure allows the buyer to understand which ticket vendor will
                                       sell the most affordable concert tickets. Our data finds Wantickets to
                                       be the most cost effective ticket vendor, and we recommend avoiding Live Nation.
                                       While these are subject to change, the graphical representation should
@@ -94,11 +104,14 @@ navbarPage(theme = shinytheme("flatly"),
                                       ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
             tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
+                     h1("Cost of Living and Ticket Price Relationship"),
                   fluidPage(
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
                     ),
-                  mainPanel(HTML("This graph outlines the comparison between the cost of living index and 
+                  mainPanel(h3("Travel to Get the Best Deal!"),
+                            br(),
+                  HTML("This graph outlines the comparison between the cost of living index and 
                                  minimum average ticket price city by city. For your convenience, the 
                                  graph is colored city by city, allowing visualization of the contrast between
                                  cities. With this tool, you can find cities with the most affordable ticket 
@@ -108,4 +121,6 @@ navbarPage(theme = shinytheme("flatly"),
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),
+                             h3("Search through our full dataset with a search bar specialized for 
+                                your convenience..."),
                              DT::dataTableOutput("venueData"))))
