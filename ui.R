@@ -6,7 +6,6 @@ library(shinythemes)
 library (dplyr)
 library (leaflet)
 library(ggplot2)
-library(plotly)
 library(tidyverse)
 
 ##Creating the Navigation Bar
@@ -139,4 +138,7 @@ navbarPage(theme = shinytheme("cerulean"),
                              h1("Raw Dataset Used For All Features With Search Bar"),
                              h3("Search through our full dataset with a search bar specialized for 
                                 your convenience..."),
+                             fluidPage(
+                               downloadButton("Cumulative_Data", "Download")
+                             ),
                              DT::dataTableOutput("venueData"))))

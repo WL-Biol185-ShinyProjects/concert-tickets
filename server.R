@@ -11,7 +11,6 @@ library(dplyr)
 library(tidyverse)
 library(readr)
 library(ggplot2)
-library(plotly)
 
 
 ##Calling Packages and Data Tables
@@ -155,6 +154,16 @@ output$artist_info <- renderTable({
   req(input$search_button)  
   filtered_data()      
 })
+
+  output$Cumulative_Data <- downloadHandler(
+    filename = function() {
+      paste("Book3", Sys.Date(), ".csv", sep="")
+    },
+    content = function(Book3) {
+      write.csv(Book3, Book3)
+    }
+  )
+
 
 }
 
