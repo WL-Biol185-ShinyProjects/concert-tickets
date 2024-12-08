@@ -157,7 +157,7 @@ output$artist_info <- renderTable({
 
   output$Cumulative_Data <- downloadHandler(
     filename = function() {
-      "Book3.csv"
+      "Book3"
     },
     content = function(file) {
       write.csv(Book3, file)

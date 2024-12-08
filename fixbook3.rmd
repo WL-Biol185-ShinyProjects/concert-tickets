@@ -1,0 +1,12 @@
+---
+title: "Fixing Book3 Name"
+author: "Zach"
+date: "12/8/2024"
+output: html_document
+---
+
+```{r}
+Book3$...1 <- NULL
+write.csv(Book3, file = "2016_Concert_Data.csv")
+```
+

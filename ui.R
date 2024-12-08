@@ -101,7 +101,7 @@ navbarPage(theme = shinytheme("cerulean"),
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
-                             h4("Click on popup to see name of Venue and hovering over each venue will give you the price in American Dollars"))),
+                             h4("Click on a popup to see the name of a venue on the map. Hover over a venue to view its average minimum ticket price."))),
 
   
   #Stationary PNG of Bar Graph
