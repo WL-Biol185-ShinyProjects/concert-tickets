@@ -70,8 +70,8 @@ navbarPage(theme = shinytheme("cerulean"),
                     tabPanel("United States Average Ticket Price",
                              h1("United States Average Ticket Price by City (2016)"),
                              leafletOutput ("Average Ticket Price by City"),
-                             h4("This map allows you to check the minimum average ticket price in any city! Whether it is 
-                                your hometown or all the way across the country, take a look at where the most afforable concerts are being held.")
+                             h4("This map allows you to check the minimum average ticket price in any city. Whether it is 
+                                your hometown or all the way across the country, take a look at where the most afforable concerts are being held!")
                              ),
                     tabPanel("United States Monthly Average Ticket Price",
                             h1("United States Monthly Average Ticket Price by City (2016)"),
@@ -93,15 +93,15 @@ navbarPage(theme = shinytheme("cerulean"),
                                                       "December" ),
                                           selected = "January"),
                               leafletOutput ("Average Ticket Price by City and Month"),
-                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select! Just choose a month and 
-                                 look at when and where the most afforable concerts are being held."))
+                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select. Just choose a month and 
+                                 look at when and where the most afforable concerts are being held!"))
                               ),
                     tabPanel("Concert Ticket Prices of Big City Venues",
-                             h1("Zoom in on any Major City to compare the concert ticket prices of different venues within each city!"), 
+                             h1("Zoom in on any major American city to compare the concert ticket prices of different venues within each one!"), 
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
-                             h4("Click on a popup to see the name of a venue on the map. Hover over a venue to view its average minimum ticket price."))),
+                             h4("Click on a marker to see the name of the venue it represents. Hover over it to view its average minimum ticket price."))),
 
   
   #Stationary PNG of Bar Graph
