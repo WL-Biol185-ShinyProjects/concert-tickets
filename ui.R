@@ -119,25 +119,28 @@ navbarPage(theme = shinytheme("cerulean"),
                                       ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
             tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
-                     h1("Cost of Living and Ticket Price Relationship"),
+                     h1("Cost of Living vs. Ticket Price"),
                   fluidPage(
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
                     ),
-                  mainPanel(h3("Travel to Get the Best Deal!"),
+                  mainPanel(h3("Is There a Relationship?"),
                             br(),
-                  HTML("This graph outlines the comparison between the cost of living index and 
-                                 minimum average ticket price for each city. For your convenience, the 
-                                 graph is colored city by city, allowing visualization of the contrast between
-                                 cities. With this tool, you can find cities with the most affordable ticket 
-                                 prices. Hold and brush over the graph to compare other factors of each data point,
-                                 including venues and other features."))
+                  HTML("This graph shows the relationship of the cost of living index score for each city and 
+                                 that city's respective average minimum ticket price. It is colored by city to make each point
+                                 more easily discernible. Hold and brush over the graph to reveal 
+                                 the cities along with all the data for each concert. As you can see, the cities with cost of living index scores
+                                 below 100 do tend to have the lowest ticket prices. Outside of these cities, however, the majority of minimum 
+                                 ticket prices fall between $30 and $150 with a relatively even distribution. This data tells us that outside of the cities
+                                 with the lowest cost of living scores, venue or performing artist likely has more of an impact on ticket price than the
+                                 cost of living."))
                   )),
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),
-                             h3("Search through our full dataset with a search bar specialized for 
-                                your convenience..."),
+                             h3("Use the search bar below to browse our entire set of 2016 concert data, which we used to construct all 
+                             the graphs, maps, and stats you see on this site. Just start typing the name
+                             of any artist, venue, city, state, or month to discover more!"),
                              fluidPage(
                                downloadButton("Cumulative_Data", "Download")
                              ),
