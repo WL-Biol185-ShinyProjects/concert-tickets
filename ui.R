@@ -113,11 +113,11 @@ navbarPage(theme = shinytheme("cerulean"),
                                  br(),
                     HTML("In this graph, you can see how the prices of each ticket vendor stack up against each other!
                                       Out of all of our data, Live Nation proved to be the most expensive vendor
-                                      with Eventbrite and AXS close behind. The rest of the vendors average minimum ticket prices were
+                                      with Eventbrite and AXS close behind. The rest of the vendors' average minimum ticket prices were
                                       all between $50 and $75, with Live Nation securing the title for cheapest prices!
                                       This data, however, is all from concerts held in 2016, as are the rest of the features on this site, so we acknowledge 
                                       that the data presented may have changed since then.
-                                      Therefore, we recommend doing thorough research and checking all websites and venodrs before purchasing concert tickets.
+                                      Therefore, we recommend doing thorough research and checking all websites and vendors before purchasing concert tickets.
                                       ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
             tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
