@@ -108,14 +108,16 @@ navbarPage(theme = shinytheme("cerulean"),
           navbarMenu("Graphical Cost Comparisons",
            tabPanel("Ticket Vendor Cost Comparisons",
                     h1("Concert Ticket Vendor Graphical Cost Comparisons"),
-                    sidebarPanel(h3("Understand What You Are Paying For..."),
+                    sidebarPanel(h3("Who Sells the Cheapest Tickets?"),
                                  br(),
                                  br(),
-                    HTML("This figure shows you which ticket vendor
-                                      typically sells the most affordable concert tickets. Our data finds Wantickets to
-                                      be the most cost effective ticket vendor, and Live Nation to be the most expensive.
-                                      While these are subject to change and we reccomend checking multiple websites before purchasing tickets, this graph 
-                                      can help to visualize the general trend.
+                    HTML("In this graph, you can see how the prices of each ticket vendor stack up against each other!
+                                      Out of all of our data, Live Nation proved to be the most expensive vendor
+                                      with Eventbrite and AXS close behind. The rest of the vendors average minimum ticket prices were
+                                      all between $50 and $75, with Live Nation securing the title for cheapest prices!
+                                      This data, however, is all from concerts held in 2016, as are the rest of the features on this site, so we acknowledge 
+                                      that the data presented may have changed since then.
+                                      Therefore, we recommend doing thorough research and checking all websites and venodrs before purchasing concert tickets.
                                       ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
             tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
