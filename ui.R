@@ -47,7 +47,9 @@ navbarPage(theme = shinytheme("cerulean"),
                       br(),
                       h4("Search the name of your favorite performer and discover where they commonly perform as well as the average minimum ticket price you could find for one of their concerts."),
                       br(),
-                      
+                      fluidPage(
+                        downloadButton("Artist_Search", "Download")
+                      ),
                       sidebarLayout(
                         sidebarPanel(
                           textInput("artist_search", "Search Artist:", value = ""),

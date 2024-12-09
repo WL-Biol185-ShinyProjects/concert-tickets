@@ -164,7 +164,15 @@ output$artist_info <- renderTable({
     }
   )
 
-
+  output$Artist_Search <- downloadHandler(
+    filename = function() {
+      "Artist_Search_Results"
+    },
+    content = function(file) {
+      write.table(req(input$search_button),  
+                filtered_data(), file)
+    }
+  )
 }
 
 
