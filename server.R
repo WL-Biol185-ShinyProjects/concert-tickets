@@ -199,6 +199,15 @@ output$artist_info <- renderTable({
                   result , file)
     }
   )
+  
+  output$Download_Brushed <- downloadHandler(
+    filename = function() {
+      "Selected_Graph_Data"
+    },
+    content = function(file) {
+      write.csv(Book3, file)
+    }
+  )
 }
 
 
