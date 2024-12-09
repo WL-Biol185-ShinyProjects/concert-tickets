@@ -15,9 +15,9 @@ navbarPage(theme = shinytheme("cerulean"),
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
                     mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artists, locations, and more! Concerts are pricey. 
-                       Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!"),
+                       Concert Tickets USA shows you ticket prices by artist, state, city, and more, allowing you to make informed decisons about your concert purchases."),
                               br(),
-                              h4("Our features allow you to make the most educated decisions about your concert ticket purchases.
+                              h4("Our features allow you to make educated decisions regarding concerts in the United States. This way you have fun...without breaking the bank.
                                  Use our artist search bar to view your favorite performer's past concerts and prices. View our interactive price
                                   maps to reveal ticket price information by city, month, and venue. Our vendor graph compares ticket vendors
                                  to help you choose where to buy your tickets. Our interactive cost of living and
@@ -28,7 +28,7 @@ navbarPage(theme = shinytheme("cerulean"),
                     img(src = "musicconcert.png")),
             tabPanel("About",
                     h1("About the Creators:"),
-                    h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
+                    h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time academics, concerts can be a fun night out after an exhausting week. 
                     But as college students, we have to find a way to save money... while also having fun! Our website, Concert Tickets USA, comes from our love of concerts and music, but also our need to be
                     cost efficient."),
                    br(), br(),
@@ -45,7 +45,7 @@ navbarPage(theme = shinytheme("cerulean"),
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
                       br(),
-                      h4("Search the name of your favorite performer and discover where they commonly perform as well as the average minimum ticket price you could find for one of their concerts."),
+                      h4("Type the name of your favorite performer. Simply press search and discover where they commonly perform and the average minimum ticket price you could find for one of their concerts."),
                       br(),
                       fluidPage(
                         downloadButton("Artist_Search", "Download")
@@ -72,8 +72,9 @@ navbarPage(theme = shinytheme("cerulean"),
                     tabPanel("United States Average Ticket Price",
                              h1("United States Average Ticket Price by City (2016)"),
                              leafletOutput ("Average Ticket Price by City"),
+                             br(),
                              h4("This map allows you to check the minimum average ticket price in any city. Whether it is 
-                                your hometown or all the way across the country, take a look at where the most afforable concerts are being held!")
+                                your hometown or all the way across the country, take a look at where the most afforable concerts are being held.")
                              ),
                     tabPanel("United States Monthly Average Ticket Price",
                             h1("United States Monthly Average Ticket Price by City (2016)"),
@@ -95,11 +96,12 @@ navbarPage(theme = shinytheme("cerulean"),
                                                       "December" ),
                                           selected = "January"),
                               leafletOutput ("Average Ticket Price by City and Month"),
-                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select. Just choose a month and 
-                                 look at when and where the most afforable concerts are being held!"))
+                              br(),
+                              h4("The provided map allows you to check the minimum average ticket price in any city during whichever month you select. Choose a month and 
+                                 view when and where the most afforable concerts are being held."))
                               ),
                     tabPanel("Concert Ticket Prices of Big City Venues",
-                             h1("Zoom in on any major American city to compare the concert ticket prices of different venues within each one!"), 
+                             h1("Zoom in on any major American city to compare the concert ticket prices of different venues within the area."), 
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
@@ -113,13 +115,13 @@ navbarPage(theme = shinytheme("cerulean"),
                     sidebarPanel(h3("Who Sells the Cheapest Tickets?"),
                                  br(),
                                  br(),
-                    HTML("In this graph, you can see how the prices of each ticket vendor stack up against each other!
+                    HTML("In this graph, you can see how the prices of each ticket vendor stack up against each other.
                                       Out of all of our data, Live Nation proved to be the most expensive vendor
                                       with Eventbrite and AXS close behind. The rest of the vendors' average minimum ticket prices were
                                       all between $50 and $75, with Live Nation securing the title for cheapest prices!
                                       This data, however, is all from concerts held in 2016, as are the rest of the features on this site, so we acknowledge 
                                       that the data presented may have changed since then.
-                                      Therefore, we recommend doing thorough research and checking all websites and vendors before purchasing concert tickets.
+                                      Therefore, we recommend thoroughly researching all websites and vendors before purchasing concert tickets.
                                       ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
             tabPanel("Minimum Ticket Price vs. City Cost of Living Graph",
@@ -134,7 +136,7 @@ navbarPage(theme = shinytheme("cerulean"),
                   HTML("This graph shows the relationship of the cost of living index score for each city and 
                                  that city's respective average minimum ticket price. It is colored by city to make each point
                                  more easily discernible. Hold and brush over the graph to reveal 
-                                 the cities along with all the data for each concert. As you can see, the cities with cost of living index scores
+                                 the the data for each concert. As you can see, the cities with cost of living index scores
                                  below 100 do tend to have the lowest ticket prices. Outside of these cities, however, the majority of minimum 
                                  ticket prices fall between $30 and $150 with a relatively even distribution. This data tells us that outside of the cities
                                  with the lowest cost of living scores, venue or performing artist likely has more of an impact on ticket price than the
