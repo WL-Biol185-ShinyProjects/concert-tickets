@@ -122,8 +122,8 @@ navbarPage(theme = shinytheme("cerulean"),
                                       Therefore, we recommend doing thorough research and checking all websites and vendors before purchasing concert tickets.
                                       ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
-            tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
-                     h1("Cost of Living vs. Ticket Price"),
+            tabPanel("Minimum Ticket Price vs. City Cost of Living Graph",
+                     h1("Minimum Ticket Price vs. City Cost of Living"),
                   fluidPage(
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
