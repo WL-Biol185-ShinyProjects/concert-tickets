@@ -125,6 +125,7 @@ navbarPage(theme = shinytheme("cerulean"),
             tabPanel("Minimum Ticket Price vs. City Cost of Living Graph",
                      h1("Minimum Ticket Price vs. City Cost of Living"),
                   fluidPage(
+                      downloadButton("Download_Brushed", "Download"),
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
                       tableOutput("Ultimate_Table_Info")
                     ),
