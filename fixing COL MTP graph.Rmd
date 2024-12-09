@@ -1,0 +1,30 @@
+---
+title: "Fixing COL MTP graph"
+author: "Marcie"
+date: "12/9/2024"
+output: html_document
+---
+
+```{r}
+COL_MTP <- Book3[-1 * c(820:821, 1996:2000, 2261:2262, 2302),]
+
+```
+
+
+```{r}
+COL_MTP$...1 <- NULL
+COL_MTP$Artist <- NULL
+COL_MTP$Venue <- NULL
+COL_MTP$`Ticket Vendor` <- NULL
+COL_MTP$Month <- NULL
+COL_MTP$Latitude <- NULL
+COL_MTP$Longitude <- NULL
+COL_MTP$Population <- NULL
+COL_MTP$`Venue Lat` <- NULL
+COL_MTP$`Venue Long` <- NULL
+```
+
+```{r}
+write.csv(COL_MTP, file="COL_MTP.csv")
+```
+

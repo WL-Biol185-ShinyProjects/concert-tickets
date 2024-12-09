@@ -1,0 +1,2376 @@
+"","Minimum Ticket Price","City","State","Cost of Living Index"
+"1",49.5,"Albany","NY",100.1
+"2",61,"Albany","NY",100.1
+"3",29.5,"Albuquerque","NM",92.9
+"4",29.5,"Albuquerque","NM",92.9
+"5",30,"Albuquerque","NM",92.9
+"6",34.75,"Albuquerque","NM",92.9
+"7",34,"Albuquerque","NM",92.9
+"8",49.5,"Albuquerque","NM",92.9
+"9",25,"Albuquerque","NM",92.9
+"10",29.5,"Albuquerque","NM",92.9
+"11",20,"Albuquerque","NM",92.9
+"12",37.25,"Albuquerque","NM",92.9
+"13",39,"Allentown","PA",98.9
+"14",39,"Allentown","PA",98.9
+"15",47,"Alpharetta","GA",NA
+"16",58.75,"Alpharetta","GA",NA
+"17",34.75,"Alpharetta","GA",NA
+"18",47,"Alpharetta","GA",NA
+"19",25,"Alpharetta","GA",NA
+"20",33.75,"Anaheim","CA",NA
+"21",35,"Anaheim","CA",NA
+"22",39.75,"Anaheim","CA",NA
+"23",33.75,"Anaheim","CA",NA
+"24",35.5,"Anaheim","CA",NA
+"25",55,"Anaheim","CA",NA
+"26",25,"Anaheim","CA",NA
+"27",39.5,"Arlington","TX",NA
+"28",49.5,"Arlington","TX",NA
+"29",49.5,"Arlington","TX",NA
+"30",99.5,"Arlington","TX",NA
+"31",49.5,"Arlington","TX",NA
+"32",27,"Asheville","NC",103.3
+"33",62.68,"Atlanta","GA",100.3
+"34",67.39,"Atlanta","GA",100.3
+"35",91,"Atlanta","GA",100.3
+"36",51.69,"Atlanta","GA",100.3
+"37",57.43,"Atlanta","GA",100.3
+"38",91,"Atlanta","GA",100.3
+"39",29.5,"Atlanta","GA",100.3
+"40",34,"Atlanta","GA",100.3
+"41",29.5,"Atlanta","GA",100.3
+"42",34,"Atlanta","GA",100.3
+"43",45,"Atlanta","GA",100.3
+"44",25,"Atlanta","GA",100.3
+"45",25,"Atlanta","GA",100.3
+"46",25,"Atlanta","GA",100.3
+"47",34.75,"Atlanta","GA",100.3
+"48",29.5,"Atlanta","GA",100.3
+"49",25,"Atlanta","GA",100.3
+"50",150,"Atlanta","GA",100.3
+"51",150,"Atlanta","GA",100.3
+"52",55.99,"Atlanta","GA",100.3
+"53",49.31,"Atlanta","GA",100.3
+"54",55.6,"Atlanta","GA",100.3
+"55",61.5,"Atlanta","GA",100.3
+"56",51.99,"Atlanta","GA",100.3
+"57",41.31,"Atlanta","GA",100.3
+"58",108.7,"Atlanta","GA",100.3
+"59",93.05,"Atlanta","GA",100.3
+"60",30,"Atlanta","GA",100.3
+"61",106.34,"Atlanta","GA",100.3
+"62",48.37,"Atlanta","GA",100.3
+"63",29.62,"Atlanta","GA",100.3
+"64",41.43,"Atlanta","GA",100.3
+"65",30.81,"Atlanta","GA",100.3
+"66",39.48,"Atlanta","GA",100.3
+"67",49.11,"Atlanta","GA",100.3
+"68",38.09,"Atlanta","GA",100.3
+"69",31.98,"Atlanta","GA",100.3
+"70",36.57,"Atlanta","GA",100.3
+"71",61.5,"Atlanta","GA",100.3
+"72",39.52,"Atlanta","GA",100.3
+"73",44.47,"Atlanta","GA",100.3
+"74",31.24,"Atlanta","GA",100.3
+"75",39.69,"Atlanta","GA",100.3
+"76",42.6,"Atlanta","GA",100.3
+"77",32,"Atlanta","GA",100.3
+"78",72.11,"Atlanta","GA",100.3
+"79",76.37,"Atlanta","GA",100.3
+"80",60.32,"Atlanta","GA",100.3
+"81",61.21,"Atlanta","GA",100.3
+"82",34.5,"Atlanta","GA",100.3
+"83",44.5,"Atlanta","GA",100.3
+"84",44.5,"Atlanta","GA",100.3
+"85",85.04,"Atlanta","GA",100.3
+"86",46.86,"Atlanta","GA",100.3
+"87",214.9,"Atlanta","GA",100.3
+"88",209,"Atlanta","GA",100.3
+"89",83.92,"Atlanta","GA",100.3
+"90",70.73,"Atlanta","GA",100.3
+"91",54.5,"Atlanta","GA",100.3
+"92",59.5,"Atlanta","GA",100.3
+"93",53.5,"Atlanta","GA",100.3
+"94",59.5,"Atlanta","GA",100.3
+"95",59.5,"Atlanta","GA",100.3
+"96",25.5,"Atlanta","GA",100.3
+"97",35.5,"Atlanta","GA",100.3
+"98",35.5,"Atlanta","GA",100.3
+"99",43.01,"Atlanta","GA",100.3
+"100",117.35,"Atlanta","GA",100.3
+"101",70.94,"Atlanta","GA",100.3
+"102",104.81,"Atlanta","GA",100.3
+"103",49.5,"Atlanta","GA",100.3
+"104",49.5,"Atlanta","GA",100.3
+"105",42.58,"Atlanta","GA",100.3
+"106",60.3,"Atlanta","GA",100.3
+"107",35.53,"Atlanta","GA",100.3
+"108",35.54,"Atlanta","GA",100.3
+"109",51.26,"Atlanta","GA",100.3
+"110",43.04,"Atlanta","GA",100.3
+"111",44.39,"Atlanta","GA",100.3
+"112",66.2,"Atlanta","GA",100.3
+"113",49.69,"Atlanta","GA",100.3
+"114",83.92,"Atlanta","GA",100.3
+"115",74.46,"Atlanta","GA",100.3
+"116",60.32,"Atlanta","GA",100.3
+"117",83.44,"Atlanta","GA",100.3
+"118",54.36,"Atlanta","GA",100.3
+"119",58.81,"Atlanta","GA",100.3
+"120",85.1,"Atlanta","GA",100.3
+"121",63.78,"Atlanta","GA",100.3
+"122",88.46,"Atlanta","GA",100.3
+"123",63.6,"Atlanta","GA",100.3
+"124",57.59,"Atlanta","GA",100.3
+"125",37.88,"Atlanta","GA",100.3
+"126",56.74,"Atlanta","GA",100.3
+"127",100.7,"Atlanta","GA",100.3
+"128",107.41,"Atlanta","GA",100.3
+"129",75,"Atlantic City","NJ",102
+"130",75,"Atlantic City","NJ",102
+"131",59.5,"Atlantic City","NJ",102
+"132",49.5,"Atlantic City","NJ",102
+"133",250,"Atlantic City","NJ",102
+"134",59.5,"Atlantic City","NJ",102
+"135",39.5,"Atlantic City","NJ",102
+"136",39.5,"Atlantic City","NJ",102
+"137",89,"Atlantic City","NJ",102
+"138",89,"Atlantic City","NJ",102
+"139",100,"Atlantic City","NJ",102
+"140",30,"Auburn","WA",NA
+"141",29.5,"Auburn","WA",NA
+"142",35,"Auburn","WA",NA
+"143",25,"Auburn","WA",NA
+"144",27.5,"Auburn","WA",NA
+"145",29.5,"Auburn","WA",NA
+"146",25,"Auburn","WA",NA
+"147",38,"Auburn","WA",NA
+"148",27.5,"Auburn","WA",NA
+"149",29.5,"Auburn","WA",NA
+"150",158.06,"Austin","TX",106.6
+"151",56.78,"Austin","TX",106.6
+"152",155.9,"Austin","TX",106.6
+"153",108.7,"Austin","TX",106.6
+"154",137.82,"Austin","TX",106.6
+"155",75.66,"Austin","TX",106.6
+"156",106.34,"Austin","TX",106.6
+"157",78.02,"Austin","TX",106.6
+"158",127.96,"Austin","TX",106.6
+"159",142.07,"Austin","TX",106.6
+"160",93.75,"Austin","TX",106.6
+"161",153.93,"Austin","TX",106.6
+"162",145.74,"Austin","TX",106.6
+"163",102.8,"Austin","TX",106.6
+"164",118.14,"Austin","TX",106.6
+"165",131.12,"Austin","TX",106.6
+"166",119.32,"Austin","TX",106.6
+"167",105.15,"Austin","TX",106.6
+"168",222.55,"Austin","TX",106.6
+"169",60.3,"Austin","TX",106.6
+"170",39.46,"Austin","TX",106.6
+"171",82.74,"Austin","TX",106.6
+"172",44.93,"Austin","TX",106.6
+"173",63.74,"Austin","TX",106.6
+"174",40.78,"Austin","TX",106.6
+"175",40.26,"Austin","TX",106.6
+"176",30,"Austin","TX",106.6
+"177",25,"Austin","TX",106.6
+"178",25,"Austin","TX",106.6
+"179",36.5,"Austin","TX",106.6
+"180",102.5,"Austin","TX",106.6
+"181",102.5,"Austin","TX",106.6
+"182",41.25,"Austin","TX",106.6
+"183",67.05,"Austin","TX",106.6
+"184",38.3,"Austin","TX",106.6
+"185",67.27,"Austin","TX",106.6
+"186",99.98,"Austin","TX",106.6
+"187",76.49,"Austin","TX",106.6
+"188",27.75,"Baltimore","MD",107
+"189",36.75,"Baltimore","MD",107
+"190",29.75,"Bangor","ME",98
+"191",25.75,"Bangor","ME",98
+"192",29.75,"Bangor","ME",98
+"193",25,"Bangor","ME",98
+"194",32.5,"Bangor","ME",98
+"195",29.75,"Bangor","ME",98
+"196",30,"Bangor","ME",98
+"197",25,"Bangor","ME",98
+"198",59.5,"Berkeley","CA",NA
+"199",46.75,"Bethel","NY",NA
+"200",20,"Bethel","NY",NA
+"201",20,"Bethel","NY",NA
+"202",46.75,"Bethel","NY",NA
+"203",39.5,"Biloxi","MS",NA
+"204",32.5,"Biloxi","MS",NA
+"205",93,"Birmingham","AL",90.7
+"206",35,"Birmingham","AL",90.7
+"207",29.99,"Birmingham","AL",90.7
+"208",37.5,"Boise","ID",NA
+"209",29.5,"Bonner Springs","KS",NA
+"210",29.5,"Bonner Springs","KS",NA
+"211",29.5,"Bonner Springs","KS",NA
+"212",35,"Bonner Springs","KS",NA
+"213",119.32,"Boston","MA",132.6
+"214",119.32,"Boston","MA",132.6
+"215",126.4,"Boston","MA",132.6
+"216",57.9,"Boston","MA",132.6
+"217",82.74,"Boston","MA",132.6
+"218",60.5,"Boston","MA",132.6
+"219",37,"Boston","MA",132.6
+"220",35.95,"Boston","MA",132.6
+"221",50,"Boston","MA",132.6
+"222",44.5,"Boston","MA",132.6
+"223",54.49,"Boston","MA",132.6
+"224",31.39,"Boston","MA",132.6
+"225",84.57,"Boston","MA",132.6
+"226",81.17,"Boston","MA",132.6
+"227",49.68,"Boston","MA",132.6
+"228",27.58,"Boston","MA",132.6
+"229",46.12,"Boston","MA",132.6
+"230",52.48,"Boston","MA",132.6
+"231",54.38,"Boston","MA",132.6
+"232",59.49,"Boston","MA",132.6
+"233",50.28,"Boston","MA",132.6
+"234",25,"Boston","MA",132.6
+"235",87.44,"Boston","MA",132.6
+"236",217.78,"Boston","MA",132.6
+"237",46.55,"Boston","MA",132.6
+"238",75.66,"Boston","MA",132.6
+"239",63.86,"Boston","MA",132.6
+"240",88.63,"Boston","MA",132.6
+"241",73.24,"Boston","MA",132.6
+"242",40.65,"Boston","MA",132.6
+"243",42.62,"Boston","MA",132.6
+"244",30.81,"Boston","MA",132.6
+"245",34.36,"Boston","MA",132.6
+"246",91,"Boston","MA",132.6
+"247",49.69,"Boston","MA",132.6
+"248",61.5,"Boston","MA",132.6
+"249",52.96,"Boston","MA",132.6
+"250",48.52,"Boston","MA",132.6
+"251",66.2,"Boston","MA",132.6
+"252",32,"Boston","MA",132.6
+"253",49.11,"Boston","MA",132.6
+"254",53.04,"Boston","MA",132.6
+"255",46.55,"Boston","MA",132.6
+"256",30.82,"Boston","MA",132.6
+"257",67.4,"Boston","MA",132.6
+"258",54.66,"Boston","MA",132.6
+"259",44.47,"Boston","MA",132.6
+"260",84.49,"Boston","MA",132.6
+"261",47.55,"Boston","MA",132.6
+"262",53.24,"Boston","MA",132.6
+"263",77.26,"Boston","MA",132.6
+"264",77.98,"Boston","MA",132.6
+"265",30,"Boston","MA",132.6
+"266",80.38,"Boston","MA",132.6
+"267",37.72,"Boston","MA",132.6
+"268",40.65,"Boston","MA",132.6
+"269",41.64,"Boston","MA",132.6
+"270",57.94,"Boston","MA",132.6
+"271",33.17,"Boston","MA",132.6
+"272",50.87,"Boston","MA",132.6
+"273",43.8,"Boston","MA",132.6
+"274",79.19,"Boston","MA",132.6
+"275",79.18,"Boston","MA",132.6
+"276",79.2,"Boston","MA",132.6
+"277",81.87,"Boston","MA",132.6
+"278",70.7,"Boston","MA",132.6
+"279",64.25,"Boston","MA",132.6
+"280",59.12,"Boston","MA",132.6
+"281",38.95,"Boston","MA",132.6
+"282",83.9,"Boston","MA",132.6
+"283",61.5,"Boston","MA",132.6
+"284",48.51,"Boston","MA",132.6
+"285",61.5,"Boston","MA",132.6
+"286",47.32,"Boston","MA",132.6
+"287",64.45,"Boston","MA",132.6
+"288",225.87,"Boston","MA",132.6
+"289",146.85,"Boston","MA",132.6
+"290",85.1,"Boston","MA",132.6
+"291",209,"Boston","MA",132.6
+"292",55,"Boston","MA",132.6
+"293",45,"Boston","MA",132.6
+"294",55,"Boston","MA",132.6
+"295",28.5,"Boston","MA",132.6
+"296",45,"Boston","MA",132.6
+"297",55,"Boston","MA",132.6
+"298",55,"Boston","MA",132.6
+"299",26.25,"Boston","MA",132.6
+"300",55,"Boston","MA",132.6
+"301",55,"Boston","MA",132.6
+"302",25,"Boston","MA",132.6
+"303",64.25,"Boston","MA",132.6
+"304",241.25,"Boston","MA",132.6
+"305",110.82,"Boston","MA",132.6
+"306",99.65,"Boston","MA",132.6
+"307",114.6,"Boston","MA",132.6
+"308",96.11,"Boston","MA",132.6
+"309",93.74,"Boston","MA",132.6
+"310",170.18,"Boston","MA",132.6
+"311",77.23,"Boston","MA",132.6
+"312",95.71,"Boston","MA",132.6
+"313",102.14,"Boston","MA",132.6
+"314",89.82,"Boston","MA",132.6
+"315",119.32,"Boston","MA",132.6
+"316",218.62,"Boston","MA",132.6
+"317",86.29,"Boston","MA",132.6
+"318",122.86,"Boston","MA",132.6
+"319",34.5,"Brandon","MS",NA
+"320",34.5,"Brandon","MS",NA
+"321",29.5,"Bristow","VA",NA
+"322",39.25,"Bristow","VA",NA
+"323",40,"Bristow","VA",NA
+"324",19,"Bristow","VA",NA
+"325",30.75,"Bristow","VA",NA
+"326",40,"Bristow","VA",NA
+"327",29.5,"Bristow","VA",NA
+"328",25,"Bristow","VA",NA
+"329",34.25,"Bristow","VA",NA
+"330",20,"Bristow","VA",NA
+"331",34.25,"Bristow","VA",NA
+"332",25,"Bristow","VA",NA
+"333",29.5,"Bristow","VA",NA
+"334",19,"Bristow","VA",NA
+"335",30,"Bristow","VA",NA
+"336",29.5,"Bristow","VA",NA
+"337",38.25,"Bristow","VA",NA
+"338",34.75,"Bristow","VA",NA
+"339",34.75,"Bristow","VA",NA
+"340",36.5,"Brookings","SD",NA
+"341",36.5,"Brookings","SD",NA
+"342",76,"Brooklyn","NY",NA
+"343",35,"Brooklyn","NY",NA
+"344",61,"Brooklyn","NY",NA
+"345",29.5,"Brooklyn","NY",NA
+"346",81,"Brooklyn","NY",NA
+"347",81,"Brooklyn","NY",NA
+"348",40.25,"Brooklyn","NY",NA
+"349",61,"Brooklyn","NY",NA
+"350",80.5,"Brooklyn","NY",NA
+"351",39.95,"Brooklyn","NY",NA
+"352",81,"Brooklyn","NY",NA
+"353",81,"Brooklyn","NY",NA
+"354",80.5,"Brooklyn","NY",NA
+"355",60.5,"Brooklyn","NY",NA
+"356",39,"Burgettstown","PA",NA
+"357",29.5,"Burgettstown","PA",NA
+"358",25,"Burgettstown","PA",NA
+"359",35,"Burgettstown","PA",NA
+"360",35,"Burgettstown","PA",NA
+"361",38.75,"Burgettstown","PA",NA
+"362",25,"Burgettstown","PA",NA
+"363",29.5,"Burgettstown","PA",NA
+"364",25,"Burgettstown","PA",NA
+"365",29.5,"Camden","NJ",NA
+"366",30,"Camden","NJ",NA
+"367",29.5,"Camden","NJ",NA
+"368",30.75,"Camden","NJ",NA
+"369",29.5,"Camden","NJ",NA
+"370",29.5,"Camden","NJ",NA
+"371",34.75,"Camden","NJ",NA
+"372",25,"Camden","NJ",NA
+"373",31,"Camden","NJ",NA
+"374",22,"Cedar Rapids","IA",88.1
+"375",70,"Cedar Rapids","IA",88.1
+"376",54.5,"Cedar Rapids","IA",88.1
+"377",29.75,"Charleston","WV",83.9
+"378",20,"Charleston","WV",83.9
+"379",35.5,"Charleston","SC",101.7
+"380",26.5,"Charleston","SC",101.7
+"381",27.5,"Charlotte","NC",97.9
+"382",39.25,"Charlotte","NC",97.9
+"383",39,"Charlotte","NC",97.9
+"384",25,"Charlotte","NC",97.9
+"385",39,"Charlotte","NC",97.9
+"386",25,"Charlotte","NC",97.9
+"387",29.5,"Charlotte","NC",97.9
+"388",29.5,"Charlotte","NC",97.9
+"389",37.25,"Charlotte","NC",97.9
+"390",25,"Charlotte","NC",97.9
+"391",25,"Charlotte","NC",97.9
+"392",34.25,"Charlotte","NC",97.9
+"393",25,"Charlotte","NC",97.9
+"394",29.5,"Charlotte","NC",97.9
+"395",33.75,"Charlotte","NC",97.9
+"396",35,"Charlotte","NC",97.9
+"397",49.5,"Charlotte","NC",97.9
+"398",59.95,"Charlotte","NC",97.9
+"399",75,"Charlotte","NC",97.9
+"400",53,"Charlotte","NC",97.9
+"401",39.5,"Charlotte","NC",97.9
+"402",29.75,"Charlottesville","NC",NA
+"403",29.75,"Charlottesville","NC",NA
+"404",23.5,"Charlottesville","NC",NA
+"405",25,"Chesterfield","MO",NA
+"406",35,"Chesterfield","MO",NA
+"407",60.32,"Chicago","IL",100.1
+"408",123.12,"Chicago","IL",100.1
+"409",95.72,"Chicago","IL",100.1
+"410",63.85,"Chicago","IL",100.1
+"411",69.5,"Chicago","IL",100.1
+"412",73.3,"Chicago","IL",100.1
+"413",134.5,"Chicago","IL",100.1
+"414",113.42,"Chicago","IL",100.1
+"415",90.74,"Chicago","IL",100.1
+"416",82.6,"Chicago","IL",100.1
+"417",82.74,"Chicago","IL",100.1
+"418",96.9,"Chicago","IL",100.1
+"419",120.5,"Chicago","IL",100.1
+"420",55.6,"Chicago","IL",100.1
+"421",76.83,"Chicago","IL",100.1
+"422",71.42,"Chicago","IL",100.1
+"423",82.74,"Chicago","IL",100.1
+"424",96.9,"Chicago","IL",100.1
+"425",96.89,"Chicago","IL",100.1
+"426",91,"Chicago","IL",100.1
+"427",85.1,"Chicago","IL",100.1
+"428",92.5,"Chicago","IL",100.1
+"429",100.44,"Chicago","IL",100.1
+"430",98.79,"Chicago","IL",100.1
+"431",140.95,"Chicago","IL",100.1
+"432",111.45,"Chicago","IL",100.1
+"433",85.09,"Chicago","IL",100.1
+"434",53.22,"Chicago","IL",100.1
+"435",46.55,"Chicago","IL",100.1
+"436",60.69,"Chicago","IL",100.1
+"437",61.49,"Chicago","IL",100.1
+"438",102.79,"Chicago","IL",100.1
+"439",81.95,"Chicago","IL",100.1
+"440",29.5,"Chicago","IL",100.1
+"441",18.88,"Chicago","IL",100.1
+"442",24.88,"Chicago","IL",100.1
+"443",39.5,"Chicago","IL",100.1
+"444",39.5,"Chicago","IL",100.1
+"445",29.5,"Chicago","IL",100.1
+"446",49.5,"Chicago","IL",100.1
+"447",49.5,"Chicago","IL",100.1
+"448",29.5,"Chicago","IL",100.1
+"449",49.65,"Chicago","IL",100.1
+"450",48.91,"Chicago","IL",100.1
+"451",60.31,"Chicago","IL",100.1
+"452",51.6,"Chicago","IL",100.1
+"453",50.35,"Chicago","IL",100.1
+"454",66.22,"Chicago","IL",100.1
+"455",89.81,"Chicago","IL",100.1
+"456",54.54,"Chicago","IL",100.1
+"457",73.3,"Chicago","IL",100.1
+"458",66.22,"Chicago","IL",100.1
+"459",47,"Chicago","IL",100.1
+"460",35.5,"Chicago","IL",100.1
+"461",94.54,"Chicago","IL",100.1
+"462",68.97,"Chicago","IL",100.1
+"463",43.8,"Chicago","IL",100.1
+"464",70.82,"Chicago","IL",100.1
+"465",59.5,"Chicago","IL",100.1
+"466",75.26,"Chicago","IL",100.1
+"467",93.75,"Chicago","IL",100.1
+"468",70.15,"Chicago","IL",100.1
+"469",37.5,"Chicago","IL",100.1
+"470",103.65,"Chicago","IL",100.1
+"471",152.49,"Chicago","IL",100.1
+"472",66.4,"Chicago","IL",100.1
+"473",50.5,"Chicago","IL",100.1
+"474",120.44,"Chicago","IL",100.1
+"475",86.28,"Chicago","IL",100.1
+"476",35,"Chicago","IL",100.1
+"477",49.5,"Chicago","IL",100.1
+"478",59.5,"Chicago","IL",100.1
+"479",59.5,"Chicago","IL",100.1
+"480",55,"Chicago","IL",100.1
+"481",59.5,"Chicago","IL",100.1
+"482",49.5,"Chicago","IL",100.1
+"483",59.5,"Chicago","IL",100.1
+"484",30.75,"Chicago","IL",100.1
+"485",60.7,"Chicago","IL",100.1
+"486",100.83,"Chicago","IL",100.1
+"487",25,"Chula Vista","CA",NA
+"488",39.5,"Chula Vista","CA",NA
+"489",34.75,"Chula Vista","CA",NA
+"490",29.5,"Chula Vista","CA",NA
+"491",25,"Chula Vista","CA",NA
+"492",25,"Chula Vista","CA",NA
+"493",30,"Chula Vista","CA",NA
+"494",25,"Chula Vista","CA",NA
+"495",31.5,"Chula Vista","CA",NA
+"496",33.75,"Chula Vista","CA",NA
+"497",25,"Chula Vista","CA",NA
+"498",33.75,"Chula Vista","CA",NA
+"499",34.25,"Chula Vista","CA",NA
+"500",31.5,"Chula Vista","CA",NA
+"501",39.5,"Chula Vista","CA",NA
+"502",34.75,"Chula Vista","CA",NA
+"503",25,"Chula Vista","CA",NA
+"504",25,"Cincinnati","OH",92.4
+"505",20,"Cincinnati","OH",92.4
+"506",20,"Cincinnati","OH",92.4
+"507",16,"Cincinnati","OH",92.4
+"508",14,"Cincinnati","OH",92.4
+"509",14,"Cincinnati","OH",92.4
+"510",25,"Cincinnati","OH",92.4
+"511",15.25,"Cincinnati","OH",92.4
+"512",15.25,"Cincinnati","OH",92.4
+"513",24.5,"Cincinnati","OH",92.4
+"514",24.5,"Cincinnati","OH",92.4
+"515",31.25,"Cincinnati","OH",92.4
+"516",15.25,"Cincinnati","OH",92.4
+"517",16.5,"Cincinnati","OH",92.4
+"518",29,"Cincinnati","OH",92.4
+"519",30,"Cincinnati","OH",92.4
+"520",18.75,"Cincinnati","OH",92.4
+"521",36.5,"Cincinnati","OH",92.4
+"522",65,"Cincinnati","OH",92.4
+"523",30,"Clarkston","MI",NA
+"524",30.75,"Clarkston","MI",NA
+"525",44.5,"Clarkston","MI",NA
+"526",44.5,"Clarkston","MI",NA
+"527",45,"Clarkston","MI",NA
+"528",25.5,"Clarkston","MI",NA
+"529",25,"Clarkston","MI",NA
+"530",21,"Clarkston","MI",NA
+"531",26,"Clarkston","MI",NA
+"532",30.75,"Clarkston","MI",NA
+"533",35.5,"Clarkston","MI",NA
+"534",25.5,"Clarkston","MI",NA
+"535",21,"Clarkston","MI",NA
+"536",25.5,"Clarkston","MI",NA
+"537",45,"Clarkston","MI",NA
+"538",26,"Clarkston","MI",NA
+"539",50.5,"Clarkston","MI",NA
+"540",45.5,"Cleveland","OH",90
+"541",45.5,"Cleveland","OH",90
+"542",25,"Cleveland","OH",90
+"543",10,"Cleveland","OH",90
+"544",29.5,"Columbia","SC",91.9
+"545",59.5,"Columbus","OH",93.9
+"546",45,"Columbus","OH",93.9
+"547",35,"Columbus","OH",93.9
+"548",49.5,"Columbus","OH",93.9
+"549",30.75,"Columbus","OH",93.9
+"550",23,"Columbus","OH",93.9
+"551",49.5,"Columbus","OH",93.9
+"552",49.5,"Columbus","OH",93.9
+"553",56.45,"Columbus","OH",93.9
+"554",20,"Columbus","OH",93.9
+"555",29.99,"Concord","MA",NA
+"556",29.99,"Concord","MA",NA
+"557",28.5,"Concord","MA",NA
+"558",44.5,"Corpus Christi","TX",93.3
+"559",35,"Council Bluffs","IA",NA
+"560",37,"Cuyahoga Falls","OH",NA
+"561",32,"Cuyahoga Falls","OH",NA
+"562",40,"Cuyahoga Falls","OH",NA
+"563",35,"Cuyahoga Falls","OH",NA
+"564",35,"Cuyahoga Falls","OH",NA
+"565",38.75,"Cuyahoga Falls","OH",NA
+"566",35,"Cuyahoga Falls","OH",NA
+"567",38.75,"Cuyahoga Falls","OH",NA
+"568",32.5,"Cuyahoga Falls","OH",NA
+"569",37,"Cuyahoga Falls","OH",NA
+"570",37,"Cuyahoga Falls","OH",NA
+"571",59.14,"Dallas","TX",98.5
+"572",55.6,"Dallas","TX",98.5
+"573",106.91,"Dallas","TX",98.5
+"574",72.52,"Dallas","TX",98.5
+"575",84.38,"Dallas","TX",98.5
+"576",70.24,"Dallas","TX",98.5
+"577",59.5,"Dallas","TX",98.5
+"578",35,"Dallas","TX",98.5
+"579",49.5,"Dallas","TX",98.5
+"580",74.5,"Dallas","TX",98.5
+"581",30.75,"Dallas","TX",98.5
+"582",59.5,"Dallas","TX",98.5
+"583",64.45,"Dallas","TX",98.5
+"584",49.5,"Dallas","TX",98.5
+"585",59.5,"Dallas","TX",98.5
+"586",74.5,"Dallas","TX",98.5
+"587",59.5,"Dallas","TX",98.5
+"588",29.5,"Dallas","TX",98.5
+"589",49.5,"Dallas","TX",98.5
+"590",147.05,"Dallas","TX",98.5
+"591",67.2,"Dallas","TX",98.5
+"592",47.34,"Dallas","TX",98.5
+"593",37.9,"Dallas","TX",98.5
+"594",68.57,"Dallas","TX",98.5
+"595",89.5,"Dallas","TX",98.5
+"596",173.6,"Dallas","TX",98.5
+"597",58.86,"Dallas","TX",98.5
+"598",236.14,"Dallas","TX",98.5
+"599",82.53,"Dallas","TX",98.5
+"600",78.02,"Dallas","TX",98.5
+"601",60.32,"Dallas","TX",98.5
+"602",30.82,"Dallas","TX",98.5
+"603",60.2,"Dallas","TX",98.5
+"604",31.41,"Dallas","TX",98.5
+"605",68.58,"Dallas","TX",98.5
+"606",41.75,"Dallas","TX",98.5
+"607",41.75,"Dallas","TX",98.5
+"608",40,"Dallas","TX",98.5
+"609",25,"Dallas","TX",98.5
+"610",29.5,"Dallas","TX",98.5
+"611",29.5,"Dallas","TX",98.5
+"612",39,"Dallas","TX",98.5
+"613",19,"Dallas","TX",98.5
+"614",29.5,"Dallas","TX",98.5
+"615",30,"Dallas","TX",98.5
+"616",29.5,"Dallas","TX",98.5
+"617",19,"Dallas","TX",98.5
+"618",36.5,"Dallas","TX",98.5
+"619",41.44,"Dallas","TX",98.5
+"620",41.44,"Dallas","TX",98.5
+"621",48.5,"Dallas","TX",98.5
+"622",33.17,"Dallas","TX",98.5
+"623",54.41,"Dallas","TX",98.5
+"624",50.87,"Dallas","TX",98.5
+"625",41.44,"Dallas","TX",98.5
+"626",72.12,"Dallas","TX",98.5
+"627",40.26,"Dallas","TX",98.5
+"628",104.56,"Dallas","TX",98.5
+"629",56.78,"Dallas","TX",98.5
+"630",44.78,"Dallas","TX",98.5
+"631",25,"Dallas","TX",98.5
+"632",25,"Dallas","TX",98.5
+"633",67.4,"Dallas","TX",98.5
+"634",63.86,"Dallas","TX",98.5
+"635",96.9,"Dallas","TX",98.5
+"636",156.36,"Dallas","TX",98.5
+"637",118.53,"Dallas","TX",98.5
+"638",89.03,"Dallas","TX",98.5
+"639",27.5,"Dallas","TX",98.5
+"640",57.35,"Dallas","TX",98.5
+"641",66.22,"Dallas","TX",98.5
+"642",59.12,"Dallas","TX",98.5
+"643",44.04,"Dallas","TX",98.5
+"644",76.49,"Dallas","TX",98.5
+"645",59.42,"Dallas","TX",98.5
+"646",43.78,"Dallas","TX",98.5
+"647",61.5,"Dallas","TX",98.5
+"648",66.22,"Dallas","TX",98.5
+"649",39.25,"Darien Center","CT",NA
+"650",30,"Darien Center","CT",NA
+"651",39.25,"Darien Center","CT",NA
+"652",29.5,"Darien Center","CT",NA
+"653",29.5,"Darien Center","CT",NA
+"654",25,"Darien Center","CT",NA
+"655",29.5,"Darien Center","CT",NA
+"656",25,"Darien Center","CT",NA
+"657",34.75,"Darien Center","CT",NA
+"658",22,"Del Mar","CA",NA
+"659",111.72,"Denver","CO",112.1
+"660",47.32,"Denver","CO",112.1
+"661",60.32,"Denver","CO",112.1
+"662",49.68,"Denver","CO",112.1
+"663",73.28,"Denver","CO",112.1
+"664",60.3,"Denver","CO",112.1
+"665",62.66,"Denver","CO",112.1
+"666",52.04,"Denver","CO",112.1
+"667",61.48,"Denver","CO",112.1
+"668",67.38,"Denver","CO",112.1
+"669",55.58,"Denver","CO",112.1
+"670",41.44,"Denver","CO",112.1
+"671",54.94,"Denver","CO",112.1
+"672",32,"Denver","CO",112.1
+"673",70.92,"Denver","CO",112.1
+"674",70.92,"Denver","CO",112.1
+"675",70.92,"Denver","CO",112.1
+"676",64.36,"Denver","CO",112.1
+"677",86.26,"Denver","CO",112.1
+"678",82.72,"Denver","CO",112.1
+"679",70.92,"Denver","CO",112.1
+"680",56.72,"Denver","CO",112.1
+"681",55.6,"Denver","CO",112.1
+"682",79.2,"Denver","CO",112.1
+"683",72.1,"Denver","CO",112.1
+"684",47.28,"Denver","CO",112.1
+"685",59.12,"Denver","CO",112.1
+"686",59.14,"Denver","CO",112.1
+"687",67.4,"Denver","CO",112.1
+"688",75.66,"Denver","CO",112.1
+"689",75.66,"Denver","CO",112.1
+"690",70.94,"Denver","CO",112.1
+"691",66.22,"Denver","CO",112.1
+"692",209,"Denver","CO",112.1
+"693",108.7,"Denver","CO",112.1
+"694",73.78,"Denver","CO",112.1
+"695",52.98,"Denver","CO",112.1
+"696",54.88,"Denver","CO",112.1
+"697",55.59,"Denver","CO",112.1
+"698",97.67,"Denver","CO",112.1
+"699",91,"Denver","CO",112.1
+"700",35,"Denver","CO",112.1
+"701",69.74,"Denver","CO",112.1
+"702",85.1,"Denver","CO",112.1
+"703",70.15,"Denver","CO",112.1
+"704",48.76,"Denver","CO",112.1
+"705",65.04,"Denver","CO",112.1
+"706",86.24,"Denver","CO",112.1
+"707",63.32,"Denver","CO",112.1
+"708",94.26,"Denver","CO",112.1
+"709",63.86,"Denver","CO",112.1
+"710",54.42,"Denver","CO",112.1
+"711",61.5,"Denver","CO",112.1
+"712",49,"Denver","CO",112.1
+"713",72.1,"Denver","CO",112.1
+"714",49.68,"Denver","CO",112.1
+"715",96.9,"Denver","CO",112.1
+"716",50.87,"Denver","CO",112.1
+"717",44.98,"Denver","CO",112.1
+"718",60.31,"Denver","CO",112.1
+"719",67.4,"Denver","CO",112.1
+"720",66.52,"Denver","CO",112.1
+"721",63.84,"Denver","CO",112.1
+"722",59.12,"Denver","CO",112.1
+"723",51.47,"Denver","CO",112.1
+"724",48.52,"Denver","CO",112.1
+"725",64.99,"Denver","CO",112.1
+"726",69.76,"Denver","CO",112.1
+"727",54.72,"Denver","CO",112.1
+"728",65.04,"Denver","CO",112.1
+"729",67.39,"Denver","CO",112.1
+"730",73.69,"Denver","CO",112.1
+"731",96.11,"Denver","CO",112.1
+"732",76.05,"Denver","CO",112.1
+"733",29.75,"Denver","CO",112.1
+"734",29.75,"Denver","CO",112.1
+"735",27,"Denver","CO",112.1
+"736",47.33,"Denver","CO",112.1
+"737",58.21,"Denver","CO",112.1
+"738",44.97,"Denver","CO",112.1
+"739",50.67,"Denver","CO",112.1
+"740",80.37,"Denver","CO",112.1
+"741",49.69,"Denver","CO",112.1
+"742",84.55,"Denver","CO",112.1
+"743",120.49,"Denver","CO",112.1
+"744",39.75,"Detroit","MI",93.2
+"745",44.5,"Detroit","MI",93.2
+"746",36,"Detroit","MI",93.2
+"747",39.75,"Detroit","MI",93.2
+"748",36,"Detroit","MI",93.2
+"749",42,"Detroit","MI",93.2
+"750",35,"Detroit","MI",93.2
+"751",79.5,"Detroit","MI",93.2
+"752",49.5,"Detroit","MI",93.2
+"753",59.5,"Detroit","MI",93.2
+"754",30.75,"Detroit","MI",93.2
+"755",79.5,"Detroit","MI",93.2
+"756",59.45,"Detroit","MI",93.2
+"757",79.5,"Detroit","MI",93.2
+"758",59.45,"Detroit","MI",93.2
+"759",59.5,"Detroit","MI",93.2
+"760",79.5,"Detroit","MI",93.2
+"761",24.5,"Detroit","MI",93.2
+"762",59,"Detroit","MI",93.2
+"763",25,"Detroit","MI",93.2
+"764",25,"Detroit","MI",93.2
+"765",25,"Detroit","MI",93.2
+"766",18,"Doswell","VA",NA
+"767",100,"Durant","OK",NA
+"768",42.75,"East Providence","RI",NA
+"769",49.5,"East Rutherford","NJ",NA
+"770",49.5,"East Rutherford","NJ",NA
+"771",70,"East Rutherford","NJ",NA
+"772",39.5,"East Rutherford","NJ",NA
+"773",39.5,"East Rutherford","NJ",NA
+"774",59,"East Rutherford","NJ",NA
+"775",49.5,"East Rutherford","NJ",NA
+"776",59,"East Rutherford","NJ",NA
+"777",49.5,"East Rutherford","NJ",NA
+"778",39.5,"East Rutherford","NJ",NA
+"779",39.5,"East Rutherford","NJ",NA
+"780",33.2,"El Paso","TX",88.6
+"781",58.25,"El Paso","TX",88.6
+"782",29.75,"Eugene","OR",108.4
+"783",29.75,"Eugene","OR",108.4
+"784",59,"Fairfax","VA",NA
+"785",39.95,"Fairfax","VA",NA
+"786",35,"Farmingville","NY",NA
+"787",29.75,"Fort Wayne","IN",86.8
+"788",29.75,"Fort Wayne","IN",86.8
+"789",39.5,"Foxborough","MA",NA
+"790",49.5,"Foxborough","MA",NA
+"791",49.5,"Foxborough","MA",NA
+"792",66,"Foxborough","MA",NA
+"793",39.5,"Foxborough","MA",NA
+"794",39.5,"Foxborough","MA",NA
+"795",49.5,"Foxborough","MA",NA
+"796",49.5,"Foxborough","MA",NA
+"797",39.5,"Foxborough","MA",NA
+"798",66,"Foxborough","MA",NA
+"799",62,"Fresno","CA",105.9
+"800",65.5,"Fresno","CA",105.9
+"801",39.5,"Fresno","CA",105.9
+"802",18,"Funner","CA",NA
+"803",215,"George","WA",NA
+"804",215,"George","WA",NA
+"805",30.75,"Glendale","AZ",NA
+"806",24.75,"Glendale","AZ",NA
+"807",44.75,"Glendale","AZ",NA
+"808",64.4,"Glendale","AZ",NA
+"809",26,"Glendale","AZ",NA
+"810",54.95,"Glendale","AZ",NA
+"811",45,"Grand Rapids","MI",93.7
+"812",65,"Grand Rapids","MI",93.7
+"813",32.25,"Grand Rapids","MI",93.7
+"814",32.25,"Grand Rapids","MI",93.7
+"815",39.5,"Greensboro","NC",91
+"816",64.5,"Greensboro","NC",91
+"817",39.5,"Greensboro","NC",91
+"818",28,"Greensboro","NC",91
+"819",29.95,"Greensboro","NC",91
+"820",15,"Gulfport","MS",86.8
+"821",35,"Hampton","VA",NA
+"822",20,"Hartford","CT",104.8
+"823",20,"Hartford","CT",104.8
+"824",18.75,"Hartford","CT",104.8
+"825",20,"Hartford","CT",104.8
+"826",25,"Hartford","CT",104.8
+"827",20,"Hartford","CT",104.8
+"828",20,"Hartford","CT",104.8
+"829",25,"Hartford","CT",104.8
+"830",18.75,"Hartford","CT",104.8
+"831",29.5,"Hartford","CT",104.8
+"832",17.25,"Hartford","CT",104.8
+"833",20,"Hartford","CT",104.8
+"834",19.5,"Hershey","PA",NA
+"835",20,"Hershey","PA",NA
+"836",29.5,"Hollywood","CA",NA
+"837",29.5,"Hollywood","CA",NA
+"838",29.5,"Hollywood","CA",NA
+"839",29.5,"Hollywood","CA",NA
+"840",32,"Hollywood","CA",NA
+"841",29,"Holmdel","NJ",NA
+"842",29.5,"Holmdel","NJ",NA
+"843",39.5,"Holmdel","NJ",NA
+"844",22,"Holmdel","NJ",NA
+"845",35.5,"Holmdel","NJ",NA
+"846",37,"Holmdel","NJ",NA
+"847",29.5,"Holmdel","NJ",NA
+"848",22,"Holmdel","NJ",NA
+"849",33.5,"Holmdel","NJ",NA
+"850",28,"Holmdel","NJ",NA
+"851",29.5,"Holmdel","NJ",NA
+"852",34.75,"Holmdel","NJ",NA
+"853",49.5,"Honolulu","HI",158
+"854",35,"Honolulu","HI",158
+"855",79.2,"Houston","TX",95.8
+"856",83.92,"Houston","TX",95.8
+"857",96.9,"Houston","TX",95.8
+"858",44.78,"Houston","TX",95.8
+"859",27.5,"Houston","TX",95.8
+"860",99.5,"Houston","TX",95.8
+"861",39.5,"Houston","TX",95.8
+"862",91,"Houston","TX",95.8
+"863",47.5,"Houston","TX",95.8
+"864",47.5,"Houston","TX",95.8
+"865",85.1,"Houston","TX",95.8
+"866",68.39,"Houston","TX",95.8
+"867",69.76,"Houston","TX",95.8
+"868",61.67,"Houston","TX",95.8
+"869",75.64,"Houston","TX",95.8
+"870",95.72,"Houston","TX",95.8
+"871",82.35,"Houston","TX",95.8
+"872",113.42,"Houston","TX",95.8
+"873",72.42,"Houston","TX",95.8
+"874",60.3,"Houston","TX",95.8
+"875",90.64,"Houston","TX",95.8
+"876",49.63,"Houston","TX",95.8
+"877",52.64,"Houston","TX",95.8
+"878",73.3,"Houston","TX",95.8
+"879",61.44,"Houston","TX",95.8
+"880",20,"Huber Heights","OH",NA
+"881",36.5,"Huntsville","AL",91.3
+"882",30,"Huntsville","AL",91.3
+"883",29.5,"Independence","MO",NA
+"884",25.75,"Independence","MO",NA
+"885",30.75,"Indianapolis","IN",90.2
+"886",65,"Indianapolis","IN",90.2
+"887",20,"Indianapolis","IN",90.2
+"888",49.5,"Indianapolis","IN",90.2
+"889",59.95,"Indianapolis","IN",90.2
+"890",49.5,"Indianapolis","IN",90.2
+"891",29.5,"Indianapolis","IN",90.2
+"892",32.5,"Indianapolis","IN",90.2
+"893",27.5,"Indianapolis","IN",90.2
+"894",55,"Indianapolis","IN",90.2
+"895",43,"Indianapolis","IN",90.2
+"896",46.5,"Indianapolis","IN",90.2
+"897",46.5,"Indianapolis","IN",90.2
+"898",34.5,"Indianapolis","IN",90.2
+"899",29.5,"Inglewood","CA",NA
+"900",39.5,"Inglewood","CA",NA
+"901",39.5,"Inglewood","CA",NA
+"902",34.75,"Inglewood","CA",NA
+"903",39.5,"Inglewood","CA",NA
+"904",49.5,"Inglewood","CA",NA
+"905",49.5,"Inglewood","CA",NA
+"906",29.5,"Inglewood","CA",NA
+"907",39.95,"Inglewood","CA",NA
+"908",39.95,"Inglewood","CA",NA
+"909",59.5,"Inglewood","CA",NA
+"910",47.45,"Inglewood","CA",NA
+"911",39.75,"Inglewood","CA",NA
+"912",34.75,"Inglewood","CA",NA
+"913",59.5,"Inglewood","CA",NA
+"914",39.5,"Irvine","CA",NA
+"915",55.5,"Irvine","CA",NA
+"916",37.5,"Irvine","CA",NA
+"917",40,"Irvine","CA",NA
+"918",55.5,"Irvine","CA",NA
+"919",40.25,"Irvine","CA",NA
+"920",39.5,"Irvine","CA",NA
+"921",37.5,"Irvine","CA",NA
+"922",59.75,"Irvine","CA",NA
+"923",32.5,"Irvine","CA",NA
+"924",39.5,"Irvine","CA",NA
+"925",29.5,"Irving","TX",NA
+"926",25,"Irving","TX",NA
+"927",35,"Irving","TX",NA
+"928",59.95,"Irving","TX",NA
+"929",89.5,"Irving","TX",NA
+"930",89.5,"Irving","TX",NA
+"931",25,"Jackson","MS",87.8
+"932",39.5,"Jacksonville","FL",99
+"933",39.5,"Jacksonville","FL",99
+"934",49.95,"Jacksonville","FL",99
+"935",48.17,"Jacksonville","FL",99
+"936",45.5,"Kansas City","MO",91.6
+"937",27,"Kansas City","MO",91.6
+"938",45.5,"Kansas City","MO",91.6
+"939",35.5,"Kansas City","MO",91.6
+"940",35,"Kansas City","MO",91.6
+"941",50,"Lafayette","LA",89.6
+"942",20,"Lancaster","PA",99.5
+"943",44,"Landover","MD",NA
+"944",44,"Landover","MD",NA
+"945",39.5,"Las Cruces","NM",88.8
+"946",42.45,"Las Vegas","NV",100.7
+"947",42.45,"Las Vegas","NV",100.7
+"948",32,"Las Vegas","NV",100.7
+"949",49,"Las Vegas","NV",100.7
+"950",49,"Las Vegas","NV",100.7
+"951",49,"Las Vegas","NV",100.7
+"952",87.16,"Las Vegas","NV",100.7
+"953",87.16,"Las Vegas","NV",100.7
+"954",90,"Las Vegas","NV",100.7
+"955",91.28,"Las Vegas","NV",100.7
+"956",91.28,"Las Vegas","NV",100.7
+"957",91.28,"Las Vegas","NV",100.7
+"958",90,"Las Vegas","NV",100.7
+"959",35.78,"Las Vegas","NV",100.7
+"960",36.65,"Las Vegas","NV",100.7
+"961",54.13,"Las Vegas","NV",100.7
+"962",12,"Las Vegas","NV",100.7
+"963",39,"Las Vegas","NV",100.7
+"964",49,"Las Vegas","NV",100.7
+"965",49,"Las Vegas","NV",100.7
+"966",49,"Las Vegas","NV",100.7
+"967",49,"Las Vegas","NV",100.7
+"968",49,"Las Vegas","NV",100.7
+"969",104.5,"Lexington","KY",91.1
+"970",30.25,"Lexington","KY",91.1
+"971",64,"Lexington","KY",91.1
+"972",30.25,"Lexington","KY",91.1
+"973",29.75,"Lincoln","NE",94.7
+"974",62,"Lincoln","NE",94.7
+"975",29.75,"Lincoln","NE",94.7
+"976",25,"Lincoln","NE",94.7
+"977",67.27,"Los Angeles","CA",140.6
+"978",82.74,"Los Angeles","CA",140.6
+"979",67.4,"Los Angeles","CA",140.6
+"980",59.75,"Los Angeles","CA",140.6
+"981",59.75,"Los Angeles","CA",140.6
+"982",57.22,"Los Angeles","CA",140.6
+"983",37.84,"Los Angeles","CA",140.6
+"984",86.98,"Los Angeles","CA",140.6
+"985",59,"Los Angeles","CA",140.6
+"986",98.02,"Los Angeles","CA",140.6
+"987",54.76,"Los Angeles","CA",140.6
+"988",59.71,"Los Angeles","CA",140.6
+"989",37.71,"Los Angeles","CA",140.6
+"990",43.78,"Los Angeles","CA",140.6
+"991",75.14,"Los Angeles","CA",140.6
+"992",36.13,"Los Angeles","CA",140.6
+"993",72.11,"Los Angeles","CA",140.6
+"994",57.64,"Los Angeles","CA",140.6
+"995",46.08,"Los Angeles","CA",140.6
+"996",43.15,"Los Angeles","CA",140.6
+"997",49.46,"Los Angeles","CA",140.6
+"998",55.12,"Los Angeles","CA",140.6
+"999",67.7,"Los Angeles","CA",140.6
+"1000",57.96,"Los Angeles","CA",140.6
+"1001",54.63,"Los Angeles","CA",140.6
+"1002",133.34,"Los Angeles","CA",140.6
+"1003",91,"Los Angeles","CA",140.6
+"1004",61.48,"Los Angeles","CA",140.6
+"1005",53,"Los Angeles","CA",140.6
+"1006",76.84,"Los Angeles","CA",140.6
+"1007",63.86,"Los Angeles","CA",140.6
+"1008",74.48,"Los Angeles","CA",140.6
+"1009",66.79,"Los Angeles","CA",140.6
+"1010",42.56,"Los Angeles","CA",140.6
+"1011",55.31,"Los Angeles","CA",140.6
+"1012",54.69,"Los Angeles","CA",140.6
+"1013",61.5,"Los Angeles","CA",140.6
+"1014",67.38,"Los Angeles","CA",140.6
+"1015",52.06,"Los Angeles","CA",140.6
+"1016",72.43,"Los Angeles","CA",140.6
+"1017",70.29,"Los Angeles","CA",140.6
+"1018",67.39,"Los Angeles","CA",140.6
+"1019",73.18,"Los Angeles","CA",140.6
+"1020",72.04,"Los Angeles","CA",140.6
+"1021",75.12,"Los Angeles","CA",140.6
+"1022",57.96,"Los Angeles","CA",140.6
+"1023",70.94,"Los Angeles","CA",140.6
+"1024",52,"Los Angeles","CA",140.6
+"1025",61.5,"Los Angeles","CA",140.6
+"1026",65.04,"Los Angeles","CA",140.6
+"1027",41,"Los Angeles","CA",140.6
+"1028",60.32,"Los Angeles","CA",140.6
+"1029",60.32,"Los Angeles","CA",140.6
+"1030",60.32,"Los Angeles","CA",140.6
+"1031",73.71,"Los Angeles","CA",140.6
+"1032",64.32,"Los Angeles","CA",140.6
+"1033",72.12,"Los Angeles","CA",140.6
+"1034",72.04,"Los Angeles","CA",140.6
+"1035",83.92,"Los Angeles","CA",140.6
+"1036",39.5,"Los Angeles","CA",140.6
+"1037",50,"Los Angeles","CA",140.6
+"1038",37,"Los Angeles","CA",140.6
+"1039",37,"Los Angeles","CA",140.6
+"1040",46.5,"Los Angeles","CA",140.6
+"1041",37,"Los Angeles","CA",140.6
+"1042",37,"Los Angeles","CA",140.6
+"1043",106.34,"Los Angeles","CA",140.6
+"1044",101.86,"Los Angeles","CA",140.6
+"1045",91,"Los Angeles","CA",140.6
+"1046",83.92,"Los Angeles","CA",140.6
+"1047",85.1,"Los Angeles","CA",140.6
+"1048",86.27,"Los Angeles","CA",140.6
+"1049",86.28,"Los Angeles","CA",140.6
+"1050",72.12,"Los Angeles","CA",140.6
+"1051",132.3,"Los Angeles","CA",140.6
+"1052",102.8,"Los Angeles","CA",140.6
+"1053",113.42,"Los Angeles","CA",140.6
+"1054",90.99,"Los Angeles","CA",140.6
+"1055",48.39,"Los Angeles","CA",140.6
+"1056",98.08,"Los Angeles","CA",140.6
+"1057",48.52,"Los Angeles","CA",140.6
+"1058",85.01,"Los Angeles","CA",140.6
+"1059",101.79,"Los Angeles","CA",140.6
+"1060",111.06,"Los Angeles","CA",140.6
+"1061",75.66,"Los Angeles","CA",140.6
+"1062",88.64,"Los Angeles","CA",140.6
+"1063",121.68,"Los Angeles","CA",140.6
+"1064",133.87,"Los Angeles","CA",140.6
+"1065",59.67,"Los Angeles","CA",140.6
+"1066",116.58,"Los Angeles","CA",140.6
+"1067",96.89,"Los Angeles","CA",140.6
+"1068",98.21,"Los Angeles","CA",140.6
+"1069",85.1,"Los Angeles","CA",140.6
+"1070",138.13,"Los Angeles","CA",140.6
+"1071",79.2,"Los Angeles","CA",140.6
+"1072",78.33,"Los Angeles","CA",140.6
+"1073",76.05,"Los Angeles","CA",140.6
+"1074",77.89,"Los Angeles","CA",140.6
+"1075",108.7,"Los Angeles","CA",140.6
+"1076",95.72,"Los Angeles","CA",140.6
+"1077",108.7,"Los Angeles","CA",140.6
+"1078",119.32,"Los Angeles","CA",140.6
+"1079",96.9,"Los Angeles","CA",140.6
+"1080",107.52,"Los Angeles","CA",140.6
+"1081",83.45,"Los Angeles","CA",140.6
+"1082",46.1,"Los Angeles","CA",140.6
+"1083",67.4,"Los Angeles","CA",140.6
+"1084",65.43,"Los Angeles","CA",140.6
+"1085",150,"Los Angeles","CA",140.6
+"1086",88.64,"Los Angeles","CA",140.6
+"1087",68.53,"Los Angeles","CA",140.6
+"1088",49.7,"Los Angeles","CA",140.6
+"1089",72.12,"Los Angeles","CA",140.6
+"1090",44.97,"Los Angeles","CA",140.6
+"1091",107.52,"Los Angeles","CA",140.6
+"1092",89.82,"Los Angeles","CA",140.6
+"1093",150,"Los Angeles","CA",140.6
+"1094",132.3,"Los Angeles","CA",140.6
+"1095",42.62,"Los Angeles","CA",140.6
+"1096",150,"Los Angeles","CA",140.6
+"1097",60.31,"Los Angeles","CA",140.6
+"1098",70.88,"Los Angeles","CA",140.6
+"1099",93.34,"Los Angeles","CA",140.6
+"1100",78,"Los Angeles","CA",140.6
+"1101",95.72,"Los Angeles","CA",140.6
+"1102",85.49,"Los Angeles","CA",140.6
+"1103",77.46,"Los Angeles","CA",140.6
+"1104",75.66,"Los Angeles","CA",140.6
+"1105",57.95,"Los Angeles","CA",140.6
+"1106",88.59,"Los Angeles","CA",140.6
+"1107",73.26,"Los Angeles","CA",140.6
+"1108",72.29,"Los Angeles","CA",140.6
+"1109",53.23,"Los Angeles","CA",140.6
+"1110",61.48,"Los Angeles","CA",140.6
+"1111",76.84,"Los Angeles","CA",140.6
+"1112",150,"Los Angeles","CA",140.6
+"1113",86.75,"Los Angeles","CA",140.6
+"1114",78.73,"Los Angeles","CA",140.6
+"1115",56.35,"Los Angeles","CA",140.6
+"1116",60.09,"Los Angeles","CA",140.6
+"1117",182.5,"Los Angeles","CA",140.6
+"1118",180.1,"Los Angeles","CA",140.6
+"1119",194.5,"Los Angeles","CA",140.6
+"1120",226.7,"Los Angeles","CA",140.6
+"1121",244.4,"Los Angeles","CA",140.6
+"1122",87.46,"Los Angeles","CA",140.6
+"1123",39.5,"Los Angeles","CA",140.6
+"1124",59.71,"Los Angeles","CA",140.6
+"1125",93.35,"Los Angeles","CA",140.6
+"1126",57.84,"Los Angeles","CA",140.6
+"1127",55.47,"Los Angeles","CA",140.6
+"1128",40.19,"Los Angeles","CA",140.6
+"1129",100.94,"Los Angeles","CA",140.6
+"1130",43.8,"Los Angeles","CA",140.6
+"1131",87.34,"Los Angeles","CA",140.6
+"1132",41.27,"Los Angeles","CA",140.6
+"1133",39.73,"Los Angeles","CA",140.6
+"1134",53.52,"Los Angeles","CA",140.6
+"1135",39.5,"Los Angeles","CA",140.6
+"1136",83.9,"Los Angeles","CA",140.6
+"1137",85.04,"Los Angeles","CA",140.6
+"1138",81.18,"Los Angeles","CA",140.6
+"1139",75.48,"Los Angeles","CA",140.6
+"1140",138.2,"Los Angeles","CA",140.6
+"1141",83.33,"Los Angeles","CA",140.6
+"1142",37.14,"Los Angeles","CA",140.6
+"1143",79.96,"Los Angeles","CA",140.6
+"1144",30,"Los Angeles","CA",140.6
+"1145",27.5,"Los Angeles","CA",140.6
+"1146",49.41,"Los Angeles","CA",140.6
+"1147",43.8,"Los Angeles","CA",140.6
+"1148",59.08,"Los Angeles","CA",140.6
+"1149",61.49,"Los Angeles","CA",140.6
+"1150",61.97,"Los Angeles","CA",140.6
+"1151",72.12,"Los Angeles","CA",140.6
+"1152",43.8,"Los Angeles","CA",140.6
+"1153",61.32,"Los Angeles","CA",140.6
+"1154",33,"Los Angeles","CA",140.6
+"1155",120.5,"Los Angeles","CA",140.6
+"1156",33.18,"Los Angeles","CA",140.6
+"1157",47,"Los Angeles","CA",140.6
+"1158",57.29,"Los Angeles","CA",140.6
+"1159",83.19,"Los Angeles","CA",140.6
+"1160",113.92,"Los Angeles","CA",140.6
+"1161",91.28,"Los Angeles","CA",140.6
+"1162",68.97,"Los Angeles","CA",140.6
+"1163",61.5,"Los Angeles","CA",140.6
+"1164",122.5,"Los Angeles","CA",140.6
+"1165",85.1,"Los Angeles","CA",140.6
+"1166",126.4,"Los Angeles","CA",140.6
+"1167",95.72,"Los Angeles","CA",140.6
+"1168",108.7,"Los Angeles","CA",140.6
+"1169",79.2,"Los Angeles","CA",140.6
+"1170",130.53,"Los Angeles","CA",140.6
+"1171",91,"Los Angeles","CA",140.6
+"1172",85.1,"Los Angeles","CA",140.6
+"1173",79.2,"Los Angeles","CA",140.6
+"1174",91.5,"Los Angeles","CA",140.6
+"1175",47.35,"Los Angeles","CA",140.6
+"1176",61.49,"Los Angeles","CA",140.6
+"1177",43.5,"Louisville","KY",91.6
+"1178",43.5,"Louisville","KY",91.6
+"1179",29.5,"Mansfield","MA",NA
+"1180",23.5,"Mansfield","MA",NA
+"1181",29.5,"Mansfield","MA",NA
+"1182",29.5,"Mansfield","MA",NA
+"1183",25,"Mansfield","MA",NA
+"1184",25,"Mansfield","MA",NA
+"1185",41.5,"Mansfield","MA",NA
+"1186",29.5,"Mansfield","MA",NA
+"1187",25,"Mansfield","MA",NA
+"1188",25,"Mansfield","MA",NA
+"1189",33,"Mansfield","MA",NA
+"1190",23.5,"Mansfield","MA",NA
+"1191",34.75,"Mansfield","MA",NA
+"1192",30,"Mansfield","MA",NA
+"1193",29.5,"Mansfield","MA",NA
+"1194",23.5,"Mansfield","MA",NA
+"1195",25,"Mansfield","MA",NA
+"1196",35.5,"Mansfield","MA",NA
+"1197",40.5,"Mansfield","MA",NA
+"1198",23.5,"Mansfield","MA",NA
+"1199",29.5,"Mansfield","MA",NA
+"1200",25,"Mansfield","MA",NA
+"1201",29.5,"Maryland Heights","MO",NA
+"1202",38.25,"Maryland Heights","MO",NA
+"1203",29.5,"Maryland Heights","MO",NA
+"1204",30,"Maryland Heights","MO",NA
+"1205",35,"Maryland Heights","MO",NA
+"1206",29.5,"Maryland Heights","MO",NA
+"1207",34.25,"Maryland Heights","MO",NA
+"1208",34.75,"Maryland Heights","MO",NA
+"1209",33.75,"Maryland Heights","MO",NA
+"1210",44.5,"Maryland Heights","MO",NA
+"1211",29.5,"Maryland Heights","MO",NA
+"1212",29.5,"Maryland Heights","MO",NA
+"1213",34.5,"Memphis","TN",88.2
+"1214",49.5,"Memphis","TN",88.2
+"1215",138.59,"Miami","FL",110.1
+"1216",64.13,"Miami","FL",110.1
+"1217",50.09,"Miami","FL",110.1
+"1218",77.61,"Miami","FL",110.1
+"1219",129.65,"Miami","FL",110.1
+"1220",118.05,"Miami","FL",110.1
+"1221",97.7,"Miami","FL",110.1
+"1222",110.27,"Miami","FL",110.1
+"1223",220.8,"Miami","FL",110.1
+"1224",71.54,"Miami","FL",110.1
+"1225",50.88,"Miami","FL",110.1
+"1226",80.3,"Miami","FL",110.1
+"1227",59.14,"Miami","FL",110.1
+"1228",73.3,"Miami","FL",110.1
+"1229",31,"Miami","FL",110.1
+"1230",55.5,"Miami","FL",110.1
+"1231",45.95,"Miami","FL",110.1
+"1232",49,"Miami","FL",110.1
+"1233",55.5,"Miami","FL",110.1
+"1234",55.5,"Miami","FL",110.1
+"1235",55.5,"Miami","FL",110.1
+"1236",25.5,"Miami","FL",110.1
+"1237",49,"Miami","FL",110.1
+"1238",43.74,"Miami","FL",110.1
+"1239",91,"Miami","FL",110.1
+"1240",30,"Miami","FL",110.1
+"1241",61.5,"Miami","FL",110.1
+"1242",98.47,"Miami","FL",110.1
+"1243",49.5,"Miami","FL",110.1
+"1244",49.5,"Miami","FL",110.1
+"1245",39,"Miami","FL",110.1
+"1246",64.25,"Miami","FL",110.1
+"1247",95.72,"Miami","FL",110.1
+"1248",79.18,"Miami","FL",110.1
+"1249",90.99,"Miami Beach","FL",NA
+"1250",88.63,"Miami Beach","FL",NA
+"1251",402.52,"Miami Beach","FL",NA
+"1252",213.72,"Miami Beach","FL",NA
+"1253",118.14,"Miami Beach","FL",NA
+"1254",161.8,"Miami Beach","FL",NA
+"1255",177.14,"Miami Beach","FL",NA
+"1256",45,"Miami Beach","FL",NA
+"1257",131.12,"Miami Beach","FL",NA
+"1258",60.07,"Milwaukee","WI",93.8
+"1259",45.26,"Milwaukee","WI",93.8
+"1260",65.23,"Milwaukee","WI",93.8
+"1261",65.23,"Milwaukee","WI",93.8
+"1262",60.07,"Milwaukee","WI",93.8
+"1263",65.23,"Milwaukee","WI",93.8
+"1264",60.07,"Milwaukee","WI",93.8
+"1265",60.07,"Milwaukee","WI",93.8
+"1266",54.47,"Milwaukee","WI",93.8
+"1267",30.47,"Milwaukee","WI",93.8
+"1268",50,"Milwaukee","WI",93.8
+"1269",50,"Milwaukee","WI",93.8
+"1270",22,"Milwaukee","WI",93.8
+"1271",39.5,"Milwaukee","WI",93.8
+"1272",65,"Milwaukee","WI",93.8
+"1273",53.5,"Milwaukee","WI",93.8
+"1274",49.5,"Milwaukee","WI",93.8
+"1275",55,"Minneapolis","MN",105.4
+"1276",32.5,"Minneapolis","MN",105.4
+"1277",53.5,"Minneapolis","MN",105.4
+"1278",64.5,"Minneapolis","MN",105.4
+"1279",24.75,"Minneapolis","MN",105.4
+"1280",24.75,"Minneapolis","MN",105.4
+"1281",47.5,"Minneapolis","MN",105.4
+"1282",47.5,"Minneapolis","MN",105.4
+"1283",37.5,"Minneapolis","MN",105.4
+"1284",17,"Monroe","LA",86.5
+"1285",20,"Montclair","NJ",NA
+"1286",25,"Montclair","NJ",NA
+"1287",29.5,"Mountain View","CA",NA
+"1288",40.25,"Mountain View","CA",NA
+"1289",35.25,"Mountain View","CA",NA
+"1290",25,"Mountain View","CA",NA
+"1291",25,"Mountain View","CA",NA
+"1292",29.5,"Mountain View","CA",NA
+"1293",29.5,"Mountain View","CA",NA
+"1294",54.25,"Mountain View","CA",NA
+"1295",35,"Mountain View","CA",NA
+"1296",29.5,"Mountain View","CA",NA
+"1297",27.5,"Mountain View","CA",NA
+"1298",79.5,"Mountain View","CA",NA
+"1299",29.5,"Mountain View","CA",NA
+"1300",40,"Mountain View","CA",NA
+"1301",79.5,"Mountain View","CA",NA
+"1302",25,"Mountain View","CA",NA
+"1303",73.3,"Nashville","TN",100.1
+"1304",35,"Nashville","TN",100.1
+"1305",35,"Nashville","TN",100.1
+"1306",39.5,"Nashville","TN",100.1
+"1307",29.5,"Nashville","TN",100.1
+"1308",30,"Nashville","TN",100.1
+"1309",47.47,"Nashville","TN",100.1
+"1310",54.48,"Nashville","TN",100.1
+"1311",34.23,"Nashville","TN",100.1
+"1312",150,"Nashville","TN",100.1
+"1313",223.55,"Nashville","TN",100.1
+"1314",139.38,"Nashville","TN",100.1
+"1315",48.5,"Nashville","TN",100.1
+"1316",80.96,"Nashville","TN",100.1
+"1317",119.71,"Nashville","TN",100.1
+"1318",68.97,"Nashville","TN",100.1
+"1319",54.42,"Nashville","TN",100.1
+"1320",61.49,"Nashville","TN",100.1
+"1321",65.96,"Nashville","TN",100.1
+"1322",33.45,"Nashville","TN",100.1
+"1323",55,"Nashville","TN",100.1
+"1324",55,"Nashville","TN",100.1
+"1325",31.35,"Nashville","TN",100.1
+"1326",45,"Nashville","TN",100.1
+"1327",25,"Nashville","TN",100.1
+"1328",45,"Nashville","TN",100.1
+"1329",55,"Nashville","TN",100.1
+"1330",55,"Nashville","TN",100.1
+"1331",45,"Nashville","TN",100.1
+"1332",31.55,"Nashville","TN",100.1
+"1333",69.95,"Nashville","TN",100.1
+"1334",70.5,"Nashville","TN",100.1
+"1335",50,"Nashville","TN",100.1
+"1336",41.44,"Nashville","TN",100.1
+"1337",39.74,"Nashville","TN",100.1
+"1338",42.27,"Nashville","TN",100.1
+"1339",45.22,"Nashville","TN",100.1
+"1340",46.16,"Nashville","TN",100.1
+"1341",54.33,"Nashville","TN",100.1
+"1342",67.05,"Nashville","TN",100.1
+"1343",37.9,"Nashville","TN",100.1
+"1344",85.09,"Nashville","TN",100.1
+"1345",46.15,"Nashville","TN",100.1
+"1346",52.04,"Nashville","TN",100.1
+"1347",56.64,"Nashville","TN",100.1
+"1348",47.33,"Nashville","TN",100.1
+"1349",52.05,"Nashville","TN",100.1
+"1350",48.51,"Nashville","TN",100.1
+"1351",52.04,"Nashville","TN",100.1
+"1352",56.31,"Nashville","TN",100.1
+"1353",98.46,"Nashville","TN",100.1
+"1354",67.4,"Nashville","TN",100.1
+"1355",55.59,"Nashville","TN",100.1
+"1356",61.49,"Nashville","TN",100.1
+"1357",67.4,"Nashville","TN",100.1
+"1358",120.5,"Nashville","TN",100.1
+"1359",73.3,"Nashville","TN",100.1
+"1360",77.36,"Nashville","TN",100.1
+"1361",50.86,"Nashville","TN",100.1
+"1362",49.68,"Nashville","TN",100.1
+"1363",58.36,"Nashville","TN",100.1
+"1364",70.89,"Nashville","TN",100.1
+"1365",85.08,"Nashville","TN",100.1
+"1366",33.14,"Nashville","TN",100.1
+"1367",37.9,"Nashville","TN",100.1
+"1368",56.74,"Nashville","TN",100.1
+"1369",43.8,"Nashville","TN",100.1
+"1370",42,"Nashville","TN",100.1
+"1371",46.5,"Nashville","TN",100.1
+"1372",46.5,"Nashville","TN",100.1
+"1373",35,"Nashville","TN",100.1
+"1374",36.5,"Nashville","TN",100.1
+"1375",78.02,"Nashville","TN",100.1
+"1376",72.59,"Nashville","TN",100.1
+"1377",102.8,"Nashville","TN",100.1
+"1378",94.27,"Nashville","TN",100.1
+"1379",107.52,"Nashville","TN",100.1
+"1380",132.3,"Nashville","TN",100.1
+"1381",262.1,"Nashville","TN",100.1
+"1382",117.31,"Nashville","TN",100.1
+"1383",100.44,"Nashville","TN",100.1
+"1384",46.16,"Nashville","TN",100.1
+"1385",96.84,"Nashville","TN",100.1
+"1386",85.1,"Nashville","TN",100.1
+"1387",86.81,"Nashville","TN",100.1
+"1388",87.46,"Nashville","TN",100.1
+"1389",89.82,"Nashville","TN",100.1
+"1390",63.86,"Nashville","TN",100.1
+"1391",105.16,"Nashville","TN",100.1
+"1392",99.65,"Nashville","TN",100.1
+"1393",51.79,"Nashville","TN",100.1
+"1394",70.02,"Nashville","TN",100.1
+"1395",102.8,"Nashville","TN",100.1
+"1396",68.25,"Nashville","TN",100.1
+"1397",100.26,"Nashville","TN",100.1
+"1398",61.5,"Nashville","TN",100.1
+"1399",148.81,"Nashville","TN",100.1
+"1400",151.18,"Nashville","TN",100.1
+"1401",181.07,"Nashville","TN",100.1
+"1402",76.84,"Nashville","TN",100.1
+"1403",128.76,"Nashville","TN",100.1
+"1404",82.74,"Nashville","TN",100.1
+"1405",113.42,"Nashville","TN",100.1
+"1406",61.5,"Nashville","TN",100.1
+"1407",113.42,"Nashville","TN",100.1
+"1408",29.5,"Nashville","TN",100.1
+"1409",34.5,"Nashville","TN",100.1
+"1410",76.05,"Nashville","TN",100.1
+"1411",118.14,"Nashville","TN",100.1
+"1412",73.3,"Nashville","TN",100.1
+"1413",125.81,"Nashville","TN",100.1
+"1414",161.8,"Nashville","TN",100.1
+"1415",125.81,"Nashville","TN",100.1
+"1416",226.7,"Nashville","TN",100.1
+"1417",268,"Nashville","TN",100.1
+"1418",113.42,"Nashville","TN",100.1
+"1419",79.2,"Nashville","TN",100.1
+"1420",146.46,"Nashville","TN",100.1
+"1421",74.48,"Nashville","TN",100.1
+"1422",120.46,"Nashville","TN",100.1
+"1423",89.82,"Nashville","TN",100.1
+"1424",120.49,"Nashville","TN",100.1
+"1425",178.32,"Nashville","TN",100.1
+"1426",83.92,"Nashville","TN",100.1
+"1427",83.92,"Nashville","TN",100.1
+"1428",83.92,"Nashville","TN",100.1
+"1429",31,"New Orleans","LA",92.4
+"1430",42.25,"New Orleans","LA",92.4
+"1431",42.25,"New Orleans","LA",92.4
+"1432",90,"New Orleans","LA",92.4
+"1433",32,"New Orleans","LA",92.4
+"1434",54,"New Orleans","LA",92.4
+"1435",26.5,"New Orleans","LA",92.4
+"1436",49.5,"New Orleans","LA",92.4
+"1437",25,"New Orleans","LA",92.4
+"1438",55,"New Orleans","LA",92.4
+"1439",46.5,"New Orleans","LA",92.4
+"1440",218.62,"New York","NY",128
+"1441",99.73,"New York","NY",128
+"1442",119.2,"New York","NY",128
+"1443",114.6,"New York","NY",128
+"1444",119.79,"New York","NY",128
+"1445",114.6,"New York","NY",128
+"1446",69.08,"New York","NY",128
+"1447",69.05,"New York","NY",128
+"1448",69.08,"New York","NY",128
+"1449",69.08,"New York","NY",128
+"1450",69.05,"New York","NY",128
+"1451",94.78,"New York","NY",128
+"1452",70.94,"New York","NY",128
+"1453",87.11,"New York","NY",128
+"1454",69.72,"New York","NY",128
+"1455",99.13,"New York","NY",128
+"1456",118.13,"New York","NY",128
+"1457",160.62,"New York","NY",128
+"1458",112.66,"New York","NY",128
+"1459",64.86,"New York","NY",128
+"1460",61.5,"New York","NY",128
+"1461",67.4,"New York","NY",128
+"1462",52.45,"New York","NY",128
+"1463",62.03,"New York","NY",128
+"1464",119.32,"New York","NY",128
+"1465",138.2,"New York","NY",128
+"1466",119.32,"New York","NY",128
+"1467",81.44,"New York","NY",128
+"1468",120.48,"New York","NY",128
+"1469",61.98,"New York","NY",128
+"1470",54.86,"New York","NY",128
+"1471",136.15,"New York","NY",128
+"1472",137.25,"New York","NY",128
+"1473",60.32,"New York","NY",128
+"1474",101.25,"New York","NY",128
+"1475",86.67,"New York","NY",128
+"1476",55.99,"New York","NY",128
+"1477",77.9,"New York","NY",128
+"1478",73.3,"New York","NY",128
+"1479",91.57,"New York","NY",128
+"1480",77.94,"New York","NY",128
+"1481",59.05,"New York","NY",128
+"1482",85.1,"New York","NY",128
+"1483",68.17,"New York","NY",128
+"1484",59.53,"New York","NY",128
+"1485",73.24,"New York","NY",128
+"1486",109.62,"New York","NY",128
+"1487",98.79,"New York","NY",128
+"1488",82.8,"New York","NY",128
+"1489",75.66,"New York","NY",128
+"1490",58.35,"New York","NY",128
+"1491",170.45,"New York","NY",128
+"1492",170.45,"New York","NY",128
+"1493",150,"New York","NY",128
+"1494",44.94,"New York","NY",128
+"1495",40.7,"New York","NY",128
+"1496",57.84,"New York","NY",128
+"1497",35.28,"New York","NY",128
+"1498",37.9,"New York","NY",128
+"1499",40.93,"New York","NY",128
+"1500",135.05,"New York","NY",128
+"1501",42.58,"New York","NY",128
+"1502",48.48,"New York","NY",128
+"1503",56.78,"New York","NY",128
+"1504",71.41,"New York","NY",128
+"1505",41.45,"New York","NY",128
+"1506",96.9,"New York","NY",128
+"1507",91,"New York","NY",128
+"1508",85.1,"New York","NY",128
+"1509",87.46,"New York","NY",128
+"1510",102.8,"New York","NY",128
+"1511",36.35,"New York","NY",128
+"1512",47.87,"New York","NY",128
+"1513",44.26,"New York","NY",128
+"1514",48.52,"New York","NY",128
+"1515",39.86,"New York","NY",128
+"1516",52.05,"New York","NY",128
+"1517",52.05,"New York","NY",128
+"1518",49.7,"New York","NY",128
+"1519",40.52,"New York","NY",128
+"1520",44.98,"New York","NY",128
+"1521",79.2,"New York","NY",128
+"1522",85.61,"New York","NY",128
+"1523",95.72,"New York","NY",128
+"1524",82.74,"New York","NY",128
+"1525",64.79,"New York","NY",128
+"1526",41.44,"New York","NY",128
+"1527",85.1,"New York","NY",128
+"1528",55.6,"New York","NY",128
+"1529",59.14,"New York","NY",128
+"1530",108.58,"New York","NY",128
+"1531",50.79,"New York","NY",128
+"1532",59.09,"New York","NY",128
+"1533",58.74,"New York","NY",128
+"1534",58.46,"New York","NY",128
+"1535",85.08,"New York","NY",128
+"1536",33.18,"New York","NY",128
+"1537",99.25,"New York","NY",128
+"1538",120.5,"New York","NY",128
+"1539",107.2,"New York","NY",128
+"1540",20,"New York","NY",128
+"1541",49.5,"New York","NY",128
+"1542",46.14,"New York","NY",128
+"1543",30,"New York","NY",128
+"1544",25,"New York","NY",128
+"1545",25,"New York","NY",128
+"1546",137.02,"New York","NY",128
+"1547",125.22,"New York","NY",128
+"1548",221.83,"New York","NY",128
+"1549",83.92,"New York","NY",128
+"1550",67.4,"New York","NY",128
+"1551",53.24,"New York","NY",128
+"1552",72.12,"New York","NY",128
+"1553",67.4,"New York","NY",128
+"1554",79.67,"New York","NY",128
+"1555",66.54,"New York","NY",128
+"1556",81.94,"New York","NY",128
+"1557",194.05,"New York","NY",128
+"1558",108.7,"New York","NY",128
+"1559",181.86,"New York","NY",128
+"1560",151.29,"New York","NY",128
+"1561",155.9,"New York","NY",128
+"1562",60.1,"New York","NY",128
+"1563",110.32,"New York","NY",128
+"1564",114.07,"New York","NY",128
+"1565",152.5,"New York","NY",128
+"1566",80.77,"New York","NY",128
+"1567",102.8,"New York","NY",128
+"1568",101.62,"New York","NY",128
+"1569",155.9,"New York","NY",128
+"1570",142.92,"New York","NY",128
+"1571",148.82,"New York","NY",128
+"1572",99.14,"New York","NY",128
+"1573",108.7,"New York","NY",128
+"1574",85.1,"New York","NY",128
+"1575",108.7,"New York","NY",128
+"1576",79.2,"New York","NY",128
+"1577",108.82,"New York","NY",128
+"1578",49.5,"New York","NY",128
+"1579",49.5,"New York","NY",128
+"1580",49.5,"New York","NY",128
+"1581",6,"New York","NY",128
+"1582",54.75,"New York","NY",128
+"1583",49.5,"New York","NY",128
+"1584",44.75,"New York","NY",128
+"1585",50.75,"New York","NY",128
+"1586",30.75,"New York","NY",128
+"1587",59.5,"New York","NY",128
+"1588",99.5,"New York","NY",128
+"1589",97.45,"New York","NY",128
+"1590",132.45,"New York","NY",128
+"1591",79.5,"New York","NY",128
+"1592",99.5,"New York","NY",128
+"1593",61,"New York","NY",128
+"1594",182.13,"New York","NY",128
+"1595",38.83,"New York","NY",128
+"1596",55.45,"New York","NY",128
+"1597",123.24,"New York","NY",128
+"1598",48.52,"New York","NY",128
+"1599",59.77,"New York","NY",128
+"1600",54.42,"New York","NY",128
+"1601",52.06,"New York","NY",128
+"1602",111.04,"New York","NY",128
+"1603",57.96,"New York","NY",128
+"1604",237.32,"New York","NY",128
+"1605",68.56,"New York","NY",128
+"1606",74.09,"New York","NY",128
+"1607",85.1,"New York","NY",128
+"1608",56.5,"New York","NY",128
+"1609",56.5,"New York","NY",128
+"1610",44.19,"New York","NY",128
+"1611",38.29,"New York","NY",128
+"1612",96.88,"New York","NY",128
+"1613",59.14,"New York","NY",128
+"1614",66.81,"New York","NY",128
+"1615",81.03,"New York","NY",128
+"1616",61.5,"New York","NY",128
+"1617",70.15,"New York","NY",128
+"1618",58.43,"New York","NY",128
+"1619",167.7,"New York","NY",128
+"1620",150,"New York","NY",128
+"1621",141.74,"New York","NY",128
+"1622",62.6,"New York","NY",128
+"1623",61.5,"New York","NY",128
+"1624",44.98,"New York","NY",128
+"1625",117.47,"New York","NY",128
+"1626",49.7,"New York","NY",128
+"1627",59.12,"New York","NY",128
+"1628",42.62,"New York","NY",128
+"1629",75.66,"New York","NY",128
+"1630",54.21,"New York","NY",128
+"1631",55.46,"New York","NY",128
+"1632",55.6,"New York","NY",128
+"1633",45,"New York","NY",128
+"1634",95.81,"New York","NY",128
+"1635",99.65,"New York","NY",128
+"1636",99.06,"New York","NY",128
+"1637",99.65,"New York","NY",128
+"1638",167.29,"New York","NY",128
+"1639",60.87,"New York","NY",128
+"1640",131.12,"New York","NY",128
+"1641",47.17,"New York","NY",128
+"1642",52.06,"New York","NY",128
+"1643",47.94,"New York","NY",128
+"1644",38.88,"New York","NY",128
+"1645",42.1,"New York","NY",128
+"1646",48.51,"New York","NY",128
+"1647",45.39,"New York","NY",128
+"1648",55.58,"New York","NY",128
+"1649",45.99,"New York","NY",128
+"1650",45.61,"New York","NY",128
+"1651",49.11,"New York","NY",128
+"1652",47.34,"New York","NY",128
+"1653",55.6,"New York","NY",128
+"1654",48.52,"New York","NY",128
+"1655",67.19,"New York","NY",128
+"1656",27,"Newark","NJ",NA
+"1657",65.5,"Newark","NJ",NA
+"1658",59.99,"Newark","NJ",NA
+"1659",79.5,"Newark","NJ",NA
+"1660",80,"Newark","NJ",NA
+"1661",79.5,"Newark","NJ",NA
+"1662",79.5,"Newark","NJ",NA
+"1663",79.5,"Newark","NJ",NA
+"1664",29.5,"Newark","NJ",NA
+"1665",37.25,"Noblesville","IN",NA
+"1666",28.5,"Noblesville","IN",NA
+"1667",28.5,"Noblesville","IN",NA
+"1668",24,"Noblesville","IN",NA
+"1669",24,"Noblesville","IN",NA
+"1670",29,"Noblesville","IN",NA
+"1671",24,"Noblesville","IN",NA
+"1672",33.25,"Noblesville","IN",NA
+"1673",36,"Noblesville","IN",NA
+"1674",28.5,"Noblesville","IN",NA
+"1675",36,"Noblesville","IN",NA
+"1676",33.75,"Noblesville","IN",NA
+"1677",24,"Noblesville","IN",NA
+"1678",21,"Noblesville","IN",NA
+"1679",24,"Noblesville","IN",NA
+"1680",21,"Noblesville","IN",NA
+"1681",43.5,"Noblesville","IN",NA
+"1682",28.5,"Noblesville","IN",NA
+"1683",37.25,"Noblesville","IN",NA
+"1684",32.75,"Noblesville","IN",NA
+"1685",28.5,"Noblesville","IN",NA
+"1686",24,"Noblesville","IN",NA
+"1687",23,"North Little Rock","AR",NA
+"1688",39.5,"North Little Rock","AR",NA
+"1689",29.75,"North Little Rock","AR",NA
+"1690",39.5,"North Little Rock","AR",NA
+"1691",65,"North Little Rock","AR",NA
+"1692",27.5,"North Myrtle Beach","FL",NA
+"1693",96.1,"Oakland","CA",NA
+"1694",57.84,"Oakland","CA",NA
+"1695",182.25,"Oakland","CA",NA
+"1696",120.49,"Oakland","CA",NA
+"1697",52.02,"Oakland","CA",NA
+"1698",89.05,"Oakland","CA",NA
+"1699",95.72,"Oakland","CA",NA
+"1700",55.6,"Oakland","CA",NA
+"1701",50.38,"Oakland","CA",NA
+"1702",59.14,"Oakland","CA",NA
+"1703",81.87,"Oakland","CA",NA
+"1704",85.1,"Oakland","CA",NA
+"1705",61.5,"Oakland","CA",NA
+"1706",76.95,"Oakland","CA",NA
+"1707",108.69,"Oakland","CA",NA
+"1708",57.95,"Oakland","CA",NA
+"1709",109.88,"Oakland","CA",NA
+"1710",75.2,"Oakland","CA",NA
+"1711",72.77,"Oakland","CA",NA
+"1712",150,"Oakland","CA",NA
+"1713",82.73,"Oakland","CA",NA
+"1714",85.1,"Oakland","CA",NA
+"1715",91,"Oakland","CA",NA
+"1716",76.83,"Oakland","CA",NA
+"1717",99.06,"Oakland","CA",NA
+"1718",179.24,"Oakland","CA",NA
+"1719",113.81,"Oakland","CA",NA
+"1720",237.31,"Oakland","CA",NA
+"1721",66.54,"Oakland","CA",NA
+"1722",116.96,"Oakland","CA",NA
+"1723",37,"Oakland","CA",NA
+"1724",49.5,"Oakland","CA",NA
+"1725",59.5,"Oakland","CA",NA
+"1726",29.5,"Oakland","CA",NA
+"1727",53,"Oakland","CA",NA
+"1728",49.5,"Oakland","CA",NA
+"1729",59.5,"Oakland","CA",NA
+"1730",59.5,"Oakland","CA",NA
+"1731",39.95,"Oakland","CA",NA
+"1732",78.01,"Oakland","CA",NA
+"1733",127.58,"Oakland","CA",NA
+"1734",29.75,"Oklahoma City","OK",87.3
+"1735",29.75,"Oklahoma City","OK",87.3
+"1736",54.95,"Oklahoma City","OK",87.3
+"1737",36.75,"Omaha","NE",92.9
+"1738",20,"Orange Beach","AL",NA
+"1739",32.75,"Orange Beach","AL",NA
+"1740",36.5,"Orlando","FL",101.4
+"1741",26.5,"Orlando","FL",101.4
+"1742",28,"Orlando","FL",101.4
+"1743",39.5,"Orlando","FL",101.4
+"1744",32.5,"Orlando","FL",101.4
+"1745",20,"Park City","UT",NA
+"1746",39.5,"Pasadena","CA",NA
+"1747",39.5,"Pasadena","CA",NA
+"1748",36.5,"Peoria","IL",86.7
+"1749",107.52,"Philadelphia","PA",103.4
+"1750",65,"Philadelphia","PA",103.4
+"1751",64.25,"Philadelphia","PA",103.4
+"1752",60.26,"Philadelphia","PA",103.4
+"1753",83.71,"Philadelphia","PA",103.4
+"1754",41.83,"Philadelphia","PA",103.4
+"1755",237.32,"Philadelphia","PA",103.4
+"1756",81.95,"Philadelphia","PA",103.4
+"1757",82.74,"Philadelphia","PA",103.4
+"1758",118.14,"Philadelphia","PA",103.4
+"1759",72.12,"Philadelphia","PA",103.4
+"1760",45.5,"Philadelphia","PA",103.4
+"1761",45.5,"Philadelphia","PA",103.4
+"1762",35.5,"Philadelphia","PA",103.4
+"1763",35.5,"Philadelphia","PA",103.4
+"1764",47,"Philadelphia","PA",103.4
+"1765",125,"Philadelphia","PA",103.4
+"1766",125,"Philadelphia","PA",103.4
+"1767",125,"Philadelphia","PA",103.4
+"1768",125,"Philadelphia","PA",103.4
+"1769",125,"Philadelphia","PA",103.4
+"1770",125,"Philadelphia","PA",103.4
+"1771",60.71,"Philadelphia","PA",103.4
+"1772",44.59,"Philadelphia","PA",103.4
+"1773",123.25,"Philadelphia","PA",103.4
+"1774",29.63,"Philadelphia","PA",103.4
+"1775",62.68,"Philadelphia","PA",103.4
+"1776",93.36,"Philadelphia","PA",103.4
+"1777",92.77,"Philadelphia","PA",103.4
+"1778",58.47,"Philadelphia","PA",103.4
+"1779",74.46,"Philadelphia","PA",103.4
+"1780",80.77,"Philadelphia","PA",103.4
+"1781",70.15,"Philadelphia","PA",103.4
+"1782",34.75,"Philadelphia","PA",103.4
+"1783",77.88,"Philadelphia","PA",103.4
+"1784",76.05,"Philadelphia","PA",103.4
+"1785",63.74,"Philadelphia","PA",103.4
+"1786",75.66,"Philadelphia","PA",103.4
+"1787",43.8,"Philadelphia","PA",103.4
+"1788",57.17,"Philadelphia","PA",103.4
+"1789",67.22,"Philadelphia","PA",103.4
+"1790",59.14,"Philadelphia","PA",103.4
+"1791",50.68,"Philadelphia","PA",103.4
+"1792",71.53,"Philadelphia","PA",103.4
+"1793",42.61,"Philadelphia","PA",103.4
+"1794",40.65,"Philadelphia","PA",103.4
+"1795",70.93,"Philadelphia","PA",103.4
+"1796",51.98,"Philadelphia","PA",103.4
+"1797",42.62,"Philadelphia","PA",103.4
+"1798",64.07,"Philadelphia","PA",103.4
+"1799",55,"Philadelphia","PA",103.4
+"1800",55,"Philadelphia","PA",103.4
+"1801",45,"Philadelphia","PA",103.4
+"1802",47.99,"Philadelphia","PA",103.4
+"1803",61.44,"Philadelphia","PA",103.4
+"1804",34,"Philadelphia","PA",103.4
+"1805",27.26,"Philadelphia","PA",103.4
+"1806",107.52,"Philadelphia","PA",103.4
+"1807",142.04,"Philadelphia","PA",103.4
+"1808",60.32,"Philadelphia","PA",103.4
+"1809",54.41,"Philadelphia","PA",103.4
+"1810",55.59,"Philadelphia","PA",103.4
+"1811",89.82,"Philadelphia","PA",103.4
+"1812",43.8,"Philadelphia","PA",103.4
+"1813",68.5,"Philadelphia","PA",103.4
+"1814",63.75,"Philadelphia","PA",103.4
+"1815",50.77,"Philadelphia","PA",103.4
+"1816",37.89,"Philadelphia","PA",103.4
+"1817",41.17,"Philadelphia","PA",103.4
+"1818",31.83,"Philadelphia","PA",103.4
+"1819",34.22,"Philadelphia","PA",103.4
+"1820",40.09,"Philadelphia","PA",103.4
+"1821",42.6,"Philadelphia","PA",103.4
+"1822",43.62,"Philadelphia","PA",103.4
+"1823",56.78,"Philadelphia","PA",103.4
+"1824",40.68,"Philadelphia","PA",103.4
+"1825",33.42,"Philadelphia","PA",103.4
+"1826",50.86,"Philadelphia","PA",103.4
+"1827",35.54,"Philadelphia","PA",103.4
+"1828",40.24,"Philadelphia","PA",103.4
+"1829",45.3,"Philadelphia","PA",103.4
+"1830",61.48,"Philadelphia","PA",103.4
+"1831",40.24,"Philadelphia","PA",103.4
+"1832",38.55,"Philadelphia","PA",103.4
+"1833",54.41,"Philadelphia","PA",103.4
+"1834",38.56,"Philadelphia","PA",103.4
+"1835",49.7,"Philadelphia","PA",103.4
+"1836",61.49,"Philadelphia","PA",103.4
+"1837",40.84,"Philadelphia","PA",103.4
+"1838",43.27,"Philadelphia","PA",103.4
+"1839",50.88,"Philadelphia","PA",103.4
+"1840",49.15,"Philadelphia","PA",103.4
+"1841",50.87,"Philadelphia","PA",103.4
+"1842",213.72,"Philadelphia","PA",103.4
+"1843",65.02,"Philadelphia","PA",103.4
+"1844",29.5,"Phoenix","AZ",104.3
+"1845",25,"Phoenix","AZ",104.3
+"1846",25,"Phoenix","AZ",104.3
+"1847",25,"Phoenix","AZ",104.3
+"1848",29.5,"Phoenix","AZ",104.3
+"1849",29.5,"Phoenix","AZ",104.3
+"1850",37.25,"Phoenix","AZ",104.3
+"1851",25,"Phoenix","AZ",104.3
+"1852",35,"Phoenix","AZ",104.3
+"1853",34,"Phoenix","AZ",104.3
+"1854",25,"Phoenix","AZ",104.3
+"1855",18.5,"Phoenix","AZ",104.3
+"1856",36.5,"Phoenix","AZ",104.3
+"1857",49.95,"Phoenix","AZ",104.3
+"1858",42.5,"Pittsburgh","PA",93.1
+"1859",42.5,"Pittsburgh","PA",93.1
+"1860",42.25,"Pittsburgh","PA",93.1
+"1861",42.25,"Pittsburgh","PA",93.1
+"1862",39.5,"Pittsburgh","PA",93.1
+"1863",39.5,"Pittsburgh","PA",93.1
+"1864",30.75,"Pittsburgh","PA",93.1
+"1865",71.5,"Pittsburgh","PA",93.1
+"1866",49.5,"Pittsburgh","PA",93.1
+"1867",28,"Pittsburgh","PA",93.1
+"1868",28.5,"Pittsburgh","PA",93.1
+"1869",75.64,"Portland","ME",113
+"1870",98.5,"Portland","OR",116.5
+"1871",92.16,"Portland","OR",116.5
+"1872",99.26,"Portland","OR",116.5
+"1873",20,"Portland","ME",113
+"1874",144.1,"Portland","ME",113
+"1875",72.12,"Portland","ME",113
+"1876",26.75,"Portland","ME",113
+"1877",69.76,"Portland","OR",116.5
+"1878",34.28,"Portland","OR",116.5
+"1879",50.86,"Portland","OR",116.5
+"1880",32,"Portland","OR",116.5
+"1881",68.58,"Portland","OR",116.5
+"1882",39.08,"Portland","OR",116.5
+"1883",89.94,"Portland","OR",116.5
+"1884",40.65,"Portland","OR",116.5
+"1885",83.92,"Portland","OR",116.5
+"1886",95.72,"Portland","OR",116.5
+"1887",83.92,"Portland","OR",116.5
+"1888",48.52,"Portland","OR",116.5
+"1889",95.72,"Portland","OR",116.5
+"1890",48.52,"Portland","OR",116.5
+"1891",95.72,"Portland","OR",116.5
+"1892",67.4,"Portland","OR",116.5
+"1893",83.92,"Portland","OR",116.5
+"1894",68.52,"Portland","OR",116.5
+"1895",78.5,"Portland","OR",116.5
+"1896",159,"Portland","OR",116.5
+"1897",83.13,"Portland","ME",113
+"1898",68.97,"Portland","ME",113
+"1899",54.42,"Portland","ME",113
+"1900",59.14,"Portland","ME",113
+"1901",86.28,"Portland","ME",113
+"1902",86.67,"Portland","ME",113
+"1903",79.2,"Portland","ME",113
+"1904",73.82,"Portland","ME",113
+"1905",70.15,"Portland","ME",113
+"1906",102.78,"Portland","OR",116.5
+"1907",141.74,"Portland","OR",116.5
+"1908",57.5,"Portland","OR",116.5
+"1909",35,"Portland","OR",116.5
+"1910",57.5,"Portland","OR",116.5
+"1911",34,"Portland","OR",116.5
+"1912",59.95,"Portland","OR",116.5
+"1913",28.75,"Portland","OR",116.5
+"1914",63,"Portland","OR",116.5
+"1915",49.5,"Portland","OR",116.5
+"1916",68.17,"Portland","OR",116.5
+"1917",55.6,"Portland","OR",116.5
+"1918",85.1,"Portland","OR",116.5
+"1919",65.55,"Portland","OR",116.5
+"1920",68.58,"Portland","OR",116.5
+"1921",71.6,"Portland","OR",116.5
+"1922",108.69,"Portland","OR",116.5
+"1923",119.32,"Portland","OR",116.5
+"1924",27.11,"Portland","ME",113
+"1925",60.32,"Portland","ME",113
+"1926",51.33,"Portland","ME",113
+"1927",55.36,"Portland","ME",113
+"1928",47.81,"Portland","ME",113
+"1929",52.34,"Portland","ME",113
+"1930",58.48,"Portland","ME",113
+"1931",33.6,"Portland","ME",113
+"1932",76.83,"Portland","ME",113
+"1933",54.48,"Portland","ME",113
+"1934",201.92,"Portland","ME",113
+"1935",63.38,"Portland","OR",116.5
+"1936",179.49,"Portland","OR",116.5
+"1937",120.48,"Portland","OR",116.5
+"1938",70.87,"Portland","OR",116.5
+"1939",67.08,"Portland","ME",113
+"1940",66.86,"Portland","OR",116.5
+"1941",61.49,"Portland","OR",116.5
+"1942",54.81,"Portland","ME",113
+"1943",72.12,"Portland","ME",113
+"1944",44.85,"Portland","ME",113
+"1945",201.92,"Portland","ME",113
+"1946",65.68,"Portland","ME",113
+"1947",78.41,"Portland","ME",113
+"1948",54.28,"Portland","ME",116.5
+"1949",51.97,"Portland","ME",116.5
+"1950",37.96,"Portland","ME",116.5
+"1951",67.19,"Portland","ME",116.5
+"1952",40.63,"Portland","ME",116.5
+"1953",23,"Portland","OR",116.5
+"1954",23,"Portland","OR",116.5
+"1955",44.92,"Portland","ME",113
+"1956",43.62,"Portland","OR",116.5
+"1957",107.45,"Portland","OR",116.5
+"1958",43.79,"Portland","OR",116.5
+"1959",48.52,"Portland","OR",116.5
+"1960",50.87,"Portland","OR",116.5
+"1961",55.51,"Portland","OR",116.5
+"1962",57.95,"Portland","OR",116.5
+"1963",42.61,"Portland","OR",116.5
+"1964",47.33,"Portland","OR",116.5
+"1965",120.5,"Portland","OR",116.5
+"1966",52.04,"Portland","OR",116.5
+"1967",47.53,"Portland","OR",116.5
+"1968",68.56,"Portland","OR",116.5
+"1969",24.5,"Portsmouth","VA",NA
+"1970",35,"Primm","NV",NA
+"1971",29.75,"Providence","RI",111.5
+"1972",29.75,"Providence","RI",111.5
+"1973",29.5,"Raleigh","NC",99.7
+"1974",39,"Raleigh","NC",99.7
+"1975",29.5,"Raleigh","NC",99.7
+"1976",35,"Raleigh","NC",99.7
+"1977",39,"Raleigh","NC",99.7
+"1978",39,"Raleigh","NC",99.7
+"1979",29.5,"Raleigh","NC",99.7
+"1980",37.25,"Raleigh","NC",99.7
+"1981",29.5,"Raleigh","NC",99.7
+"1982",29.5,"Raleigh","NC",99.7
+"1983",25,"Raleigh","NC",99.7
+"1984",29.5,"Raleigh","NC",99.7
+"1985",39.25,"Raleigh","NC",99.7
+"1986",34.25,"Raleigh","NC",99.7
+"1987",33.75,"Raleigh","NC",99.7
+"1988",29.5,"Raleigh","NC",99.7
+"1989",26.75,"Raleigh","NC",99.7
+"1990",61,"Raleigh","NC",99.7
+"1991",49.5,"Raleigh","NC",99.7
+"1992",35,"Raleigh","NC",99.7
+"1993",49.5,"Raleigh","NC",99.7
+"1994",55,"Rosemont","IL",NA
+"1995",55,"Rosemont","IL",NA
+"1996",29.5,"Rosemont","IL",NA
+"1997",55,"Rosemont","IL",NA
+"1998",39.95,"Rosemont","IL",NA
+"1999",55,"Rosemont","IL",NA
+"2000",55,"Rosemont","IL",NA
+"2001",35,"Sacramento","CA",120.3
+"2002",25.91,"Sacramento","CA",120.3
+"2003",43.89,"Sacramento","CA",120.3
+"2004",29.75,"Sacramento","CA",120.3
+"2005",61.44,"Sacramento","CA",120.3
+"2006",47.14,"Sacramento","CA",120.3
+"2007",29.75,"Sacramento","CA",120.3
+"2008",34.5,"Sacramento","CA",120.3
+"2009",56.5,"Saint Paul","MN",NA
+"2010",56.5,"Saint Paul","MN",NA
+"2011",49.5,"Saint Paul","MN",NA
+"2012",20,"Saint Paul","MN",NA
+"2013",46.5,"Saint Paul","MN",NA
+"2014",69.99,"Saint Paul","MN",NA
+"2015",56.5,"Saint Paul","MN",NA
+"2016",56.5,"Saint Paul","MN",NA
+"2017",26.5,"Saint Paul","MN",NA
+"2018",62,"Salt Lake City","UT",105.9
+"2019",46.5,"Salt Lake City","UT",105.9
+"2020",46.5,"Salt Lake City","UT",105.9
+"2021",29.75,"Salt Lake City","UT",105.9
+"2022",36.95,"Salt Lake City","UT",105.9
+"2023",27.75,"Salt Lake City","UT",105.9
+"2024",29.75,"Salt Lake City","UT",105.9
+"2025",49.5,"San Antonio","TX",92.7
+"2026",51.99,"San Antonio","TX",92.7
+"2027",49.5,"San Antonio","TX",92.7
+"2028",29.5,"San Antonio","TX",92.7
+"2029",39,"San Antonio","TX",92.7
+"2030",20,"San Antonio","TX",92.7
+"2031",37.95,"San Antonio","TX",92.7
+"2032",30.75,"San Bernardino","CA",NA
+"2033",30.75,"San Bernardino","CA",NA
+"2034",28,"San Diego","CA",136.2
+"2035",108,"San Diego","CA",136.2
+"2036",25,"San Diego","CA",136.2
+"2037",32,"San Diego","CA",136.2
+"2038",25,"San Diego","CA",136.2
+"2039",108,"San Diego","CA",136.2
+"2040",39.95,"San Diego","CA",136.2
+"2041",39.5,"San Francisco","CA",178.6
+"2042",39.5,"San Francisco","CA",178.6
+"2043",81.86,"San Francisco","CA",178.6
+"2044",75.66,"San Francisco","CA",178.6
+"2045",73.29,"San Francisco","CA",178.6
+"2046",103.98,"San Francisco","CA",178.6
+"2047",108.76,"San Francisco","CA",178.6
+"2048",106.35,"San Francisco","CA",178.6
+"2049",64.9,"San Francisco","CA",178.6
+"2050",82.74,"San Francisco","CA",178.6
+"2051",90.93,"San Francisco","CA",178.6
+"2052",39.5,"San Francisco","CA",178.6
+"2053",61.49,"San Francisco","CA",178.6
+"2054",37.9,"San Francisco","CA",178.6
+"2055",49.7,"San Francisco","CA",178.6
+"2056",50.03,"San Francisco","CA",178.6
+"2057",72.65,"San Francisco","CA",178.6
+"2058",36.72,"San Francisco","CA",178.6
+"2059",79.19,"San Francisco","CA",178.6
+"2060",132.3,"San Francisco","CA",178.6
+"2061",103.69,"San Francisco","CA",178.6
+"2062",79.2,"San Francisco","CA",178.6
+"2063",47.93,"San Francisco","CA",178.6
+"2064",34.36,"San Francisco","CA",178.6
+"2065",55.47,"San Francisco","CA",178.6
+"2066",59.36,"San Francisco","CA",178.6
+"2067",109.09,"San Francisco","CA",178.6
+"2068",82.72,"San Francisco","CA",178.6
+"2069",112.22,"San Francisco","CA",178.6
+"2070",54.89,"San Francisco","CA",178.6
+"2071",59.12,"San Francisco","CA",178.6
+"2072",56.19,"San Francisco","CA",178.6
+"2073",71.86,"San Francisco","CA",178.6
+"2074",83.9,"San Francisco","CA",178.6
+"2075",51.45,"San Francisco","CA",178.6
+"2076",60.3,"San Francisco","CA",178.6
+"2077",77.81,"San Francisco","CA",178.6
+"2078",147.46,"San Francisco","CA",178.6
+"2079",60.26,"San Francisco","CA",178.6
+"2080",60.03,"San Francisco","CA",178.6
+"2081",53.1,"San Francisco","CA",178.6
+"2082",77.81,"San Francisco","CA",178.6
+"2083",81.87,"San Francisco","CA",178.6
+"2084",144.09,"San Francisco","CA",178.6
+"2085",72.11,"San Francisco","CA",178.6
+"2086",88.58,"San Francisco","CA",178.6
+"2087",37.9,"San Francisco","CA",178.6
+"2088",138.2,"San Francisco","CA",178.6
+"2089",56.38,"San Francisco","CA",178.6
+"2090",61.67,"San Francisco","CA",178.6
+"2091",61.67,"San Francisco","CA",178.6
+"2092",60.3,"San Francisco","CA",178.6
+"2093",86.65,"San Francisco","CA",178.6
+"2094",75.12,"San Francisco","CA",178.6
+"2095",76.39,"San Francisco","CA",178.6
+"2096",25,"San Francisco","CA",178.6
+"2097",55.34,"San Francisco","CA",178.6
+"2098",61.46,"San Francisco","CA",178.6
+"2099",36.13,"San Francisco","CA",178.6
+"2100",67.39,"San Francisco","CA",178.6
+"2101",90.12,"San Francisco","CA",178.6
+"2102",65.44,"San Francisco","CA",178.6
+"2103",52.06,"San Francisco","CA",178.6
+"2104",85.04,"San Francisco","CA",178.6
+"2105",67.39,"San Francisco","CA",178.6
+"2106",126.34,"San Francisco","CA",178.6
+"2107",114.6,"San Francisco","CA",178.6
+"2108",72.89,"San Francisco","CA",178.6
+"2109",29.64,"San Francisco","CA",178.6
+"2110",33.52,"San Francisco","CA",178.6
+"2111",53.23,"San Francisco","CA",178.6
+"2112",106.93,"San Francisco","CA",178.6
+"2113",108.11,"San Francisco","CA",178.6
+"2114",47.1,"San Francisco","CA",178.6
+"2115",41.02,"San Francisco","CA",178.6
+"2116",67.99,"San Francisco","CA",178.6
+"2117",79.2,"San Francisco","CA",178.6
+"2118",43.8,"San Francisco","CA",178.6
+"2119",73.29,"San Francisco","CA",178.6
+"2120",73.24,"San Francisco","CA",178.6
+"2121",69.04,"San Francisco","CA",178.6
+"2122",50,"San Francisco","CA",178.6
+"2123",119.32,"San Francisco","CA",178.6
+"2124",130.29,"San Francisco","CA",178.6
+"2125",62.66,"San Francisco","CA",178.6
+"2126",69.76,"San Francisco","CA",178.6
+"2127",43.79,"San Francisco","CA",178.6
+"2128",120.49,"San Francisco","CA",178.6
+"2129",59.14,"San Francisco","CA",178.6
+"2130",107.51,"San Francisco","CA",178.6
+"2131",80.38,"San Francisco","CA",178.6
+"2132",27.75,"San Jose","CA",173.5
+"2133",49.5,"San Jose","CA",173.5
+"2134",43.45,"San Jose","CA",173.5
+"2135",20,"Saratoga Springs","NY",NA
+"2136",35,"Saratoga Springs","NY",NA
+"2137",20,"Saratoga Springs","NY",NA
+"2138",20,"Saratoga Springs","NY",NA
+"2139",20,"Saratoga Springs","NY",NA
+"2140",20,"Saratoga Springs","NY",NA
+"2141",20,"Saratoga Springs","NY",NA
+"2142",20,"Saratoga Springs","NY",NA
+"2143",20,"Saratoga Springs","NY",NA
+"2144",30,"Scranton","PA",91.3
+"2145",21,"Scranton","PA",91.3
+"2146",45.36,"Seattle","WA",124.6
+"2147",54.42,"Seattle","WA",124.6
+"2148",35.5,"Seattle","WA",124.6
+"2149",29,"Seattle","WA",124.6
+"2150",35.5,"Seattle","WA",124.6
+"2151",47.4,"Seattle","WA",124.6
+"2152",172.42,"Seattle","WA",124.6
+"2153",57.95,"Seattle","WA",124.6
+"2154",80.36,"Seattle","WA",124.6
+"2155",50.86,"Seattle","WA",124.6
+"2156",76.7,"Seattle","WA",124.6
+"2157",106.34,"Seattle","WA",124.6
+"2158",34.77,"Seattle","WA",124.6
+"2159",61.49,"Seattle","WA",124.6
+"2160",96.9,"Seattle","WA",124.6
+"2161",107.64,"Seattle","WA",124.6
+"2162",113.36,"Seattle","WA",124.6
+"2163",72.12,"Seattle","WA",124.6
+"2164",167.11,"Seattle","WA",124.6
+"2165",144.1,"Seattle","WA",124.6
+"2166",75.5,"Seattle","WA",124.6
+"2167",26.75,"Seattle","WA",124.6
+"2168",35,"Seattle","WA",124.6
+"2169",58.8,"Seattle","WA",124.6
+"2170",30,"Seattle","WA",124.6
+"2171",25,"Seattle","WA",124.6
+"2172",118.53,"Seattle","WA",124.6
+"2173",66.61,"Seattle","WA",124.6
+"2174",76.84,"Seattle","WA",124.6
+"2175",61.44,"Seattle","WA",124.6
+"2176",63.26,"Seattle","WA",124.6
+"2177",67.39,"Seattle","WA",124.6
+"2178",66.16,"Seattle","WA",124.6
+"2179",55.59,"Seattle","WA",124.6
+"2180",50.82,"Seattle","WA",124.6
+"2181",60.3,"Seattle","WA",124.6
+"2182",53.23,"Seattle","WA",124.6
+"2183",81.42,"Seattle","WA",124.6
+"2184",97.51,"Seattle","WA",124.6
+"2185",51.01,"Seattle","WA",124.6
+"2186",107.52,"Seattle","WA",124.6
+"2187",79,"Seattle","WA",124.6
+"2188",114.6,"Seattle","WA",124.6
+"2189",65.04,"Seattle","WA",124.6
+"2190",78.02,"Seattle","WA",124.6
+"2191",77.85,"Seattle","WA",124.6
+"2192",56.56,"Seattle","WA",124.6
+"2193",74.42,"Seattle","WA",124.6
+"2194",48.57,"Seattle","WA",124.6
+"2195",102.8,"Seattle","WA",124.6
+"2196",51.01,"Seattle","WA",124.6
+"2197",51.01,"Seattle","WA",124.6
+"2198",119.32,"Seattle","WA",124.6
+"2199",40.26,"Seattle","WA",124.6
+"2200",70.81,"Seattle","WA",124.6
+"2201",48.39,"Seattle","WA",124.6
+"2202",57.95,"Seattle","WA",124.6
+"2203",37.88,"Seattle","WA",124.6
+"2204",54.36,"Seattle","WA",124.6
+"2205",53.24,"Seattle","WA",124.6
+"2206",51.01,"Seattle","WA",124.6
+"2207",64.12,"Seattle","WA",124.6
+"2208",54.93,"Seattle","WA",124.6
+"2209",54.94,"Seattle","WA",124.6
+"2210",83.92,"Seattle","WA",124.6
+"2211",142.92,"Seattle","WA",124.6
+"2212",72.71,"Seattle","WA",124.6
+"2213",119.31,"Seattle","WA",124.6
+"2214",35.85,"Seattle","WA",124.6
+"2215",144.1,"Seattle","WA",124.6
+"2216",86.87,"Seattle","WA",124.6
+"2217",237.32,"Seattle","WA",124.6
+"2218",55.6,"Seattle","WA",124.6
+"2219",55.52,"Seattle","WA",124.6
+"2220",83.92,"Seattle","WA",124.6
+"2221",120.49,"Seattle","WA",124.6
+"2222",62.68,"Seattle","WA",124.6
+"2223",165.02,"Seattle","WA",124.6
+"2224",72.12,"Seattle","WA",124.6
+"2225",57.35,"Seattle","WA",124.6
+"2226",49.5,"Seattle","WA",124.6
+"2227",32,"Seattle","WA",124.6
+"2228",60.5,"Seattle","WA",124.6
+"2229",83.9,"Seattle","WA",124.6
+"2230",49.5,"Silver Spring","MD",NA
+"2231",5,"Silver Spring","MD",NA
+"2232",25,"Silver Spring","MD",NA
+"2233",22,"Simpsonville","SC",NA
+"2234",23,"Sioux Falls","SD",92.8
+"2235",35.5,"Southaven","MS",NA
+"2236",12,"Springfield","IL",87.5
+"2237",82.14,"St Augustine","FL",NA
+"2238",39.5,"St Louis","MO",NA
+"2239",39.5,"St Louis","MO",NA
+"2240",46.5,"St Louis","MO",NA
+"2241",26.5,"St Louis","MO",NA
+"2242",46.5,"St Louis","MO",NA
+"2243",46.5,"St Louis","MO",NA
+"2244",46,"St Louis","MO",NA
+"2245",28.5,"St Louis","MO",NA
+"2246",69.5,"Stateline","NV",NA
+"2247",69.5,"Stateline","NV",NA
+"2248",69.5,"Stateline","NV",NA
+"2249",55.5,"Sugar Land","TX",NA
+"2250",39.95,"Sugar Land","TX",NA
+"2251",54.95,"Sunrise","FL",NA
+"2252",45.25,"Sunrise","FL",NA
+"2253",26.5,"Sunrise","FL",NA
+"2254",55.5,"Tacoma","WA",NA
+"2255",25,"Tampa","FL",101.4
+"2256",25.75,"Tampa","FL",101.4
+"2257",45.75,"Tampa","FL",101.4
+"2258",84.95,"Tampa","FL",101.4
+"2259",27,"Tampa","FL",101.4
+"2260",29.5,"Tampa","FL",101.4
+"2261",35,"Tampa","FL",101.4
+"2262",29.5,"Tampa","FL",101.4
+"2263",35.25,"Tampa","FL",101.4
+"2264",25,"Tampa","FL",101.4
+"2265",29,"Tampa","FL",101.4
+"2266",29.5,"Tampa","FL",101.4
+"2267",25,"Tampa","FL",101.4
+"2268",34.75,"Tampa","FL",101.4
+"2269",37,"Tampa","FL",101.4
+"2270",25,"Tampa","FL",101.4
+"2271",30,"Tampa","FL",101.4
+"2272",37,"Tampa","FL",101.4
+"2273",25,"Tampa","FL",101.4
+"2274",29.75,"Tampa","FL",101.4
+"2275",29.75,"Tampa","FL",101.4
+"2276",37,"Tampa","FL",101.4
+"2277",56.2,"Tampa","FL",101.4
+"2278",75,"Thackerville","OK",NA
+"2279",39.25,"Tinley Park","IL",NA
+"2280",29,"Tinley Park","IL",NA
+"2281",39.5,"Tinley Park","IL",NA
+"2282",35.25,"Tinley Park","IL",NA
+"2283",25,"Tinley Park","IL",NA
+"2284",39.5,"Tinley Park","IL",NA
+"2285",34.75,"Tinley Park","IL",NA
+"2286",22,"Tinley Park","IL",NA
+"2287",22,"Tinley Park","IL",NA
+"2288",35,"Tinley Park","IL",NA
+"2289",29.5,"Tinley Park","IL",NA
+"2290",29.5,"Tinley Park","IL",NA
+"2291",29.5,"Tinley Park","IL",NA
+"2292",34.75,"Tinley Park","IL",NA
+"2293",27.75,"Tulsa","OK",86.7
+"2294",62,"Tulsa","OK",86.7
+"2295",26.5,"Tulsa","OK",86.7
+"2296",39.5,"Tulsa","OK",86.7
+"2297",66.5,"Tulsa","OK",86.7
+"2298",56.5,"Tulsa","OK",86.7
+"2299",66.5,"Tulsa","OK",86.7
+"2300",56.5,"Tulsa","OK",86.7
+"2301",39.5,"Tupelo","MS",87.2
+"2302",39.5,"Tuscaloosa","AL",91
+"2303",29,"Uncasville","CT",NA
+"2304",59,"Uncasville","CT",NA
+"2305",59,"Uncasville","CT",NA
+"2306",129,"Uncasville","CT",NA
+"2307",59,"Uncasville","CT",NA
+"2308",29.5,"Uncasville","CT",NA
+"2309",59,"Uncasville","CT",NA
+"2310",29.25,"Uniondale","NY",NA
+"2311",52.5,"University Park","TX",NA
+"2312",65,"University Park","TX",NA
+"2313",20.5,"Virginia Beach","VA",99
+"2314",12,"Virginia Beach","VA",99
+"2315",10,"Virginia Beach","VA",99
+"2316",20,"Virginia Beach","VA",99
+"2317",25.5,"Virginia Beach","VA",99
+"2318",12,"Virginia Beach","VA",99
+"2319",26,"Virginia Beach","VA",99
+"2320",10,"Virginia Beach","VA",99
+"2321",25,"Virginia Beach","VA",99
+"2322",20,"Wallingford","CT",NA
+"2323",20,"Wantagh","NY",NA
+"2324",39,"Wantagh","NY",NA
+"2325",25,"Wantagh","NY",NA
+"2326",39,"Wantagh","NY",NA
+"2327",35.25,"Wantagh","NY",NA
+"2328",33.25,"Wantagh","NY",NA
+"2329",39,"Wantagh","NY",NA
+"2330",25,"Wantagh","NY",NA
+"2331",39,"Wantagh","NY",NA
+"2332",34.5,"Wantagh","NY",NA
+"2333",25,"Wantagh","NY",NA
+"2334",39,"Wantagh","NY",NA
+"2335",40.25,"Washington","DC",120.1
+"2336",49.5,"Washington","DC",120.1
+"2337",49.5,"Washington","DC",120.1
+"2338",59.5,"Washington","DC",120.1
+"2339",39.5,"Washington","DC",120.1
+"2340",25.5,"Washington","DC",120.1
+"2341",39.5,"Washington","PA",NA
+"2342",30,"Welch","MN",NA
+"2343",35.25,"West Palm Beach","FL",NA
+"2344",47,"West Palm Beach","FL",NA
+"2345",25,"West Palm Beach","FL",NA
+"2346",47,"West Palm Beach","FL",NA
+"2347",38.25,"West Palm Beach","FL",NA
+"2348",29,"West Palm Beach","FL",NA
+"2349",35,"West Palm Beach","FL",NA
+"2350",29.5,"Wheatland","CA",NA
+"2351",29.5,"Wheatland","CA",NA
+"2352",29.5,"Wheatland","CA",NA
+"2353",34.75,"Wheatland","CA",NA
+"2354",34.25,"Wheatland","CA",NA
+"2355",39,"Wheatland","CA",NA
+"2356",33.75,"Wheatland","CA",NA
+"2357",25,"Wilkes-Barre","PA",NA
+"2358",29.5,"Wilmington","DE",NA
+"2359",29.5,"Wilmington","DE",NA
+"2360",35.5,"Woodlands","TX",NA
+"2361",25,"Woodlands","TX",NA
+"2362",30,"Woodlands","TX",NA
+"2363",25,"Woodlands","TX",NA
+"2364",29.5,"Woodlands","TX",NA
+"2365",25,"Woodlands","TX",NA
+"2366",31,"Woodlands","TX",NA
+"2367",25,"Woodlands","TX",NA
+"2368",39,"Woodlands","TX",NA
+"2369",31,"Woodlands","TX",NA
+"2370",55,"Woodlands","TX",NA
+"2371",29.5,"Woodlands","TX",NA
+"2372",89,"Woodlands","TX",NA
+"2373",25,"Woodlands","TX",NA
+"2374",89,"Woodlands","TX",NA
+"2375",45,"Youngstown","OH",86.4
