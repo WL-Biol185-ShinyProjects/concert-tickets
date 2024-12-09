@@ -115,7 +115,7 @@ server = function(input, output, session) {
   })
   
   output$Ultimate_Table_Info <- renderTable({
-    brushedPoints(Ultimate_Table, 
+    brushedPoints(Book3, 
                   input$selected_cities)
   })
 
