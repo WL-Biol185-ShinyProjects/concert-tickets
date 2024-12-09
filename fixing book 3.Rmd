@@ -13,3 +13,4 @@ Book3_1 <- Book3[-1 * c(2261:2265),]
 ```{r}
 write.csv(Book3_1, file="Book3.csv")
 ```
+
