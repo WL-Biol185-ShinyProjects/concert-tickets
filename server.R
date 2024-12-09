@@ -126,10 +126,35 @@ server = function(input, output, session) {
 
 
 output$VenueMap <- renderLeaflet({
-  leaflet(data = Venue_Map_ULTIMATE) %>%
+  Venue_Map_ULTIMATE %>%
+  leaflet() %>%
     addTiles() %>%
-    addMarkers(popup = ~Venue, 
-               label = ~Average_Price)
+    addAwesomeMarkers(~Longitude,
+                      ~Latitude, 
+                      popup = ~paste("<p><b>", Venue, "</b></p>",
+                                     "<p>", "Average Minimum Ticket Price:", 
+                                     prefix = "$",
+                                     format(Average_Price, digits = 4), "</p>"), 
+                      icon = awesomeIcons(
+                        icon = 'ticket',
+                        iconColor = "black",
+                        library = 'ion',
+                        markerColor = (~Color))) %>%
+    
+  addLegend(position ="bottomright", 
+            colors = c("#00CD00", 
+                       "#00B2EE", 
+                       "#FFA500", 
+                       "#CD2626", 
+                       "#000000"),
+            opacity = 1,
+            labels = c("<$30", 
+                       "$30-60", 
+                       "$60-90",
+                       "$90-120", 
+                       "$120<"),
+            title = "Average Prices", 
+            labFormat = labelFormat(prefix = "$"))
 })
 
 filtered_data <- reactive({

@@ -56,3 +56,19 @@ Color <- function(Ultimate_with_averages) {
                else {"black"}})}
     
     icons <- awesomeIcons( icon = 'ticket-outline', library = 'ion', markerColor = Color(Ultimate_with_averages))
+    
+    
+Making color column for venue map:
+```{r}
+Venue_Map_ULTIMATE <- Venue_Map_ULTIMATE %>%
+  mutate(Color = case_when (
+   Average_Price <= 30 ~ "green",
+   Average_Price <= 60 ~ "blue",
+   Average_Price <= 90 ~ "orange",
+   Average_Price <= 120 ~ "red",
+   Average_Price > 120 ~ "black"
+         )
+           )
+write.csv(Venue_Map_ULTIMATE, file = "Venue_Map_ULTIMATE.csv")
+
+```
