@@ -47,7 +47,9 @@ navbarPage(theme = shinytheme("cerulean"),
                       br(),
                       h4("Search the name of your favorite performer and discover where they commonly perform as well as the average minimum ticket price you could find for one of their concerts."),
                       br(),
-                      
+                      fluidPage(
+                        downloadButton("Artist_Search", "Download")
+                      ),
                       sidebarLayout(
                         sidebarPanel(
                           textInput("artist_search", "Search Artist:", value = ""),
@@ -122,9 +124,10 @@ navbarPage(theme = shinytheme("cerulean"),
                      h1("Cost of Living and Ticket Price Relationship"),
                   fluidPage(
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
-                      tableOutput("Ultimate_Table_Info")
+                      tableOutput("Ultimate_Table_Info"),
+                      downloadButton("Download_Brushed", "Download"),
                     ),
-                  mainPanel(h3("Travel to Get the Best Deal!"),
+                  mainPanel(h3("Minimum Average Ticket Price vs. Cost of Living Per City!"),
                             br(),
                   HTML("This graph outlines the comparison between the cost of living index and 
                                  minimum average ticket price for each city. The 

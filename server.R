@@ -195,7 +195,8 @@ output$artist_info <- renderTable({
       "Artist_Search_Results"
     },
     content = function(file) {
-      write.table(result, file)
+      write.table(req(input$search_button),  
+                  result , file)
     }
   )
 }
