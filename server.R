@@ -1,19 +1,16 @@
+##Calling Packages and Data Tables
+
+server = function(input, output) {}
+
 library(shiny)
 library(DT)
 library(tidyverse)
 library(ggplot2)
-
-server = function(input, output) {}
-
-
 library(leaflet)
 library(dplyr)
 library(tidyverse)
 library(readr)
 library(ggplot2)
-
-
-##Calling Packages and Data Tables
 
 Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
 Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
@@ -23,6 +20,7 @@ Venue_Map_ULTIMATE <- read.csv("Venue_Map_ULTIMATE.csv")
 COL_MTP <- read.csv("COL_MTP.csv")
 
 server = function(input, output) {}
+
 
 #Rendering the interactive map
 
@@ -60,12 +58,9 @@ server = function(input, output, session) {
   
   
   #Rendering the filtered map
-  
-
 
   output$`Average Ticket Price by City and Month` <- renderLeaflet({
   
-
     Ultimate_averages_by_month_longlat %>%
         
       filter(Month == input$Selector) %>%
@@ -105,7 +100,7 @@ server = function(input, output, session) {
     
 
   
-  #Rendering the interactive table
+  #Rendering the interactive/brushed table
   
   output$Ultimate_Table_Plot <- renderPlot({
     ggplot(Book3,
@@ -120,16 +115,21 @@ server = function(input, output, session) {
   })
 
   
-  #Rendering the Raw Data 
+#Rendering the Raw Data 
+  
   output$venueData = DT::renderDataTable({
     Book3})
+  
 #Rendering Venue Map
 
-
 output$VenueMap <- renderLeaflet({
+  
   Venue_Map_ULTIMATE %>%
+    
   leaflet() %>%
+    
     addTiles() %>%
+    
     addAwesomeMarkers(~Longitude,
                       ~Latitude, 
                       popup = ~paste("<p><b>", Venue, "</b></p>",
@@ -158,16 +158,19 @@ output$VenueMap <- renderLeaflet({
             labFormat = labelFormat(prefix = "$"))
 })
 
+#Rendering the Search Bar
+
 filtered_data <- reactive({
   req(input$artist_search)  # Ensure input is not empty
   
   artist_name <- input$artist_search
   
-  
   result <- Book3 %>%
+    
     filter(grepl(artist_name,
                  Artist, 
                  ignore.case = TRUE)) %>%
+    
     select(Artist, 
            Venue, City, 
            `Minimum Ticket Price`)  # Only show City and Minimum Ticket Cost
@@ -181,6 +184,9 @@ output$artist_info <- renderTable({
   filtered_data()      
 })
 
+#Rendering download buttons
+##Raw data download
+
   output$Cumulative_Data <- downloadHandler(
     filename = function() {
       "Concert_Ticket_Data_2016"
@@ -190,6 +196,8 @@ output$artist_info <- renderTable({
     }
   )
 
+##Search bar download
+  
   output$Artist_Search <- downloadHandler(
     filename = function() {
       "Artist_Search_Results.csv"
@@ -205,6 +213,8 @@ output$artist_info <- renderTable({
       }
     }
   )
+  
+##Brushed graph download
   
   output$Download_Brushed <- downloadHandler(
     filename = function() {

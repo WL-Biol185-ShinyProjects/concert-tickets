@@ -8,10 +8,13 @@ library (leaflet)
 library(ggplot2)
 library(tidyverse)
 
+
 ##Creating the Navigation Bar
 
 navbarPage(theme = shinytheme("cerulean"),
   "Concert Tickets USA",
+  
+  #Welcome Tab
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
                     mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
@@ -26,6 +29,8 @@ navbarPage(theme = shinytheme("cerulean"),
                               br(),
                               br()),
                     img(src = "musicconcert.png")),
+  
+  #About Us tab
             tabPanel("About",
                     h1("About the Creators:"),
                     h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
@@ -39,8 +44,9 @@ navbarPage(theme = shinytheme("cerulean"),
                    h4("Liz Blakely: Liz Blakely is a biology and religion major. She is pursuing a career in health policy. In her free time, she enjoys spending time with friends, reading, and going on hikes."),
                    br(), br(),
                    h4("Julia Luzzio: Julia Luzzio is a biology major and a music minor. She is pre-veterinary and in her freetime enjoys reading, horseback riding, and coding!")),
-                   
                    img(src = "grouppic.png", width = "50%", height = "50%")),
+  
+  #Search Bar Tab
            tabPanel("Artist Search Bar",
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
@@ -49,25 +55,19 @@ navbarPage(theme = shinytheme("cerulean"),
                       br(),
                       fluidPage(
                         downloadButton("Artist_Search", "Download")
-                      ),
+                        ),
                       sidebarLayout(
                         sidebarPanel(
                           textInput("artist_search", "Search Artist:", value = ""),
-                          actionButton("search_button", "Search")
-                        ),
-                        
+                          actionButton("search_button", "Search")),
                         mainPanel(
-                          tableOutput("artist_info")
+                          tableOutput("artist_info")),
                         ),
-                        
-                      ),
                       img(src = "guitar.png", width = "33%", height = "33%")
                     )
-                    
                     ),
   
   #Adding Interactive Maps
-  
            navbarMenu("Maps",
                     tabPanel("United States Average Ticket Price",
                              h1("United States Average Ticket Price by City (2016)"),
@@ -103,7 +103,9 @@ navbarPage(theme = shinytheme("cerulean"),
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
-                             h4("Click on a popup to see name of a venue on the map and average minimum ticket price!"))),
+                             h4("Click on a popup to see name of a venue on the map and average minimum ticket price!")
+                             )
+                    ),
 
   
   #Stationary PNG of Bar Graph
@@ -118,8 +120,12 @@ navbarPage(theme = shinytheme("cerulean"),
                                       be the most cost effective ticket vendor and Live Nation to be the most expensive.
                                       This graph, like the others on this site, is based solely on the 2016 data we have, so we reccomend 
                                       checking multiple websites before purchasing any tickets.
-                                      ")),            
-                    img(src = "Ticket_Vendor_Comparison.png")),
+                                      ")
+                    ),            
+                    img(src = "Ticket_Vendor_Comparison.png")
+                    ),
+           
+      #Interactive Graph
             tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
                      h1("Cost of Living and Ticket Price Relationship"),
                   fluidPage(
@@ -134,7 +140,10 @@ navbarPage(theme = shinytheme("cerulean"),
                                  graph is colored by city. With this tool, you can look at how the cost of living in cities affects the 
                                  ticket prices there. Hold and brush over the graph to reveal the cities and other data
                                  including venue, ticket vendor, and more."))
-                  )),
+                  )
+      ),
+  
+  #Recommendations Tab
            tabPanel("Our Recommendations",
                    h1("Concerts we recommend based on affordability concluded from this data"),
                    h2("So what factor matters most?"),
@@ -230,7 +239,8 @@ navbarPage(theme = shinytheme("cerulean"),
                    br(),
                    h4("Overall, the minimum price of tickets for country and rap artists tends to be cheaper than pop artists. Additionally, venue is an important factor in certain Artist's ticket prices, with more famous venues as well as more intimate venues yielding typically a higher price tag."),
            ),
-                
+
+  #Relevant Articles tab                
   tabPanel("Relevant Articles", 
            h1("Relevant Articles"),
            sidebarLayout(
@@ -275,6 +285,7 @@ navbarPage(theme = shinytheme("cerulean"),
            
 ),
            
+#Raw Data Tab
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),
