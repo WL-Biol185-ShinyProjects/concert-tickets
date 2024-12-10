@@ -192,11 +192,17 @@ output$artist_info <- renderTable({
 
   output$Artist_Search <- downloadHandler(
     filename = function() {
-      "Artist_Search_Results"
+      "Artist_Search_Results.csv"
     },
     content = function(file) {
-      write.table(req(input$search_button),  
-                  result , file)
+      data_to_download <- filtered_data()
+      
+      if (nrow(data_to_download) == 0) {
+        showNotification("Please search an artist's name...", type = "error")
+        return(NULL) 
+      }  else {
+        write.csv(data_to_download, file, row.names = FALSE)
+      }
     }
   )
   
