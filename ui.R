@@ -34,8 +34,7 @@ navbarPage(theme = shinytheme("cerulean"),
             tabPanel("About",
                     h1("About the Creators:"),
                     h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time academics, concerts can be a fun night out after an exhausting week. 
-                    But as college students, we have to find a way to save money... while also having a blast! Our app, Concert Tickets USA, comes from our love of concerts and music, but also our need to be
-                    cost efficient."),
+                    But as college students, we have to find a way to save money... while also having a blast! Our website, Concert Tickets USA, arose from our hope to enjoy concerts and live music while also being cost efficient and avoiding ridiculously high price tags."),
                    br(), br(),
                    sidebarPanel(h4("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football."),
                    br(), br(),
@@ -51,7 +50,7 @@ navbarPage(theme = shinytheme("cerulean"),
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
                       br(),
-                      h4("Search the name of your favorite performer to discover their past concert data and minimum ticket prices. After searching your chosen performer, easily download your search results using the provided button."),
+                      h4("Start typing the name of your favorite performer to display their past concert data and minimum ticket prices. After searching your chosen performer, easily download your search results using the provided button."),
                       br(),
                       fluidPage(
                         downloadButton("Artist_Search", "Download")
@@ -75,7 +74,7 @@ navbarPage(theme = shinytheme("cerulean"),
                              leafletOutput ("Average Ticket Price by City"),
                              br(),
                              h4("This map allows you to check the minimum average ticket price in any city. Whether it is 
-                                your hometown or all the way across the country, take a look at where the most afforable concerts are being held.")
+                                your hometown or a city all the way across the country, take a look at where the most afforable concerts are being held!")
                              ),
                     
                     tabPanel("United States Monthly Average Ticket Price",
@@ -100,10 +99,10 @@ navbarPage(theme = shinytheme("cerulean"),
                               leafletOutput ("Average Ticket Price by City and Month"),
                               br(),
                               h4("This map allows you to check the minimum average ticket price in any city by month. Simply select a month from the dropdown and 
-                                 view when and where the most afforable concerts are being held."))
+                                 view when and where the most afforable concerts are being held!"))
                               ),
                     tabPanel("Concert Ticket Prices of Big City Venues",
-                             h1("Zoom in on any Major City to compare the concert ticket prices of different venues within each city."), 
+                             h1("Zoom in on any of the major American cities marked on the map to compare the average minimum concert ticket prices of different venues within the city of your choice."), 
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
@@ -139,11 +138,11 @@ navbarPage(theme = shinytheme("cerulean"),
                     ),
                   mainPanel(h3("Minimum Average Ticket Price vs. Cost of Living Per City"),
                             br(),
-                  HTML("This graph outlines the comparison between the cost of living index and 
-                                 minimum average ticket price for each city. The 
-                                 graph is colored by city. With this tool, you can look at how the cost of living in cities affects the 
-                                 ticket prices there. Hold and brush over the graph to reveal the cities and other data
-                                 including venue, ticket vendor, and more. After brushing over your chosen data points, easily download the resulting data 
+                  HTML("This graph presents a comparison between the cost of living index for each city and 
+                                 its respective minimum average ticket price. The 
+                                 graph is colored by city to make each point easily discernible. With this tool, you can look at how the cost of living in cities affects the 
+                                 ticket prices there. Hold and brush over the graph to reveal the cities and other important data
+                                 including artist, concert venue, ticket vendor, and more. After brushing over your chosen data points, easily download the resulting data 
                        by clicking the provided button."))
                   )
       ),
@@ -153,14 +152,13 @@ navbarPage(theme = shinytheme("cerulean"),
                    h1("Recommended Concerts (Based on Affordability Concluded From This Data)"),
                    h2("So what factor matters most?"),
                    HTML("We ran the analytics for you, and we believe that overall,
-                      the artist and ticket vendor are the most important factors in determining the price
-                      of your concert tickets. Within artist, the venue and genre seem to also be of importance in 
-                      the ticket price. Other factors like seat choice may also be important in determining 
-                      how expensive a concert ticket is, so though it was not included in the data we had access to 
-                      keep what seat you might grab in mind in deciding what concerts are affordable or not."), 
+                      the performing artist and ticket vendor are the most important factors in determining the price
+                      of concert tickets. The concert venue and genre of the music also seem to play a significant role in ticket price. Other 
+                      factors such as seat choice may also affect the price of a ticket. Although it was not included in the data we had access to, 
+                      keep your seat selection in mind when deciding whether a concerts is affordable or not."), 
                    h3("Recommended Ticket Vendors"),
-                   HTML("See our graph on Ticket Vendor Costs Comparisons for a graphical analysis of the most and 
-                      least expensive ticket vendors. Additionally, we have linked articles in the `Relevant Articles` 
+                   HTML("See our graph on Ticket Vendor Cost Comparisons for a graphical analysis of the most and 
+                      least expensive ticket vendors from our data. Additionally, we have linked articles in the `Relevant Articles` 
                       tab diving into recent controversies over ticket vendor agencies like Ticketmaster. Linked here are our top three recommendations for ticket vendors!"),
                    img(src = "Live.nation.png", width = "20%", height = "20%", style="float:right"),
                    br(),
@@ -173,11 +171,11 @@ navbarPage(theme = shinytheme("cerulean"),
                    a(href = "https://www.etix.com/ticket/", 
                      "Etix", target = "_blank"),
                    h3("Recommended Artists"),
-                   HTML("By nature, big name artists are always going to be more expensive to see in concert than 
+                   HTML("By nature, more popular artists are likely going to be more expensive to see in concert than 
                       smaller name bands and artists. So, if you're not stuck on any particular artist, trying to 
-                      save some money, and just down for some live music, we recommend going to a local band or a 
-                      smaller name, B-list artist."), 
-                      HTML("Think of the following artists, all who's tickets tend to fall below $50:"),
+                      save some money, and just down for some live music, we recommend going to see a lesser-known local band or
+                      a B-list artist."), 
+                      HTML("Consider the following artists, all who's tickets tend to fall below $50:"),
                    h5("Anne-Marie"), 
                    h5("Bad Wolves"),
                    h5("Bazzi"), 
@@ -231,7 +229,7 @@ navbarPage(theme = shinytheme("cerulean"),
                    h5("Justin Timberlake"), 
                    h5("Kendrick Lamar"), 
                    h5("Kenny Chesney"), 
-                   HTML("If you're trying to save money, we recommend avoiding the following big name artists who's prices are all above $100. Of course, if you love the artist the ticket is worth the price!"),
+                   HTML("If you're trying to save money, we recommend avoiding the following popular artists whose prices are all above $100. Of course, if you love the artist the ticket is worth the price!"),
                    img(src = "JB.jpg", width = "20%", height = "20%", style="float:right"),
                    h5("Billy Joel"), 
                    h5("Bruce Springsteen"),
@@ -242,7 +240,7 @@ navbarPage(theme = shinytheme("cerulean"),
                    br(),
                    br(),
                    br(),
-                   h4("Overall, the minimum price of tickets for country and rap artists tends to be cheaper than pop artists. Additionally, venue is an important factor in certain Artist's ticket prices, with more famous venues as well as more intimate venues yielding typically a higher price tag."),
+                   h4("Overall, the minimum price of tickets for country and rap artists tends to be cheaper than pop artists. Additionally, venue is an important factor in certain Artist's ticket prices, with more famous venues as well as more intimate venues typically yielding a higher price tag."),
            ),
 
   #Relevant Articles tab                
@@ -252,12 +250,12 @@ navbarPage(theme = shinytheme("cerulean"),
            sidebarLayout(
              sidebarPanel(
                a(href = "https://www.pbs.org/newshour/arts/heres-a-running-list-of-clashes-between-ticketmaster-fans-and-artists", 
-                 "Clashes Between Ticketmaster Fans and Artists", target = "_blank")
+                 "Clashes Between Ticketmaster, Fans and Artists", target = "_blank")
                ),
              mainPanel(
                h3("Check out these articles!"),
-               p("In the sidebar, you will find a links to several articles discussing 
-                 the problems with certain ticket vendors and overpriced concert tickets in recent years!")
+               p("In the sidebar, you will find links to several articles discussing 
+                 some problems with certain ticket vendors such as overpriced concert tickets in recent years!")
              )
            ),
            sidebarLayout(
