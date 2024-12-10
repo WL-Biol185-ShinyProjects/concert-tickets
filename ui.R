@@ -96,7 +96,7 @@ navbarPage(theme = shinytheme("cerulean"),
                                                       "October",
                                                       "November",
                                                       "December" ),
-                                          selected = "January"),
+                                          selected = "January"),     # Ensuring filter for map starts on January
                               leafletOutput ("Average Ticket Price by City and Month"),
                               br(),
                               h4("This map allows you to check the minimum average ticket price in any city by month. Simply select a month from the dropdown and 

@@ -1,4 +1,4 @@
-##Calling Packages and Data Tables
+##Calling Packages
 
 server = function(input, output) {}
 
@@ -12,6 +12,8 @@ library(tidyverse)
 library(readr)
 library(ggplot2)
 
+#Calling Data Tables
+
 Ultimate_with_averages <- read_csv("Ultimate_with_averages.csv")
 Ultimate_averages_by_month_longlat <- read_csv("Ultimate_averages_by_month_longlat.csv")
 Ultimate_Table <- read_csv("Ultimate_Table.csv")
@@ -22,7 +24,7 @@ COL_MTP <- read.csv("COL_MTP.csv")
 server = function(input, output) {}
 
 
-#Rendering the interactive map
+#Rendering the interactive "Average Ticket Price By City" map
 
 server = function(input, output, session) {
   output$`Average Ticket Price by City` <- renderLeaflet({
@@ -57,7 +59,7 @@ server = function(input, output, session) {
   })
   
   
-  #Rendering the filtered map
+#Rendering the interactive and filtered "Average Ticket Price by Month and City" map
 
   output$`Average Ticket Price by City and Month` <- renderLeaflet({
   
@@ -100,7 +102,7 @@ server = function(input, output, session) {
     
 
   
-  #Rendering the interactive/brushed table
+#Rendering the interactive and brushed table
   
   output$Ultimate_Table_Plot <- renderPlot({
     ggplot(Book3,
@@ -115,12 +117,12 @@ server = function(input, output, session) {
   })
 
   
-#Rendering the Raw Data 
+#Rendering the Raw Data Table
   
   output$venueData = DT::renderDataTable({
     Book3})
   
-#Rendering Venue Map
+#Rendering the interactive Venue Map
 
 output$VenueMap <- renderLeaflet({
   
@@ -158,7 +160,7 @@ output$VenueMap <- renderLeaflet({
             labFormat = labelFormat(prefix = "$"))
 })
 
-#Rendering the Search Bar
+#Rendering the Search Bar Feature
 
 filtered_data <- reactive({
   req(input$artist_search)  # Ensure input is not empty
@@ -196,7 +198,7 @@ output$artist_info <- renderTable({
     }
   )
 
-##Search bar download
+##Search bar download button
   
   output$Artist_Search <- downloadHandler(
     filename = function() {
@@ -214,7 +216,7 @@ output$artist_info <- renderTable({
     }
   )
   
-##Brushed graph download
+##Brushed graph download button
   
   output$Download_Brushed <- downloadHandler(
     filename = function() {
