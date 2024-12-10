@@ -51,7 +51,7 @@ navbarPage(theme = shinytheme("cerulean"),
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
                       br(),
-                      h4("Search the name of your favorite performer and discover where they commonly perform as well as the average minimum ticket price you could find for one of their concerts."),
+                      h4("Search the name of your favorite performer to discover their past concert data and minimum ticket prices. After searching your chosen performer, easily download your search results using the provided button."),
                       br(),
                       fluidPage(
                         downloadButton("Artist_Search", "Download")
@@ -99,15 +99,15 @@ navbarPage(theme = shinytheme("cerulean"),
                                           selected = "January"),
                               leafletOutput ("Average Ticket Price by City and Month"),
                               br(),
-                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select. Simply choose a month and 
-                                 look at when and where the most afforable concerts are being held."))
+                              h4("This map allows you to check the minimum average ticket price in any city by month. Simply select a month from the dropdown and 
+                                 view when and where the most afforable concerts are being held."))
                               ),
                     tabPanel("Concert Ticket Prices of Big City Venues",
                              h1("Zoom in on any Major City to compare the concert ticket prices of different venues within each city."), 
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
-                             h4("Click on a popup to see name of a venue on the map and average minimum ticket price.")
+                             h4("Select a popup on the map to view a concert venue and the average minimum ticket price at that venue.")
                              )
                     ),
 
@@ -143,7 +143,8 @@ navbarPage(theme = shinytheme("cerulean"),
                                  minimum average ticket price for each city. The 
                                  graph is colored by city. With this tool, you can look at how the cost of living in cities affects the 
                                  ticket prices there. Hold and brush over the graph to reveal the cities and other data
-                                 including venue, ticket vendor, and more."))
+                                 including venue, ticket vendor, and more. After brushing over your chosen data points, easily download the resulting data 
+                       by clicking the provided button."))
                   )
       ),
   
@@ -247,6 +248,7 @@ navbarPage(theme = shinytheme("cerulean"),
   #Relevant Articles tab                
   tabPanel("Relevant Articles", 
            h1("Relevant Articles"),
+
            sidebarLayout(
              sidebarPanel(
                a(href = "https://www.pbs.org/newshour/arts/heres-a-running-list-of-clashes-between-ticketmaster-fans-and-artists", 
@@ -265,6 +267,7 @@ navbarPage(theme = shinytheme("cerulean"),
              ),
              mainPanel()
              ),
+           br(),
            sidebarLayout(
              sidebarPanel(
                a(href = "https://www.bbc.com/news/articles/c2kdxlv8x05o", 
@@ -272,6 +275,7 @@ navbarPage(theme = shinytheme("cerulean"),
              ),
              mainPanel()
            ),
+           br(),
            sidebarLayout(
              sidebarPanel(
                a(href = "https://www.nbcnews.com/business/consumer/concert-ticket-sales-why-are-artists-canceling-shows-tours-prices-rcna154558", 
@@ -279,6 +283,7 @@ navbarPage(theme = shinytheme("cerulean"),
              ),
              mainPanel()
            ),
+           br(),
   sidebarLayout(
     sidebarPanel(
       a(href = "https://truthonthemarket.com/2024/05/24/live-nation-breakup-are-mergers-really-to-blame-for-ticketmasters-problems/", 
@@ -294,7 +299,7 @@ navbarPage(theme = shinytheme("cerulean"),
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),
                              h3("Search through our full dataset with a search bar specialized for 
-                                your convenience..."),
+                                your convenience. Easily download the full dataset using the provided button."),
                              fluidPage(
                                downloadButton("Cumulative_Data", "Download")
                              ),
