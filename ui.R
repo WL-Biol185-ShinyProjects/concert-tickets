@@ -14,7 +14,7 @@ navbarPage(theme = shinytheme("cerulean"),
   "Concert Tickets USA",
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
-                    mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artists, locations, and more! Concerts are pricey. 
+                    mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
                        Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!"),
                               br(),
                               h4("Our features allow you to make the most educated decisions about your concert ticket purchases.
@@ -72,8 +72,8 @@ navbarPage(theme = shinytheme("cerulean"),
                     tabPanel("United States Average Ticket Price",
                              h1("United States Average Ticket Price by City (2016)"),
                              leafletOutput ("Average Ticket Price by City"),
-                             h4("This map allows you to check the minimum average ticket price in any city. Whether it is 
-                                your hometown or all the way across the country, take a look at where the most afforable concerts are being held!")
+                             h4("This map allows you to check the minimum average ticket price in any city! Whether it is 
+                                your hometown or all the way across the country, take a look at where the most afforable concerts are being held.")
                              ),
                     tabPanel("United States Monthly Average Ticket Price",
                             h1("United States Monthly Average Ticket Price by City (2016)"),
@@ -95,51 +95,47 @@ navbarPage(theme = shinytheme("cerulean"),
                                                       "December" ),
                                           selected = "January"),
                               leafletOutput ("Average Ticket Price by City and Month"),
-                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select. Just choose a month and 
-                                 look at when and where the most afforable concerts are being held!"))
+                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select! Just choose a month and 
+                                 look at when and where the most afforable concerts are being held."))
                               ),
                     tabPanel("Concert Ticket Prices of Big City Venues",
-                             h1("Zoom in on any major American city to compare the concert ticket prices of different venues within each one!"), 
+                             h1("Zoom in on any Major City to compare the concert ticket prices of different venues within each city!"), 
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
-                             h4("Click on a marker to see the name of the venue it represents. Hover over it to view its average minimum ticket price."))),
+                             h4("Click on a popup to see name of a venue on the map. Hover over a venue to view its average minimum ticket price!"))),
 
   
   #Stationary PNG of Bar Graph
           navbarMenu("Graphical Cost Comparisons",
            tabPanel("Ticket Vendor Cost Comparisons",
                     h1("Concert Ticket Vendor Graphical Cost Comparisons"),
-                    sidebarPanel(h3("Who Sells the Cheapest Tickets?"),
+                    sidebarPanel(h3("Understand What You Are Paying For..."),
                                  br(),
                                  br(),
-                    HTML("In this graph, you can see how the prices of each ticket vendor stack up against each other!
-                                      Out of all of our data, Live Nation proved to be the most expensive vendor
-                                      with Eventbrite and AXS close behind. The rest of the vendors' average minimum ticket prices were
-                                      all between $50 and $75, with Live Nation securing the title for cheapest prices!
-                                      This data, however, is all from concerts held in 2016, as are the rest of the features on this site, so we acknowledge 
-                                      that the data presented may have changed since then.
-                                      Therefore, we recommend doing thorough research and checking all websites and vendors before purchasing concert tickets.
+                    HTML("This figure shows you how the concert ticket prices of different vendors
+                                      stack up against each other. Our data finds Wantickets to
+                                      be the most cost effective ticket vendor and Live Nation to be the most expensive.
+                                      This graph, like the others on this site, is based solely on the 2016 data we have, so we reccomend 
+                                      checking multiple websites before purchasing any tickets.
                                       ")),            
                     img(src = "Ticket_Vendor_Comparison.png")),
-            tabPanel("Minimum Ticket Price vs. City Cost of Living Graph",
-                     h1("Minimum Ticket Price vs. City Cost of Living"),
+            tabPanel("City Cost of Living vs. Minimum Ticket Price Graph",
+                     h1("Cost of Living and Ticket Price Relationship"),
                   fluidPage(
-                      downloadButton("Download_Brushed", "Download"),
                       plotOutput("Ultimate_Table_Plot", brush = "selected_cities"),
-                      tableOutput("Ultimate_Table_Info")
+                      tableOutput("Ultimate_Table_Info"),
+                      downloadButton("Download_Brushed", "Download"),
                     ),
-                  mainPanel(h3("Is There a Relationship?"),
+                  mainPanel(h3("Minimum Average Ticket Price vs. Cost of Living Per City!"),
                             br(),
-                  HTML("This graph shows the relationship of the cost of living index score for each city and 
-                                 that city's respective average minimum ticket price. It is colored by city to make each point
-                                 more easily discernible. Hold and brush over the graph to reveal 
-                                 the cities along with all the data for each concert. As you can see, the cities with cost of living index scores
-                                 below 100 do tend to have the lowest ticket prices. Outside of these cities, however, the majority of minimum 
-                                 ticket prices fall between $30 and $150 with a relatively even distribution. This data tells us that outside of the cities
-                                 with the lowest cost of living scores, venue or performing artist likely has more of an impact on ticket price than the
-                                 cost of living."))
+                  HTML("This graph outlines the comparison between the cost of living index and 
+                                 minimum average ticket price for each city. The 
+                                 graph is colored by city. With this tool, you can look at how the cost of living in cities affects the 
+                                 ticket prices there. Hold and brush over the graph to reveal the cities and other data
+                                 including venue, ticket vendor, and more."))
                   )),
+<<<<<<< HEAD
            tabPanel("Our Recommendations",
                    h1("Concerts we recommend based on affordability concluded from this data"),
                    h2("So what factor matters most?"),
@@ -231,12 +227,13 @@ navbarPage(theme = shinytheme("cerulean"),
            ),
                    
   
+=======
+>>>>>>> 74f9b5108ed0f5770307d15803081cd99ccb79e4
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),
-                             h3("Use the search bar below to browse our entire set of 2016 concert data, which we used to construct all 
-                            the graphs, maps, and stats you see on this site. Just start typing the name
-                             of any artist, venue, city, state, or month to discover more!"),
+                             h3("Search through our full dataset with a search bar specialized for 
+                                your convenience..."),
                              fluidPage(
                                downloadButton("Cumulative_Data", "Download")
                              ),

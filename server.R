@@ -115,7 +115,7 @@ server = function(input, output, session) {
   })
   
   output$Ultimate_Table_Info <- renderTable({
-    brushedPoints(Ultimate_Table, 
+    brushedPoints(Book3, 
                   input$selected_cities)
   })
 
@@ -196,7 +196,16 @@ output$artist_info <- renderTable({
     },
     content = function(file) {
       write.table(req(input$search_button),  
-                filtered_data(), file)
+                  result , file)
+    }
+  )
+  
+  output$Download_Brushed <- downloadHandler(
+    filename = function() {
+      "Selected_Graph_Data"
+    },
+    content = function(file) {
+      write.csv(Book3, file)
     }
   )
 }
