@@ -202,10 +202,15 @@ output$artist_info <- renderTable({
   
   output$Download_Brushed <- downloadHandler(
     filename = function() {
-      "Selected_Graph_Data"
+      paste("Selected_Graph_Data_", Sys.Date(), ".csv", sep = "")
     },
     content = function(file) {
-      write.csv(Book3, file)
+      brushed_data <- brushedPoints(Book3, input$selected_cities)
+      if (nrow(brushed_data) == 0) {
+        showNotification("Please brush over the graph...", type = "error")
+        return(NULL) 
+      } 
+      write.csv(brushed_data, file, row.names = FALSE)
     }
   )
 }
