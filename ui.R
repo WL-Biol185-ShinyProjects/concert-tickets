@@ -135,7 +135,6 @@ navbarPage(theme = shinytheme("cerulean"),
                                  ticket prices there. Hold and brush over the graph to reveal the cities and other data
                                  including venue, ticket vendor, and more."))
                   )),
-<<<<<<< HEAD
            tabPanel("Our Recommendations",
                    h1("Concerts we recommend based on affordability concluded from this data"),
                    h2("So what factor matters most?"),
@@ -226,9 +225,6 @@ navbarPage(theme = shinytheme("cerulean"),
                    h4("Overall, the minimum price of tickets for country and rap artists tends to be cheaper than pop artists. Additionally, venue is an important factor in certain Artist's ticket prices, with more famous venues as well as more intimate venues yielding typically a higher price tag."),
            ),
                    
-  
-=======
->>>>>>> 74f9b5108ed0f5770307d15803081cd99ccb79e4
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),

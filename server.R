@@ -210,5 +210,3 @@ output$artist_info <- renderTable({
   )
 }
 
-
-
