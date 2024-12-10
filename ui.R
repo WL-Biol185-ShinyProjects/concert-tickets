@@ -224,7 +224,51 @@ navbarPage(theme = shinytheme("cerulean"),
                    br(),
                    h4("Overall, the minimum price of tickets for country and rap artists tends to be cheaper than pop artists. Additionally, venue is an important factor in certain Artist's ticket prices, with more famous venues as well as more intimate venues yielding typically a higher price tag."),
            ),
-                   
+                
+  tabPanel("Relevant Articles", 
+           h1("Relevant Articles"),
+           sidebarLayout(
+             sidebarPanel(
+               a(href = "https://www.pbs.org/newshour/arts/heres-a-running-list-of-clashes-between-ticketmaster-fans-and-artists", 
+                 "Clashes Between Ticketmaster Fans and Artists", target = "_blank")
+               ),
+             mainPanel(
+               h3("Check out these articles!"),
+               p("In the sidebar, you will find a links to several articles discussing 
+                 the problems with certain ticket vendors and overpriced concert tickets in recent years!")
+             )
+           ),
+           sidebarLayout(
+             sidebarPanel(
+               a(href = "https://www.vox.com/the-goods/23569504/ticketmaster-monopoly-live-nation-taylor-swift-antitrust-clyde-lawrence", 
+                 "Ticketmaster Monopoly?", target = "_blank")
+             ),
+             mainPanel()
+             ),
+           sidebarLayout(
+             sidebarPanel(
+               a(href = "https://www.bbc.com/news/articles/c2kdxlv8x05o", 
+                 "Why do concert tickets cost as much as a game console?", target = "_blank")
+             ),
+             mainPanel()
+           ),
+           sidebarLayout(
+             sidebarPanel(
+               a(href = "https://www.nbcnews.com/business/consumer/concert-ticket-sales-why-are-artists-canceling-shows-tours-prices-rcna154558", 
+                 "Why artists are cancelling shows", target = "_blank")
+             ),
+             mainPanel()
+           ),
+  sidebarLayout(
+    sidebarPanel(
+      a(href = "https://truthonthemarket.com/2024/05/24/live-nation-breakup-are-mergers-really-to-blame-for-ticketmasters-problems/", 
+        "Live Nation Mergers", target = "_blank")
+    ),
+    mainPanel()
+  )
+           
+),
+           
            navbarMenu("Raw Data",
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),
