@@ -17,8 +17,8 @@ navbarPage(theme = shinytheme("cerulean"),
   #Welcome Tab
            tabPanel("Welcome",
                     h1 ("Welcome to Concert Tickets USA"),
-                    mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets. Our site displays connections between ticket prices, artistis, locations, and more! Concerts are pricey. 
-                       Concert Tickets USA shows you these prices, allowing you to to predict ticket prices in the future!"),
+                    mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets! Our site displays connections between ticket prices, artists, locations, and more. Concerts are pricey. 
+                       Concert Tickets USA presents these prices, allowing you to financially plan while still having fun."),
                               br(),
                               h4("Our features allow you to make the most educated decisions about your concert ticket purchases.
                                  Use our artist search bar to view your favorite performer's past concerts and prices. View our interactive price
@@ -33,8 +33,8 @@ navbarPage(theme = shinytheme("cerulean"),
   #About Us tab
             tabPanel("About",
                     h1("About the Creators:"),
-                    h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time students, concerts can be a fun night out after an exhausting week. 
-                    But as college students, we have to find a way to save money... while also having fun! Our website, Concert Tickets USA, comes from our love of concerts and music, but also our need to be
+                    h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time academics, concerts can be a fun night out after an exhausting week. 
+                    But as college students, we have to find a way to save money... while also having a blast! Our app, Concert Tickets USA, comes from our love of concerts and music, but also our need to be
                     cost efficient."),
                    br(), br(),
                    sidebarPanel(h4("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football."),
@@ -56,6 +56,7 @@ navbarPage(theme = shinytheme("cerulean"),
                       fluidPage(
                         downloadButton("Artist_Search", "Download")
                         ),
+                      br(),
                       sidebarLayout(
                         sidebarPanel(
                           textInput("artist_search", "Search Artist:", value = ""),
@@ -72,9 +73,11 @@ navbarPage(theme = shinytheme("cerulean"),
                     tabPanel("United States Average Ticket Price",
                              h1("United States Average Ticket Price by City (2016)"),
                              leafletOutput ("Average Ticket Price by City"),
-                             h4("This map allows you to check the minimum average ticket price in any city! Whether it is 
+                             br(),
+                             h4("This map allows you to check the minimum average ticket price in any city. Whether it is 
                                 your hometown or all the way across the country, take a look at where the most afforable concerts are being held.")
                              ),
+                    
                     tabPanel("United States Monthly Average Ticket Price",
                             h1("United States Monthly Average Ticket Price by City (2016)"),
                             fluidPage(
@@ -95,15 +98,16 @@ navbarPage(theme = shinytheme("cerulean"),
                                                       "December" ),
                                           selected = "January"),
                               leafletOutput ("Average Ticket Price by City and Month"),
-                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select! Just choose a month and 
+                              br(),
+                              h4("This map allows you to check the minimum average ticket price in any city during whichever month you select. Simply choose a month and 
                                  look at when and where the most afforable concerts are being held."))
                               ),
                     tabPanel("Concert Ticket Prices of Big City Venues",
-                             h1("Zoom in on any Major City to compare the concert ticket prices of different venues within each city!"), 
+                             h1("Zoom in on any Major City to compare the concert ticket prices of different venues within each city."), 
                              br(),
                              leafletOutput ("VenueMap"),
                              br(),
-                             h4("Click on a popup to see name of a venue on the map and average minimum ticket price!")
+                             h4("Click on a popup to see name of a venue on the map and average minimum ticket price.")
                              )
                     ),
 
@@ -133,7 +137,7 @@ navbarPage(theme = shinytheme("cerulean"),
                       tableOutput("Ultimate_Table_Info"),
                       downloadButton("Download_Brushed", "Download"),
                     ),
-                  mainPanel(h3("Minimum Average Ticket Price vs. Cost of Living Per City!"),
+                  mainPanel(h3("Minimum Average Ticket Price vs. Cost of Living Per City"),
                             br(),
                   HTML("This graph outlines the comparison between the cost of living index and 
                                  minimum average ticket price for each city. The 
@@ -145,7 +149,7 @@ navbarPage(theme = shinytheme("cerulean"),
   
   #Recommendations Tab
            tabPanel("Our Recommendations",
-                   h1("Concerts we recommend based on affordability concluded from this data"),
+                   h1("Recommended Concerts (Based on Affordability Concluded From This Data)"),
                    h2("So what factor matters most?"),
                    HTML("We ran the analytics for you, and we believe that overall,
                       the artist and ticket vendor are the most important factors in determining the price
@@ -153,7 +157,7 @@ navbarPage(theme = shinytheme("cerulean"),
                       the ticket price. Other factors like seat choice may also be important in determining 
                       how expensive a concert ticket is, so though it was not included in the data we had access to 
                       keep what seat you might grab in mind in deciding what concerts are affordable or not."), 
-                   h3("Ticket Vendors we recommend"),
+                   h3("Recommended Ticket Vendors"),
                    HTML("See our graph on Ticket Vendor Costs Comparisons for a graphical analysis of the most and 
                       least expensive ticket vendors. Additionally, we have linked articles in the `Relevant Articles` 
                       tab diving into recent controversies over ticket vendor agencies like Ticketmaster. Linked here are our top three recommendations for ticket vendors!"),
@@ -167,7 +171,7 @@ navbarPage(theme = shinytheme("cerulean"),
                    br(),
                    a(href = "https://www.etix.com/ticket/", 
                      "Etix", target = "_blank"),
-                   h3("Artists we recommend"),
+                   h3("Recommended Artists"),
                    HTML("By nature, big name artists are always going to be more expensive to see in concert than 
                       smaller name bands and artists. So, if you're not stuck on any particular artist, trying to 
                       save some money, and just down for some live music, we recommend going to a local band or a 
@@ -286,7 +290,7 @@ navbarPage(theme = shinytheme("cerulean"),
 ),
            
 #Raw Data Tab
-           navbarMenu("Raw Data",
+
                     tabPanel("Cumulative Raw Data",
                              h1("Raw Dataset Used For All Features With Search Bar"),
                              h3("Search through our full dataset with a search bar specialized for 
@@ -294,4 +298,4 @@ navbarPage(theme = shinytheme("cerulean"),
                              fluidPage(
                                downloadButton("Cumulative_Data", "Download")
                              ),
-                             DT::dataTableOutput("venueData"))))
+                             DT::dataTableOutput("venueData")))
