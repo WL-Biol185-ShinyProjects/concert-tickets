@@ -24,7 +24,7 @@ navbarPage(theme = shinytheme("cerulean"),
                                  Use our artist search bar to view your favorite performer's past concerts and prices. View our interactive price
                                   maps to reveal ticket price information by city, month, and venue. Our vendor graph compares ticket vendors
                                  to help you choose where to buy your tickets. Our interactive cost of living and
-                                  ticket price graph allows you to view specific data about your hometown or other city. Finally, the dataset we used to build all of these features is at your 
+                                  ticket price graph allows you to view specific data about your hometown or other city. See our recommendations for finding the best deal and relevent articles to stay up to date in the latest of ticket price news. Finally, the dataset we used to build all of these features is at your 
                                  fingertips to sift through and explore with a convenient search bar."),
                               br(),
                               br()),
