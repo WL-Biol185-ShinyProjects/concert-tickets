@@ -20,11 +20,12 @@ navbarPage(theme = shinytheme("cerulean"),
                     mainPanel(h3("Concert Tickets USA is your virtual guide to concert tickets! Our site displays connections between ticket prices, artists, locations, and more. Concerts are pricey. 
                        Concert Tickets USA presents these prices, allowing you to financially plan while still having fun."),
                               br(),
-                              h4("Our features allow you to make the most educated decisions about your concert ticket purchases.
+                              h4("Our features allow you to make educated decisions about your concert ticket purchases.
                                  Use our artist search bar to view your favorite performer's past concerts and prices. View our interactive price
                                   maps to reveal ticket price information by city, month, and venue. Our vendor graph compares ticket vendors
                                  to help you choose where to buy your tickets. Our interactive cost of living and
-                                  ticket price graph allows you to view specific data about your hometown or other city. See our recommendations for finding the best deal and relevent articles to stay up to date in the latest of ticket price news. Finally, the dataset we used to build all of these features is at your 
+                                  ticket price graph allows you to view specific data about your hometown or other city. See our recommendations for finding the best deal and relevent articles to stay up to date in the latest of ticket price news. Finally, 
+                                  the dataset we used to build all of these features is at your 
                                  fingertips to sift through and explore with a convenient search bar."),
                               br(),
                               br()),
@@ -34,7 +35,7 @@ navbarPage(theme = shinytheme("cerulean"),
             tabPanel("About",
                     h1("About the Creators:"),
                     h3("We are four college students at Washington and Lee University in Lexington Virginia. For full time academics, concerts can be a fun night out after an exhausting week. 
-                    But as college students, we have to find a way to save money... while also having a blast! Our website, Concert Tickets USA, arose from our hope to enjoy concerts and live music while also being cost efficient and avoiding ridiculously high price tags."),
+                    But as college students, we have to find a way to save money... while also having a blast! Our app, Concert Tickets USA, arose from our hope to enjoy live music while being cost efficient and avoiding ridiculously high price tags."),
                    br(), br(),
                    sidebarPanel(h4("Zach Ricciardelli: Zach Ricciardelli is a neuroscience major and a classics and philosophy minor on the pre-med track. In his free time, he enjoys hanging out with friends, hiking, and watching football."),
                    br(), br(),
@@ -50,7 +51,7 @@ navbarPage(theme = shinytheme("cerulean"),
                     fluidPage(
                       titlePanel("Artist Ticket Information"),
                       br(),
-                      h4("Start typing the name of your favorite performer to display their past concert data and minimum ticket prices. After searching your chosen performer, easily download your search results using the provided button."),
+                      h4("Type the name of your favorite performer in the search bar to display their past concert data and minimum ticket prices. After searching your chosen performer, easily download your search results using the provided button."),
                       br(),
                       fluidPage(
                         downloadButton("Artist_Search", "Download")
@@ -74,7 +75,7 @@ navbarPage(theme = shinytheme("cerulean"),
                              leafletOutput ("Average Ticket Price by City"),
                              br(),
                              h4("This map allows you to check the minimum average ticket price in any city. Whether it is 
-                                your hometown or a city all the way across the country, take a look at where the most afforable concerts are being held!")
+                                your hometown or a city all the way across the country, take a look at where the most afforable concerts are being held.")
                              ),
                     
                     tabPanel("United States Monthly Average Ticket Price",
@@ -99,7 +100,7 @@ navbarPage(theme = shinytheme("cerulean"),
                               leafletOutput ("Average Ticket Price by City and Month"),
                               br(),
                               h4("This map allows you to check the minimum average ticket price in any city by month. Simply select a month from the dropdown and 
-                                 view when and where the most afforable concerts are being held!"))
+                                 view when and where the most afforable concerts are being held."))
                               ),
                     tabPanel("Concert Ticket Prices of Big City Venues",
                              h1("Zoom in on any of the major American cities marked on the map to compare the average minimum concert ticket prices of different venues within the city of your choice."), 
@@ -118,10 +119,10 @@ navbarPage(theme = shinytheme("cerulean"),
                     sidebarPanel(h3("Understand What You Are Paying For..."),
                                  br(),
                                  br(),
-                    HTML("This figure shows you how the concert ticket prices of different vendors
-                                      stack up against each other. Our data finds Wantickets to
+                    HTML("This figure shows you how concert ticket prices from different vendors
+                                      compete with each other. Our data finds Wantickets to
                                       be the most cost effective ticket vendor and Live Nation to be the most expensive.
-                                      This graph, like the others on this site, is based solely on the 2016 data we have, so we reccomend 
+                                      This graph, like the others on this site, is based solely on the 2016 data we have, so we recommend 
                                       checking multiple websites before purchasing any tickets.
                                       ")
                     ),            
